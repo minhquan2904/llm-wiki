@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 42  
+**Total articles:** 50  
 **Last updated:** 2026-04-23
 
 ---
 
-## Concepts (27 articles)
+## Concepts (38 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -49,6 +49,13 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[analytic-functions]] | Window Functions, Hàm phân tích, Hàm cửa sổ | Các hàm phân tích dữ liệu cho phép tính toán trên tập hợp nhóm mà không làm mất đi chi tiết của từng bản ghi. |
 | [[soft-delete-anti-pattern]] | Xóa mềm, Soft Delete Anti-pattern | Phân tích các hệ lụy ẩn giấu của phương thức xóa mềm ảnh hưởng đến hiệu suất và tính duy nhất của cơ sở dữ liệu. |
 | [[flashback-data-archive]] | FDA, Oracle Flashback, Flashback, Du hành thời gian | Công nghệ của Oracle hỗ trợ truy vấn các phiên bản dữ liệu lịch sử ngay tại tầng dữ liệu hạt nhân. |
+| [[typescript]] | TS, TypeScript Compiler, tsc | Ngôn ngữ lập trình bổ sung hệ thống định kiểu tĩnh nghiêm ngặt vào JavaScript, loại bỏ lỗi runtime thông qua quá trình Type Erasure. |
+| [[typescript-basic-types]] | TypeScript Basic Types, Type Annotations, Static Typing | Hệ thống các kiểu dữ liệu nền tảng trong TypeScript bao gồm string, number, boolean, any và void nhằm kiểm soát tính toàn vẹn dữ liệu. |
+| [[typescript-oop]] | TypeScript OOP, Access Modifiers, TypeScript Class | Kiến trúc Lập trình Hướng đối tượng (OOP) trong TypeScript và hệ thống bảo mật dữ liệu thông qua các Bổ từ Truy Cập (Access Modifiers). |
+| [[tsconfig]] | tsconfig.json, compiler-options, Strict Mode | Phân tích cấu hình cốt lõi tsconfig.json quản lý trình biên dịch TypeScript, với trọng tâm vào hệ quy tắc khắt khe Strict Mode. |
+| [[typescript-functions]] | TypeScript Functions, Optional Parameters, Void vs Never | Phân tích cấu trúc định kiểu của hàm, quản lý tham số và sự phân biệt sâu sắc giữa hai kiểu trả về đặc thù: void và never. |
+| [[typescript-type-narrowing]] | Union Types, Type Narrowing, Discriminated Unions, Exhaustiveness Checking | Phân tích cơ chế quản lý đa hình thông qua Union Types và các kỹ thuật thu hẹp kiểu dữ liệu (Type Narrowing) nhằm đảm bảo an toàn tại Compile-time. |
+| [[typescript-generics]] | TypeScript Generics, Generic Constraints, Generic Default | Phân tích sức mạnh của Generics, cách sử dụng tham số kiểu <T> để kiến tạo các cấu trúc dữ liệu và hàm linh hoạt, có thể tái sử dụng cao mà không đánh đổi tính an toàn tĩnh. |
 
 ## Tools (5 articles)
 
@@ -66,7 +73,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 |---------|---------|---------|
 | _Empty_ | | |
 
-## Comparisons (6 articles)
+## Comparisons (7 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -76,6 +83,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[dac-vs-mac]] | DAC vs MAC | Phân tích sự khác biệt cốt lõi giữa quản lý truy cập tự do theo người dùng (DAC) và quy tắc tập trung (MAC). |
 | [[kafka-vs-rabbitmq]] | RabbitMQ vs Kafka, So sánh Kafka và RabbitMQ | Phân tích và đối chiếu sự khác biệt giữa RabbitMQ (hệ thống định tuyến tin nhắn) và Apache Kafka (nền tảng xử lý luồng sự kiện). |
 | [[delete-vs-truncate]] | so sánh delete và truncate, khác biệt giữa delete và truncate | Phân tích sự khác biệt cốt lõi giữa lệnh xóa mềm dẻo (DELETE) và lệnh dọn dẹp cấu trúc (TRUNCATE) trong cơ sở dữ liệu quan hệ. |
+| [[interface-vs-type-alias]] | Interface vs Type Alias, Declaration Merging, Intersection Types | Phân tích sự khác biệt về mặt kiến trúc, cơ chế kế thừa, và trải nghiệm lập trình (DX) giữa hai trường phái định kiểu cấu trúc dữ liệu cốt lõi trong TypeScript. |
 
 ---
 
@@ -124,6 +132,14 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[raw/articles/ora/3.md]] | Article | 2026-04-23 |
 | [[raw/articles/ora/4.md]] | Article | 2026-04-23 |
 | [[raw/articles/ora/summary.md]] | Article | 2026-04-23 |
+| `raw/articles/ts-summary.md` | Article | 2026-04-23 |
+| `raw/articles/ts-module-01.md` | Article | 2026-04-23 |
+| `raw/articles/ts-module-02.md` | Article | 2026-04-23 |
+| `raw/articles/ts-module-03.md` | Article | 2026-04-23 |
+| `raw/articles/ts-module-04.md` | Article | 2026-04-23 |
+| `raw/articles/ts-module-05.md` | Article | 2026-04-23 |
+| `raw/articles/ts-module-06.md` | Article | 2026-04-23 |
+| `raw/articles/ts-module-07.md` | Article | 2026-04-23 |
 
 ---
 

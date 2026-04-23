@@ -164,6 +164,38 @@
     "raw/articles/ora/summary.md": {
       "absorbed_at": "2026-04-23",
       "wiki_articles": ["oracle-database"]
+    },
+    "raw/articles/ts-summary.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["typescript", "typescript-basic-types", "typescript-oop", "tsconfig", "typescript-functions", "typescript-type-narrowing", "interface-vs-type-alias", "typescript-generics"]
+    },
+    "raw/articles/ts-module-01.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["typescript-basic-types"]
+    },
+    "raw/articles/ts-module-02.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["typescript-oop"]
+    },
+    "raw/articles/ts-module-03.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["tsconfig"]
+    },
+    "raw/articles/ts-module-04.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["typescript-functions"]
+    },
+    "raw/articles/ts-module-05.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["typescript-type-narrowing"]
+    },
+    "raw/articles/ts-module-06.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["interface-vs-type-alias"]
+    },
+    "raw/articles/ts-module-07.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["typescript-generics"]
     }
   }
 }

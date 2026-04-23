@@ -37,3 +37,5 @@ summary: "Chronological log of all wiki operations"
 ## [2026-04-23] compile | 8 bài mới, 0 cập nhật từ 6 tài liệu raw/articles/ora (Oracle Database)
 ## [2026-04-23] ask | so sánh delete và truncate
 ## [2026-04-23] file-back | wiki/comparisons/delete-vs-truncate.md
+## [2026-04-23] ingest | raw/misc/ts (TypeScript: Sinh Tồn Trong Kỷ Nguyên Kỹ Thuật Số)
+## [2026-04-23] compile | 8 bài mới, 0 cập nhật từ 8 tài liệu raw/articles (TypeScript)

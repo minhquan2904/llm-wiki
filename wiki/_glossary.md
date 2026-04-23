@@ -65,12 +65,21 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Reactive Programming:** Lập trình phản ứng. Mô hình lập trình xoay quanh việc thiết lập các luồng dữ liệu bất đồng bộ (Data Streams) và phản ứng khi có dữ liệu mới.
 - **Reducer:** Hàm thuần túy (Pure Function) trong mô hình Redux/NgRx chịu trách nhiệm tiếp nhận trạng thái hiện tại và một hành động (Action) để trả về một trạng thái hoàn toàn mới.
 
+## G
+- **Generics:** Hệ gen nhân tạo. Tham số kiểu (Type Parameter) cho phép xây dựng các cấu trúc dữ liệu và hàm linh hoạt, có thể tái sử dụng mà vẫn đảm bảo tính an toàn tĩnh.
+
 ## S
 - **Sequential Multi-Domain Execution:** Thực thi đa miền tuần tự. Kiến trúc điều phối ép các tác tử AI làm việc theo các giai đoạn phân tầng có tính trật tự thời gian khắt khe nhằm giải quyết các dự án phức tạp.
 - **Skills System:** Hệ thống Kỹ năng. Lớp hạ tầng chuyên biệt tổ chức và phân tán cơ sở tri thức cho tác tử AI thành các mô-đun biệt lập.
 - **Socratic Gate Protocol:** Giao thức Cổng Socrates. Cơ chế kiểm duyệt ý định tiền thực thi buộc AI đặt câu hỏi ngược lại người dùng thay vì tự động sinh mã vô căn cứ nhằm triệt tiêu ảo giác kiến trúc.
 - **Store:** "Kho thóc trung ương" trong kiến trúc State Management, là nơi duy nhất (Single Source of Truth) lưu trữ toàn bộ dữ liệu (State) của ứng dụng.
+- **Strict Mode:** Chế độ thiết quân luật. Cấu hình hạt nhân của TypeScript kích hoạt chuỗi kiểm tra khắt khe nhằm triệt tiêu các lỗ hổng logic tiềm ẩn tại thời điểm biên dịch.
 - **Subject:** Chủ thể. Các thực thể chủ động (như người dùng, tiến trình máy tính) đóng vai trò yêu cầu hoặc thực hiện các hoạt động lên các Đối tượng.
 
 ## T
 - **Type Coercion:** Ép kiểu ngầm. Cơ chế tự động chuyển đổi từ kiểu dữ liệu này sang kiểu dữ liệu khác của JavaScript khi thực hiện tính toán giữa hai giá trị không đồng nhất.
+- **Type Erasure:** Loại bỏ kiểu. Cơ chế xóa bỏ hoàn toàn các chú thích kiểu và định nghĩa kiểu khi biên dịch từ TypeScript sang JavaScript, đảm bảo hiệu suất Runtime không bị ảnh hưởng.
+- **Type Narrowing:** Thu hẹp kiểu. Tiến trình sử dụng các cấu trúc logic (typeof, in, discriminated unions) để xác định chính xác một kiểu dữ liệu cụ thể từ một tập hợp đa hình (Union Types).
+
+## U
+- **Union Types:** Kiểu hợp. Cơ chế cho phép một biến hoặc tham số có thể nhận một trong nhiều định dạng kiểu khác nhau, hỗ trợ tính đa hình trong hệ thống định kiểu.

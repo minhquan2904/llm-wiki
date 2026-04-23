@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 44,
-  "total_links": 106,
+  "total_articles": 53,
+  "total_links": 143,
   "backlinks": {
     "attribute-based-access-control": [
       "abac-vs-rbac",
@@ -13,7 +13,17 @@
       "abac-policy-models",
       "next-generation-access-control"
     ],
+    "typescript": [
+      "interface-vs-type-alias",
+      "tsconfig",
+      "typescript-basic-types",
+      "typescript-functions",
+      "typescript-generics",
+      "typescript-oop",
+      "typescript-type-narrowing"
+    ],
     "oracle-database": [
+      "delete-vs-truncate",
       "acid-properties",
       "cost-based-optimizer",
       "database-normalization",
@@ -26,6 +36,12 @@
       "sequential-multi-domain-execution",
       "socratic-gate-protocol",
       "google-antigravity"
+    ],
+    "typescript-type-narrowing": [
+      "interface-vs-type-alias",
+      "tsconfig",
+      "typescript-functions",
+      "typescript"
     ],
     "apache-kafka": [
       "kafka-vs-rabbitmq",
@@ -51,10 +67,21 @@
       "javascript-memory-management",
       "javascript-variables-and-scope"
     ],
+    "typescript-functions": [
+      "typescript-basic-types",
+      "typescript-generics",
+      "typescript-type-narrowing",
+      "typescript"
+    ],
     "access-control-policy-enforcement": [
       "access-control-models-vs-policies",
       "authentication-vs-authorization",
       "access-control-entities"
+    ],
+    "flashback-data-archive": [
+      "delete-vs-truncate",
+      "soft-delete-anti-pattern",
+      "oracle-database"
     ],
     "rabbitmq": [
       "kafka-vs-rabbitmq",
@@ -81,6 +108,11 @@
       "dom-performance-optimization",
       "javascript-under-the-hood"
     ],
+    "interface-vs-type-alias": [
+      "typescript-generics",
+      "typescript-type-narrowing",
+      "typescript"
+    ],
     "abac-attribute-management": [
       "abac-vs-rbac",
       "attribute-based-access-control"
@@ -96,6 +128,18 @@
     "mandatory-access-control": [
       "dac-vs-mac",
       "discretionary-access-control"
+    ],
+    "acid-properties": [
+      "delete-vs-truncate",
+      "oracle-database"
+    ],
+    "soft-delete-anti-pattern": [
+      "delete-vs-truncate",
+      "flashback-data-archive"
+    ],
+    "typescript-oop": [
+      "interface-vs-type-alias",
+      "typescript"
     ],
     "next-generation-access-control": [
       "abac-architecture",
@@ -137,9 +181,13 @@
       "sequential-multi-domain-execution",
       "google-antigravity"
     ],
-    "flashback-data-archive": [
-      "soft-delete-anti-pattern",
-      "oracle-database"
+    "ts-module-01.md": [
+      "typescript-basic-types",
+      "typescript"
+    ],
+    "tsconfig": [
+      "typescript-oop",
+      "typescript"
     ],
     "kafka-vs-rabbitmq": [
       "apache-kafka",
@@ -157,6 +205,9 @@
     "bài-viết-3": [
       "overview"
     ],
+    "ts-module-06.md": [
+      "interface-vs-type-alias"
+    ],
     "authentication-vs-authorization": [
       "access-control-policy-enforcement"
     ],
@@ -171,9 +222,6 @@
     ],
     "javascript-memory-management#heap-memory-bộ-nhớ-động": [
       "dom-performance-optimization"
-    ],
-    "soft-delete-anti-pattern": [
-      "flashback-data-archive"
     ],
     "clean-code-javascript-patterns#xử-lý-bất-đồng-bộ-trong-vòng-lặp": [
       "javascript-asynchronous-programming"
@@ -199,14 +247,35 @@
     "ngrx-state-management": [
       "rxjs-reactive-programming"
     ],
+    "ts-module-03.md": [
+      "tsconfig"
+    ],
+    "ts-module-04.md": [
+      "typescript-functions"
+    ],
+    "ts-module-07.md": [
+      "typescript-generics"
+    ],
+    "ts-module-02.md": [
+      "typescript-oop"
+    ],
+    "ts-module-05.md": [
+      "typescript-type-narrowing"
+    ],
+    "typescript-basic-types": [
+      "typescript"
+    ],
+    "typescript-generics": [
+      "typescript"
+    ],
+    "ts-summary.md": [
+      "typescript"
+    ],
     "google-antigravity": [
       "antigravity-kit"
     ],
     "antigravity-skills-system": [
       "antigravity-kit"
-    ],
-    "acid-properties": [
-      "oracle-database"
     ],
     "pl-sql": [
       "oracle-database"
