@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 33  
+**Total articles:** 42  
 **Last updated:** 2026-04-23
 
 ---
 
-## Concepts (20 articles)
+## Concepts (27 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -42,8 +42,15 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[javascript-advanced-mechanisms]] | Type Coercion, Prototypal Inheritance, call, apply, bind | Khám phá các cơ chế cấp cao dễ gây nhầm lẫn: Ép kiểu ngầm, Kế thừa chuỗi nguyên mẫu và kiểm soát ngữ cảnh this. |
 | [[message-broker]] | Trạm trung chuyển tin nhắn, Trạm môi giới tin nhắn | Một thành phần trung gian hỗ trợ ứng dụng giao tiếp, nhận và định tuyến dữ liệu dựa trên các quy tắc xác định trước. |
 | [[publish-subscribe]] | Pub/Sub, Mô hình Pub-Sub, Publish-Subscribe | Mô hình giao tiếp bất đồng bộ trong đó người gửi phát thông điệp vào các chủ đề mà không cần chỉ định người nhận cụ thể. |
+| [[database-normalization]] | Chuẩn hóa cơ sở dữ liệu, 1NF, 2NF, 3NF, Chuẩn hóa dữ liệu | Tiến trình tổ chức cấu trúc cơ sở dữ liệu để giảm thiểu dị thường và loại bỏ dữ liệu dư thừa. |
+| [[acid-properties]] | ACID, Tính chất ACID, Nguyên lý ACID | Bộ bốn thuộc tính cơ bản đảm bảo tính toàn vẹn và độ tin cậy của giao dịch cơ sở dữ liệu. |
+| [[pl-sql]] | Procedural Language/SQL | Ngôn ngữ mở rộng quy trình độc quyền của Oracle, đóng vai trò điều phối logic nghiệp vụ ở tầng dữ liệu. |
+| [[cost-based-optimizer]] | CBO, Bộ tối ưu hóa dựa trên chi phí | Trí tuệ nhân tạo lõi của Oracle Database, chuyên tính toán chi phí để phân luồng truy vấn tối ưu. |
+| [[analytic-functions]] | Window Functions, Hàm phân tích, Hàm cửa sổ | Các hàm phân tích dữ liệu cho phép tính toán trên tập hợp nhóm mà không làm mất đi chi tiết của từng bản ghi. |
+| [[soft-delete-anti-pattern]] | Xóa mềm, Soft Delete Anti-pattern | Phân tích các hệ lụy ẩn giấu của phương thức xóa mềm ảnh hưởng đến hiệu suất và tính duy nhất của cơ sở dữ liệu. |
+| [[flashback-data-archive]] | FDA, Oracle Flashback, Flashback, Du hành thời gian | Công nghệ của Oracle hỗ trợ truy vấn các phiên bản dữ liệu lịch sử ngay tại tầng dữ liệu hạt nhân. |
 
-## Tools (4 articles)
+## Tools (5 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -51,6 +58,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[google-antigravity]] | | Nền tảng phát triển tích hợp (IDE) tiên phong trong kỷ nguyên Agent-First của Google. |
 | [[apache-kafka]] | Kafka | Nền tảng xử lý luồng sự kiện phân tán, nổi bật với thông lượng cao và khả năng lưu trữ dữ liệu thời gian thực. |
 | [[rabbitmq]] | | Message broker mã nguồn mở linh hoạt, hỗ trợ nhiều giao thức và định tuyến tin nhắn phức tạp. |
+| [[oracle-database]] | Oracle, Oracle DB | Hệ quản trị CSDL quan hệ tiêu chuẩn vàng cho các hệ thống Core Banking và tài chính. |
 
 ## People (0 articles)
 
@@ -58,7 +66,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 |---------|---------|---------|
 | _Empty_ | | |
 
-## Comparisons (2 articles)
+## Comparisons (6 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -67,10 +75,11 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[authentication-vs-authorization]] | AuthN vs AuthZ, Authentication vs Authorization | Phân định ranh giới giữa việc nhận diện danh tính người dùng và quá trình xét duyệt quyền hạn truy cập. |
 | [[dac-vs-mac]] | DAC vs MAC | Phân tích sự khác biệt cốt lõi giữa quản lý truy cập tự do theo người dùng (DAC) và quy tắc tập trung (MAC). |
 | [[kafka-vs-rabbitmq]] | RabbitMQ vs Kafka, So sánh Kafka và RabbitMQ | Phân tích và đối chiếu sự khác biệt giữa RabbitMQ (hệ thống định tuyến tin nhắn) và Apache Kafka (nền tảng xử lý luồng sự kiện). |
+| [[delete-vs-truncate]] | so sánh delete và truncate, khác biệt giữa delete và truncate | Phân tích sự khác biệt cốt lõi giữa lệnh xóa mềm dẻo (DELETE) và lệnh dọn dẹp cấu trúc (TRUNCATE) trong cơ sở dữ liệu quan hệ. |
 
 ---
 
-## Raw Sources (30 documents)
+## Raw Sources (36 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -107,8 +116,14 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/misc/43-rxjs-mastery-làm-chủ-đường-ống-kì-diệu-map-và-tap.md` | Article | 2026-04-23 |
 | `raw/misc/51-modern-web-làm-chủ-state-management-với-ngrx-trong-angular.md` | Article | 2026-04-23 |
 | `raw/misc/52-khía-cạnh-cấp-cao-lạc-vào-hố-sâu-bí-ẩn-của-javascript.md` | Article | 2026-04-23 |
-| `raw/misc/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md` | Article | 2026-04-23 |
-| `raw/articles/kafka-vs-rabbitmq.md` | Article | 2026-04-23 |
+| [[raw/misc/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md]] | Article | 2026-04-23 |
+| [[raw/articles/kafka-vs-rabbitmq.md]] | Article | 2026-04-23 |
+| [[raw/articles/ora/0.md]] | Article | 2026-04-23 |
+| [[raw/articles/ora/1.md]] | Article | 2026-04-23 |
+| [[raw/articles/ora/2.md]] | Article | 2026-04-23 |
+| [[raw/articles/ora/3.md]] | Article | 2026-04-23 |
+| [[raw/articles/ora/4.md]] | Article | 2026-04-23 |
+| [[raw/articles/ora/summary.md]] | Article | 2026-04-23 |
 
 ---
 

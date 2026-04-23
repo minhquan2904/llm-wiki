@@ -7,6 +7,7 @@
 Đây là kho lưu trữ kiến thức cá nhân của tôi. Thay vì tự tay ghi chép và sắp xếp mọi thứ, tôi đóng vai trò là "người thu thập" (curator), còn AI sẽ làm những việc nặng nhọc như đọc hiểu, tổng hợp và liên kết thông tin.
 
 Vòng lặp cốt lõi:
+
 1. **Tôi nạp nguồn** (bài viết, paper, tweet, video) vào thư mục `raw/`.
 2. **AI biên dịch** chúng thành các bài wiki có cấu trúc, liên kết chặt chẽ trong thư mục `wiki/`.
 3. **Tôi hỏi đáp** với kho kiến thức này, và AI sẽ trả lời dựa trên chính những gì tôi đã lưu trữ.
@@ -27,14 +28,14 @@ Second-brain/
 
 Hệ thống của tôi được trang bị các workflow tự động sau:
 
-| Lệnh | Chức Năng |
-|---------|-------------|
-| `/ingest` | Nạp tài liệu gốc (URL, file) vào `raw/` với frontmatter chuẩn. |
-| `/compile` | Đọc tài liệu gốc và biên dịch thành bài wiki. Có hệ thống **phát hiện mâu thuẫn**. |
-| `/ask` | Hỏi đáp dựa trên kiến thức trong wiki. |
-| `/save` | **Chat-to-Wiki**: Trích xuất những insight hay từ cuộc trò chuyện và lưu thẳng vào wiki. |
-| `/cleanup` | Kiểm tra sức khỏe wiki (giọng văn, cấu trúc, liên kết) và quét các mâu thuẫn tồn đọng. |
-| `/breakdown` | Quét wiki tìm các khái niệm còn thiếu và đề xuất tạo bài mới. |
+| Lệnh            | Chức Năng                                                                                            |
+| --------------- | ---------------------------------------------------------------------------------------------------- |
+| `/ingest`       | Nạp tài liệu gốc (URL, file) vào `raw/` với frontmatter chuẩn.                                       |
+| `/compile`      | Đọc tài liệu gốc và biên dịch thành bài wiki. Có hệ thống **phát hiện mâu thuẫn**.                   |
+| `/ask`          | Hỏi đáp dựa trên kiến thức trong wiki.                                                               |
+| `/save`         | **Chat-to-Wiki**: Trích xuất những insight hay từ cuộc trò chuyện và lưu thẳng vào wiki.             |
+| `/cleanup`      | Kiểm tra sức khỏe wiki (giọng văn, cấu trúc, liên kết) và quét các mâu thuẫn tồn đọng.               |
+| `/breakdown`    | Quét wiki tìm các khái niệm còn thiếu và đề xuất tạo bài mới.                                        |
 | `/autoresearch` | **Nghiên cứu tự động**: Tự động tìm kiếm web, đánh giá nguồn, nạp và tổng hợp báo cáo về một chủ đề. |
 
 ## 🛡️ Tiêu Chuẩn Chất Lượng
@@ -52,4 +53,5 @@ Hệ thống của tôi được trang bị các workflow tự động sau:
 - **LLM Agents**: Gemini / Claude / Cursor đóng vai trò như bộ não để xử lý, viết và duy trì nội dung.
 
 ---
-*Đây là một bộ não thứ hai "sống" — nó đang học hỏi và phát triển mỗi ngày cùng với tôi.*
+
+_Đây là một bộ não thứ hai "sống" — nó đang học hỏi và phát triển mỗi ngày cùng với tôi._

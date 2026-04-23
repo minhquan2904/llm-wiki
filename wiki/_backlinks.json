@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 36,
-  "total_links": 82,
+  "total_articles": 44,
+  "total_links": 106,
   "backlinks": {
     "attribute-based-access-control": [
       "abac-vs-rbac",
@@ -12,6 +12,13 @@
       "abac-attribute-management",
       "abac-policy-models",
       "next-generation-access-control"
+    ],
+    "oracle-database": [
+      "acid-properties",
+      "cost-based-optimizer",
+      "database-normalization",
+      "flashback-data-archive",
+      "pl-sql"
     ],
     "antigravity-kit": [
       "antigravity-skills-system",
@@ -54,6 +61,11 @@
       "message-broker",
       "apache-kafka"
     ],
+    "cost-based-optimizer": [
+      "analytic-functions",
+      "soft-delete-anti-pattern",
+      "oracle-database"
+    ],
     "cognitive-routing": [
       "antigravity-skills-system",
       "sequential-multi-domain-execution",
@@ -89,6 +101,14 @@
       "abac-architecture",
       "abac-policy-models"
     ],
+    "1.md": [
+      "acid-properties",
+      "oracle-database"
+    ],
+    "3.md": [
+      "analytic-functions",
+      "cost-based-optimizer"
+    ],
     "abac-vs-rbac": [
       "attribute-based-access-control",
       "mandatory-access-control"
@@ -101,6 +121,10 @@
       "discretionary-access-control",
       "mandatory-access-control"
     ],
+    "4.md": [
+      "flashback-data-archive",
+      "soft-delete-anti-pattern"
+    ],
     "clean-code-javascript-patterns": [
       "javascript-asynchronous-programming",
       "javascript-variables-and-scope"
@@ -112,6 +136,10 @@
     "socratic-gate-protocol": [
       "sequential-multi-domain-execution",
       "google-antigravity"
+    ],
+    "flashback-data-archive": [
+      "soft-delete-anti-pattern",
+      "oracle-database"
     ],
     "kafka-vs-rabbitmq": [
       "apache-kafka",
@@ -132,8 +160,20 @@
     "authentication-vs-authorization": [
       "access-control-policy-enforcement"
     ],
+    "database-normalization": [
+      "acid-properties"
+    ],
+    "analytic-functions": [
+      "cost-based-optimizer"
+    ],
+    "0.md": [
+      "database-normalization"
+    ],
     "javascript-memory-management#heap-memory-bộ-nhớ-động": [
       "dom-performance-optimization"
+    ],
+    "soft-delete-anti-pattern": [
+      "flashback-data-archive"
     ],
     "clean-code-javascript-patterns#xử-lý-bất-đồng-bộ-trong-vòng-lặp": [
       "javascript-asynchronous-programming"
@@ -150,6 +190,9 @@
     "javascript-variables-and-scope#bản-chất-tính-bất-biến-của-const": [
       "ngrx-state-management"
     ],
+    "2.md": [
+      "pl-sql"
+    ],
     "message-broker": [
       "publish-subscribe"
     ],
@@ -161,6 +204,15 @@
     ],
     "antigravity-skills-system": [
       "antigravity-kit"
+    ],
+    "acid-properties": [
+      "oracle-database"
+    ],
+    "pl-sql": [
+      "oracle-database"
+    ],
+    "summary.md": [
+      "oracle-database"
     ]
   }
 }

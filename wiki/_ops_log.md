@@ -33,3 +33,7 @@ summary: "Chronological log of all wiki operations"
 ## [2026-04-23] ingest | Phân tích RabbitMQ vs Kafka
 ## [2026-04-23] compile | 5 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (Kafka vs RabbitMQ)
 ## [2026-04-23] ask | lỡ kafka nó chết thì sao
+## [2026-04-23] ingest | raw/articles/ora (Oracle Database - Pháo Đài Tài Chính)
+## [2026-04-23] compile | 8 bài mới, 0 cập nhật từ 6 tài liệu raw/articles/ora (Oracle Database)
+## [2026-04-23] ask | so sánh delete và truncate
+## [2026-04-23] file-back | wiki/comparisons/delete-vs-truncate.md

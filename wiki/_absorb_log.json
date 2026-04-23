@@ -140,6 +140,30 @@
     "raw/articles/kafka-vs-rabbitmq.md": {
       "absorbed_at": "2026-04-23",
       "wiki_articles": ["kafka-vs-rabbitmq", "apache-kafka", "rabbitmq", "message-broker", "publish-subscribe"]
+    },
+    "raw/articles/ora/0.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["database-normalization"]
+    },
+    "raw/articles/ora/1.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["acid-properties", "oracle-database"]
+    },
+    "raw/articles/ora/2.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["pl-sql"]
+    },
+    "raw/articles/ora/3.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["cost-based-optimizer", "analytic-functions"]
+    },
+    "raw/articles/ora/4.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["soft-delete-anti-pattern", "flashback-data-archive"]
+    },
+    "raw/articles/ora/summary.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["oracle-database"]
     }
   }
 }
