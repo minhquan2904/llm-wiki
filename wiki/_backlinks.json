@@ -1,54 +1,145 @@
 {
-  "abac-architecture": [
-    "abac-attribute-management",
-    "attribute-based-access-control",
-    "next-generation-access-control",
-    "access-control-policy-enforcement"
-  ],
-  "attribute-based-access-control": [
-    "abac-architecture",
-    "abac-attribute-management",
-    "abac-policy-models",
-    "abac-vs-rbac",
-    "authentication-vs-authorization",
-    "dac-vs-mac"
-  ],
-  "next-generation-access-control": [
-    "abac-architecture",
-    "abac-policy-models"
-  ],
-  "abac-attribute-management": [
-    "abac-vs-rbac",
-    "attribute-based-access-control"
-  ],
-  "abac-vs-rbac": [
-    "abac-attribute-management",
-    "mandatory-access-control"
-  ],
-  "abac-policy-models": [],
-  "mandatory-access-control": [
-    "dac-vs-mac",
-    "discretionary-access-control"
-  ],
-  "dac-vs-mac": [
-    "discretionary-access-control",
-    "mandatory-access-control"
-  ],
-  "discretionary-access-control": [
-    "dac-vs-mac",
-    "mandatory-access-control"
-  ],
-  "access-control-policy-enforcement": [
-    "access-control-entities",
-    "access-control-models-vs-policies",
-    "authentication-vs-authorization"
-  ],
-  "access-control-entities": [
-    "access-control-policy-enforcement",
-    "authentication-vs-authorization"
-  ],
-  "authentication-vs-authorization": [
-    "access-control-policy-enforcement"
-  ],
-  "access-control-models-vs-policies": []
+  "description": "Reverse link index. Maps article -> list of articles linking TO it.",
+  "last_updated": "1776927579.1545918",
+  "total_articles": 31,
+  "total_links": 71,
+  "backlinks": {
+    "attribute-based-access-control": [
+      "abac-vs-rbac",
+      "authentication-vs-authorization",
+      "dac-vs-mac",
+      "abac-architecture",
+      "abac-attribute-management",
+      "abac-policy-models",
+      "next-generation-access-control"
+    ],
+    "antigravity-kit": [
+      "antigravity-skills-system",
+      "cognitive-routing",
+      "sequential-multi-domain-execution",
+      "socratic-gate-protocol",
+      "google-antigravity"
+    ],
+    "abac-architecture": [
+      "abac-attribute-management",
+      "access-control-policy-enforcement",
+      "attribute-based-access-control",
+      "next-generation-access-control"
+    ],
+    "javascript-variables-and-scope": [
+      "javascript-advanced-mechanisms",
+      "javascript-memory-management",
+      "javascript-under-the-hood",
+      "ngrx-state-management"
+    ],
+    "javascript-under-the-hood": [
+      "javascript-advanced-mechanisms",
+      "javascript-asynchronous-programming",
+      "javascript-memory-management",
+      "javascript-variables-and-scope"
+    ],
+    "access-control-policy-enforcement": [
+      "access-control-models-vs-policies",
+      "authentication-vs-authorization",
+      "access-control-entities"
+    ],
+    "cognitive-routing": [
+      "antigravity-skills-system",
+      "sequential-multi-domain-execution",
+      "socratic-gate-protocol"
+    ],
+    "javascript-asynchronous-programming": [
+      "clean-code-javascript-patterns",
+      "javascript-under-the-hood",
+      "rxjs-reactive-programming"
+    ],
+    "javascript-memory-management": [
+      "clean-code-javascript-patterns",
+      "dom-performance-optimization",
+      "javascript-under-the-hood"
+    ],
+    "abac-attribute-management": [
+      "abac-vs-rbac",
+      "attribute-based-access-control"
+    ],
+    "access-control-entities": [
+      "authentication-vs-authorization",
+      "access-control-policy-enforcement"
+    ],
+    "discretionary-access-control": [
+      "dac-vs-mac",
+      "mandatory-access-control"
+    ],
+    "mandatory-access-control": [
+      "dac-vs-mac",
+      "discretionary-access-control"
+    ],
+    "next-generation-access-control": [
+      "abac-architecture",
+      "abac-policy-models"
+    ],
+    "abac-vs-rbac": [
+      "attribute-based-access-control",
+      "mandatory-access-control"
+    ],
+    "sequential-multi-domain-execution": [
+      "cognitive-routing",
+      "antigravity-kit"
+    ],
+    "dac-vs-mac": [
+      "discretionary-access-control",
+      "mandatory-access-control"
+    ],
+    "clean-code-javascript-patterns": [
+      "javascript-asynchronous-programming",
+      "javascript-variables-and-scope"
+    ],
+    "rxjs-reactive-programming": [
+      "javascript-asynchronous-programming",
+      "ngrx-state-management"
+    ],
+    "socratic-gate-protocol": [
+      "sequential-multi-domain-execution",
+      "google-antigravity"
+    ],
+    "index": [
+      "overview"
+    ],
+    "bài-viết-1": [
+      "overview"
+    ],
+    "bài-viết-2": [
+      "overview"
+    ],
+    "bài-viết-3": [
+      "overview"
+    ],
+    "authentication-vs-authorization": [
+      "access-control-policy-enforcement"
+    ],
+    "javascript-memory-management#heap-memory-bộ-nhớ-động": [
+      "dom-performance-optimization"
+    ],
+    "clean-code-javascript-patterns#xử-lý-bất-đồng-bộ-trong-vòng-lặp": [
+      "javascript-asynchronous-programming"
+    ],
+    "javascript-variables-and-scope#lexical-scope-và-closure": [
+      "javascript-memory-management"
+    ],
+    "javascript-advanced-mechanisms": [
+      "javascript-variables-and-scope"
+    ],
+    "javascript-variables-and-scope#bản-chất-tính-bất-biến-của-const": [
+      "ngrx-state-management"
+    ],
+    "ngrx-state-management": [
+      "rxjs-reactive-programming"
+    ],
+    "google-antigravity": [
+      "antigravity-kit"
+    ],
+    "antigravity-skills-system": [
+      "antigravity-kit"
+    ]
+  }
 }

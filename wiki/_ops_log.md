@@ -26,3 +26,7 @@ summary: "Chronological log of all wiki operations"
 ## [2026-04-23] ask | So sánh RBAC và ABAC
 ## [2026-04-23] ask | Xác thực là gì
 ## [2026-04-23] ask | Triển khai ABAC thế nào, tính lượng token
+## [2026-04-23] ingest | raw/articles (Antigravity Kit 1-5 & Summary)
+## [2026-04-23] compile | 6 bài mới, 0 cập nhật từ 7 tài liệu raw/articles (Antigravity Kit)
+## [2026-04-23] save | Chiến lược biên dịch Hệ thống Đa tác tử — raw-only
+## [2026-04-23] compile | 9 bài mới, 0 cập nhật từ 14 tài liệu raw/misc (JavaScript Mastery)

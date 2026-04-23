@@ -1,6 +1,34 @@
 {
   "last_updated": "2026-04-23",
   "sources": {
+    "raw/articles/1.1.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["google-antigravity", "antigravity-kit"]
+    },
+    "raw/articles/1.2.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["antigravity-kit", "antigravity-skills-system"]
+    },
+    "raw/articles/1.3.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["antigravity-skills-system"]
+    },
+    "raw/articles/2.1.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["socratic-gate-protocol"]
+    },
+    "raw/articles/2.2.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["cognitive-routing"]
+    },
+    "raw/articles/2.3.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["sequential-multi-domain-execution"]
+    },
+    "raw/articles/summary.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["google-antigravity", "antigravity-kit", "socratic-gate-protocol", "antigravity-skills-system", "cognitive-routing", "sequential-multi-domain-execution"]
+    },
     "raw/articles/ABACvsRBAC.md": {
       "absorbed_at": "2026-04-23",
       "wiki_articles": ["abac-vs-rbac"]
@@ -52,6 +80,62 @@
     "raw/articles/mac.md": {
       "absorbed_at": "2026-04-23",
       "wiki_articles": ["mandatory-access-control", "dac-vs-mac"]
+    },
+    "raw/misc/var-let-const-kẻ-thù-thầm-lặng-và-những-vệ-binh-của-scope.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["javascript-variables-and-scope"]
+    },
+    "raw/misc/lật-tẩy-hiểu-lầm-về-const-sự-thật-về-tính-bất-biến.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["javascript-variables-and-scope"]
+    },
+    "raw/misc/22-cấu-trúc-function-và-bí-ẩn-của-scope.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["javascript-variables-and-scope"]
+    },
+    "raw/misc/13-bộ-nhớ-javascript-stack-tối-ưu-heap-mở-rộng.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["javascript-memory-management"]
+    },
+    "raw/misc/199-javascript-under-the-hood-call-stack-event-loop-và-execution-context.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["javascript-under-the-hood"]
+    },
+    "raw/misc/21-clean-code-thoát-kỏi-nhấn-chìm-của-if-else-hell.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["clean-code-javascript-patterns"]
+    },
+    "raw/misc/23-clean-code-các-lối-tư-duy-mới-về-vòng-lặp-for-loop.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["clean-code-javascript-patterns"]
+    },
+    "raw/misc/31-dom-performance-warfare-cuộc-chiến-tối-ưu-tốc-độ-giao-diện.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["dom-performance-optimization"]
+    },
+    "raw/misc/41-javascript-asynchronous-quest-sứ-mệnh-chinh-phục-bất-đồng-bộ.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["javascript-asynchronous-programming"]
+    },
+    "raw/misc/42-rxjs-làm-chủ-luồng-dữ-liệu-bất-đồng-bộ.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["rxjs-reactive-programming"]
+    },
+    "raw/misc/43-rxjs-mastery-làm-chủ-đường-ống-kì-diệu-map-và-tap.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["rxjs-reactive-programming"]
+    },
+    "raw/misc/51-modern-web-làm-chủ-state-management-với-ngrx-trong-angular.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["ngrx-state-management"]
+    },
+    "raw/misc/52-khía-cạnh-cấp-cao-lạc-vào-hố-sâu-bí-ẩn-của-javascript.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["javascript-advanced-mechanisms"]
+    },
+    "raw/misc/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["javascript-advanced-mechanisms"]
     }
   }
 }

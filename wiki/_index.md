@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 13  
+**Total articles:** 28  
 **Last updated:** 2026-04-23
 
 ---
 
-## Concepts (5 articles)
+## Concepts (18 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -23,16 +23,30 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[abac-policy-models]] | ABAC Policy Models, Logic-Formula, Enumerated Policy | Hai phương pháp biểu diễn chính sách trong ABAC: sử dụng biểu thức logic và liệt kê mối quan hệ. |
 | [[access-control-entities]] | Thực thể kiểm soát truy cập, Chủ thể và Đối tượng | Hệ thống thuật ngữ và các định nghĩa về thành tố tham gia vào mạng lưới kiểm soát quyền truy cập. |
 | [[access-control-policy-enforcement]] | Policy Enforcement | Chu trình vận hành của các cơ chế an ninh nhằm tiếp nhận, đánh giá và giải quyết các yêu cầu thao tác dữ liệu. |
+| [[antigravity-skills-system]] | Antigravity Skills System | Cơ chế phân tán tri thức và tải động để chống suy giảm nhận thức cho tác tử AI. |
+| [[cognitive-routing]] | Cognitive Routing | Cơ chế phân tích ngữ nghĩa ngầm và tự động ánh xạ tác vụ tới chuyên gia AI phù hợp. |
 | [[attribute-based-access-control]] | ABAC, Kiểm soát truy cập dựa trên thuộc tính | Mô hình kiểm soát truy cập linh hoạt xác định quyền bằng cách đánh giá các thuộc tính của chủ thể, đối tượng và môi trường. |
 | [[discretionary-access-control]] | DAC, Discretionary Access Control | Mô hình kiểm soát truy cập dựa trên sự phân quyền chủ động của người sở hữu đối tượng. |
 | [[mandatory-access-control]] | MAC, Mandatory Access Control | Mô hình kiểm soát truy cập nghiêm ngặt do cơ quan quản trị trung tâm thiết lập, không phụ thuộc vào ý muốn của người dùng. |
 | [[next-generation-access-control]] | Next-Generation Access Control, NGAC | Mô hình kiểm soát truy cập linh hoạt, hỗ trợ đa chính sách và quản lý sự kiện trạng thái. |
+| [[sequential-multi-domain-execution]] | Sequential Multi-Domain Execution | Kiến trúc điều phối giải quyết độ phức tạp bằng cách buộc các tác tử làm việc theo trật tự thời gian khắt khe. |
+| [[socratic-gate-protocol]] | Socratic Gate Protocol | Cơ chế kiểm duyệt ý định tiền thực thi nhằm triệt tiêu ảo giác kiến trúc trong hệ thống AI. |
+| [[javascript-variables-and-scope]] | var, let, const, scope, hoisting, closure, immutability | Phân tích sâu về cơ chế khai báo biến, phạm vi hoạt động, hoisting và closure trong JavaScript. |
+| [[javascript-memory-management]] | Stack, Heap, Garbage Collection, Mark-and-Sweep | Giải phẫu kiến trúc bộ nhớ V8 Engine, phân loại lưu trữ nguyên thủy/tham chiếu và thuật toán thu gom rác. |
+| [[javascript-under-the-hood]] | Call Stack, Event Loop, Microtask, Macrotask, Execution Context | Khám phá vòng lặp sự kiện, hàng đợi tác vụ và cơ chế thực thi luồng đơn không chặn của JavaScript. |
+| [[clean-code-javascript-patterns]] | Bàn phím if-else, Tối ưu for-loop, Early Return, Map | Các mẫu tư duy (patterns) để làm phẳng cấu trúc mã lệnh và sử dụng kỹ thuật lặp theo phong cách khai báo (Declarative). |
+| [[dom-performance-optimization]] | DOM, Reflow, Repaint, DocumentFragment, Layout Thrashing | Các chiến thuật tối ưu hóa hiệu suất giao diện người dùng thông qua việc giảm thiểu thao tác thay đổi cấu trúc DOM. |
+| [[javascript-asynchronous-programming]] | Async/Await, Promise, Callbacks, Promise.all | Lịch sử tiến hóa của xử lý tác vụ bất đồng bộ, từ địa ngục callback cho đến cú pháp khai báo hiện đại của Async/Await. |
+| [[rxjs-reactive-programming]] | Observable, Observer, Subject, RxJS Operators, map, tap | Phân tích mô hình Reactive Programming qua RxJS: từ khái niệm luồng dữ liệu (Data Stream) đến các toán tử điều khiển. |
+| [[ngrx-state-management]] | Redux, Prop Drilling, Store, Reducer, Action, Selector, Effect | Kiến trúc quản trị trạng thái tập trung (State Management) thông qua NgRx trong Angular để giải quyết vấn đề luân chuyển dữ liệu. |
+| [[javascript-advanced-mechanisms]] | Type Coercion, Prototypal Inheritance, call, apply, bind | Khám phá các cơ chế cấp cao dễ gây nhầm lẫn: Ép kiểu ngầm, Kế thừa chuỗi nguyên mẫu và kiểm soát ngữ cảnh this. |
 
-## Tools (0 articles)
+## Tools (2 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
-| _Empty_ | | |
+| [[antigravity-kit]] | Vudovn Antigravity Kit, AG Kit | Bộ khuôn khổ mã nguồn mở tổ chức và điều phối hệ thống đa tác tử cho môi trường phát triển Agent-First. |
+| [[google-antigravity]] | | Nền tảng phát triển tích hợp (IDE) tiên phong trong kỷ nguyên Agent-First của Google. |
 
 ## People (0 articles)
 
@@ -51,10 +65,16 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 ---
 
-## Raw Sources (8 documents)
+## Raw Sources (29 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
+| `raw/articles/1.1.md` | Article | 2026-04-23 |
+| `raw/articles/1.2.md` | Article | 2026-04-23 |
+| `raw/articles/1.3.md` | Article | 2026-04-23 |
+| `raw/articles/2.1.md` | Article | 2026-04-23 |
+| `raw/articles/2.2.md` | Article | 2026-04-23 |
+| `raw/articles/2.3.md` | Article | 2026-04-23 |
 | `raw/articles/ABACvsRBAC.md` | Article | 2026-04-23 |
 | `raw/articles/ArchitecturesandFunctionalComponents.md` | Article | 2026-04-23 |
 | `raw/articles/AttributeInfluencingFactors.md` | Article | 2026-04-23 |
@@ -68,6 +88,21 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/articles/dac.md` | Article | 2026-04-23 |
 | `raw/articles/intro.md` | Article | 2026-04-23 |
 | `raw/articles/mac.md` | Article | 2026-04-23 |
+| `raw/articles/summary.md` | Article | 2026-04-23 |
+| `raw/misc/var-let-const-kẻ-thù-thầm-lặng-và-những-vệ-binh-của-scope.md` | Article | 2026-04-23 |
+| `raw/misc/lật-tẩy-hiểu-lầm-về-const-sự-thật-về-tính-bất-biến.md` | Article | 2026-04-23 |
+| `raw/misc/22-cấu-trúc-function-và-bí-ẩn-của-scope.md` | Article | 2026-04-23 |
+| `raw/misc/13-bộ-nhớ-javascript-stack-tối-ưu-heap-mở-rộng.md` | Article | 2026-04-23 |
+| `raw/misc/199-javascript-under-the-hood-call-stack-event-loop-và-execution-context.md` | Article | 2026-04-23 |
+| `raw/misc/21-clean-code-thoát-kỏi-nhấn-chìm-của-if-else-hell.md` | Article | 2026-04-23 |
+| `raw/misc/23-clean-code-các-lối-tư-duy-mới-về-vòng-lặp-for-loop.md` | Article | 2026-04-23 |
+| `raw/misc/31-dom-performance-warfare-cuộc-chiến-tối-ưu-tốc-độ-giao-diện.md` | Article | 2026-04-23 |
+| `raw/misc/41-javascript-asynchronous-quest-sứ-mệnh-chinh-phục-bất-đồng-bộ.md` | Article | 2026-04-23 |
+| `raw/misc/42-rxjs-làm-chủ-luồng-dữ-liệu-bất-đồng-bộ.md` | Article | 2026-04-23 |
+| `raw/misc/43-rxjs-mastery-làm-chủ-đường-ống-kì-diệu-map-và-tap.md` | Article | 2026-04-23 |
+| `raw/misc/51-modern-web-làm-chủ-state-management-với-ngrx-trong-angular.md` | Article | 2026-04-23 |
+| `raw/misc/52-khía-cạnh-cấp-cao-lạc-vào-hố-sâu-bí-ẩn-của-javascript.md` | Article | 2026-04-23 |
+| `raw/misc/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md` | Article | 2026-04-23 |
 
 ---
 
