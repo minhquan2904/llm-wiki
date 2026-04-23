@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 31,
-  "total_links": 71,
+  "total_articles": 36,
+  "total_links": 82,
   "backlinks": {
     "attribute-based-access-control": [
       "abac-vs-rbac",
@@ -19,6 +19,12 @@
       "sequential-multi-domain-execution",
       "socratic-gate-protocol",
       "google-antigravity"
+    ],
+    "apache-kafka": [
+      "kafka-vs-rabbitmq",
+      "message-broker",
+      "publish-subscribe",
+      "rabbitmq"
     ],
     "abac-architecture": [
       "abac-attribute-management",
@@ -42,6 +48,11 @@
       "access-control-models-vs-policies",
       "authentication-vs-authorization",
       "access-control-entities"
+    ],
+    "rabbitmq": [
+      "kafka-vs-rabbitmq",
+      "message-broker",
+      "apache-kafka"
     ],
     "cognitive-routing": [
       "antigravity-skills-system",
@@ -102,6 +113,10 @@
       "sequential-multi-domain-execution",
       "google-antigravity"
     ],
+    "kafka-vs-rabbitmq": [
+      "apache-kafka",
+      "rabbitmq"
+    ],
     "index": [
       "overview"
     ],
@@ -129,8 +144,14 @@
     "javascript-advanced-mechanisms": [
       "javascript-variables-and-scope"
     ],
+    "publish-subscribe": [
+      "message-broker"
+    ],
     "javascript-variables-and-scope#bản-chất-tính-bất-biến-của-const": [
       "ngrx-state-management"
+    ],
+    "message-broker": [
+      "publish-subscribe"
     ],
     "ngrx-state-management": [
       "rxjs-reactive-programming"

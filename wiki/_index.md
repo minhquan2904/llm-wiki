@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 28  
+**Total articles:** 33  
 **Last updated:** 2026-04-23
 
 ---
 
-## Concepts (18 articles)
+## Concepts (20 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -40,13 +40,17 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[rxjs-reactive-programming]] | Observable, Observer, Subject, RxJS Operators, map, tap | Phân tích mô hình Reactive Programming qua RxJS: từ khái niệm luồng dữ liệu (Data Stream) đến các toán tử điều khiển. |
 | [[ngrx-state-management]] | Redux, Prop Drilling, Store, Reducer, Action, Selector, Effect | Kiến trúc quản trị trạng thái tập trung (State Management) thông qua NgRx trong Angular để giải quyết vấn đề luân chuyển dữ liệu. |
 | [[javascript-advanced-mechanisms]] | Type Coercion, Prototypal Inheritance, call, apply, bind | Khám phá các cơ chế cấp cao dễ gây nhầm lẫn: Ép kiểu ngầm, Kế thừa chuỗi nguyên mẫu và kiểm soát ngữ cảnh this. |
+| [[message-broker]] | Trạm trung chuyển tin nhắn, Trạm môi giới tin nhắn | Một thành phần trung gian hỗ trợ ứng dụng giao tiếp, nhận và định tuyến dữ liệu dựa trên các quy tắc xác định trước. |
+| [[publish-subscribe]] | Pub/Sub, Mô hình Pub-Sub, Publish-Subscribe | Mô hình giao tiếp bất đồng bộ trong đó người gửi phát thông điệp vào các chủ đề mà không cần chỉ định người nhận cụ thể. |
 
-## Tools (2 articles)
+## Tools (4 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
 | [[antigravity-kit]] | Vudovn Antigravity Kit, AG Kit | Bộ khuôn khổ mã nguồn mở tổ chức và điều phối hệ thống đa tác tử cho môi trường phát triển Agent-First. |
 | [[google-antigravity]] | | Nền tảng phát triển tích hợp (IDE) tiên phong trong kỷ nguyên Agent-First của Google. |
+| [[apache-kafka]] | Kafka | Nền tảng xử lý luồng sự kiện phân tán, nổi bật với thông lượng cao và khả năng lưu trữ dữ liệu thời gian thực. |
+| [[rabbitmq]] | | Message broker mã nguồn mở linh hoạt, hỗ trợ nhiều giao thức và định tuyến tin nhắn phức tạp. |
 
 ## People (0 articles)
 
@@ -54,7 +58,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 |---------|---------|---------|
 | _Empty_ | | |
 
-## Comparisons (1 articles)
+## Comparisons (2 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -62,10 +66,11 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[access-control-models-vs-policies]] | Model vs Policy | Sự phân biệt giữa khuôn khổ thiết kế lý thuyết (Mô hình) và bộ quy tắc thực thi cụ thể (Chính sách) trong hệ thống bảo mật. |
 | [[authentication-vs-authorization]] | AuthN vs AuthZ, Authentication vs Authorization | Phân định ranh giới giữa việc nhận diện danh tính người dùng và quá trình xét duyệt quyền hạn truy cập. |
 | [[dac-vs-mac]] | DAC vs MAC | Phân tích sự khác biệt cốt lõi giữa quản lý truy cập tự do theo người dùng (DAC) và quy tắc tập trung (MAC). |
+| [[kafka-vs-rabbitmq]] | RabbitMQ vs Kafka, So sánh Kafka và RabbitMQ | Phân tích và đối chiếu sự khác biệt giữa RabbitMQ (hệ thống định tuyến tin nhắn) và Apache Kafka (nền tảng xử lý luồng sự kiện). |
 
 ---
 
-## Raw Sources (29 documents)
+## Raw Sources (30 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -103,6 +108,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/misc/51-modern-web-làm-chủ-state-management-với-ngrx-trong-angular.md` | Article | 2026-04-23 |
 | `raw/misc/52-khía-cạnh-cấp-cao-lạc-vào-hố-sâu-bí-ẩn-của-javascript.md` | Article | 2026-04-23 |
 | `raw/misc/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md` | Article | 2026-04-23 |
+| `raw/articles/kafka-vs-rabbitmq.md` | Article | 2026-04-23 |
 
 ---
 

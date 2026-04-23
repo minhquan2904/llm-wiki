@@ -30,3 +30,6 @@ summary: "Chronological log of all wiki operations"
 ## [2026-04-23] compile | 6 bài mới, 0 cập nhật từ 7 tài liệu raw/articles (Antigravity Kit)
 ## [2026-04-23] save | Chiến lược biên dịch Hệ thống Đa tác tử — raw-only
 ## [2026-04-23] compile | 9 bài mới, 0 cập nhật từ 14 tài liệu raw/misc (JavaScript Mastery)
+## [2026-04-23] ingest | Phân tích RabbitMQ vs Kafka
+## [2026-04-23] compile | 5 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (Kafka vs RabbitMQ)
+## [2026-04-23] ask | lỡ kafka nó chết thì sao

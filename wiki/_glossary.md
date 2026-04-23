@@ -29,10 +29,14 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 ## I
 - **Immutability:** Tính bất biến. Trạng thái không thể bị thay đổi sau khi đã được khởi tạo, đóng vai trò quan trọng trong việc quản lý bộ nhớ và kiến trúc State Management.
 
+## K
+- **Kafka:** Nền tảng xử lý luồng sự kiện phân tán, lưu trữ dữ liệu theo thời gian thực với thông lượng cực cao.
+
 ## M
 - **MAC (Mandatory Access Control):** Kiểm soát truy cập bắt buộc. Mô hình nghiêm ngặt nơi mọi quyền truy cập đều bị chi phối bởi các quy tắc trung tâm, bất kể ý chí của người dùng sở hữu tài nguyên.
 - **Macrotask / Microtask:** Hàng đợi tác vụ vĩ mô (setTimeout, setInterval) và vi mô (Promise.then, quy trình DOM). Microtask luôn được ưu tiên thực thi trước Macrotask trong Event Loop.
 - **Mark-and-Sweep:** Thuật toán Đánh dấu và Quét. Cơ chế thu gom rác (Garbage Collection) mặc định của V8 Engine nhằm tìm và xóa các đối tượng không còn khả năng truy cập từ rễ (Roots).
+- **Message Broker:** Trạm trung chuyển tin nhắn. Thành phần kiến trúc đứng giữa các ứng dụng để tiếp nhận, giữ an toàn và định tuyến thông điệp dựa trên các quy tắc xác định.
 - **MLS (Multilevel Security):** Bảo mật Đa mức. Một phương pháp triển khai MAC phổ biến, gán các cấp độ bảo mật theo thứ bậc và phân loại, thường áp dụng quy tắc "không đọc lên" và "không ghi xuống".
 
 ## N
@@ -52,9 +56,11 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Promise:** Đối tượng đại diện cho sự hoàn thành hoặc thất bại của một tiến trình bất đồng bộ trong tương lai.
 - **Prop Drilling:** Hiện tượng truyền dữ liệu qua nhiều tầng Component trung gian từ cha xuống cháu, gây khó khăn cho việc gỡ lỗi và bảo trì.
 - **Prototypal Inheritance:** Kế thừa nguyên mẫu. Cơ chế chia sẻ thuộc tính và phương thức giữa các object trong JavaScript thông qua một chuỗi liên kết ngầm.
+- **Pub/Sub (Publish/Subscribe):** Mô hình giao tiếp bất đồng bộ, phân phối sự kiện thông qua các chủ đề (topics) cho nhiều người đăng ký mà không cần chỉ định trực tiếp.
 
 ## R
 - **RAP (Resource Access Point):** Điểm truy cập tài nguyên. Giao diện trực tiếp bảo vệ và quản lý các tài nguyên, thường phối hợp với PEP để thực thi quyết định cho các gói dữ liệu cụ thể.
+- **RabbitMQ:** Message broker mã nguồn mở linh hoạt, phổ biến nhờ mô hình định tuyến thông điệp phong phú qua Exchanges và Queues.
 - **RBAC (Role-Based Access Control):** Kiểm soát truy cập dựa trên vai trò. Mô hình truyền thống định nghĩa quyền truy cập dựa trên chức danh công việc của người dùng trong hệ thống.
 - **Reactive Programming:** Lập trình phản ứng. Mô hình lập trình xoay quanh việc thiết lập các luồng dữ liệu bất đồng bộ (Data Streams) và phản ứng khi có dữ liệu mới.
 - **Reducer:** Hàm thuần túy (Pure Function) trong mô hình Redux/NgRx chịu trách nhiệm tiếp nhận trạng thái hiện tại và một hành động (Action) để trả về một trạng thái hoàn toàn mới.

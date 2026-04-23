@@ -136,6 +136,10 @@
     "raw/misc/javascript-mastery-hành-trình-từ-cốt-lõi-đến-mở-rộng.md": {
       "absorbed_at": "2026-04-23",
       "wiki_articles": ["javascript-advanced-mechanisms"]
+    },
+    "raw/articles/kafka-vs-rabbitmq.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["kafka-vs-rabbitmq", "apache-kafka", "rabbitmq", "message-broker", "publish-subscribe"]
     }
   }
 }
