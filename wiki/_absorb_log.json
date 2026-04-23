@@ -1,0 +1,57 @@
+{
+  "last_updated": "2026-04-23",
+  "sources": {
+    "raw/articles/ABACvsRBAC.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["abac-vs-rbac"]
+    },
+    "raw/articles/ArchitecturesandFunctionalComponents.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["abac-architecture", "next-generation-access-control"]
+    },
+    "raw/articles/AttributeInfluencingFactors.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["abac-attribute-management"]
+    },
+    "raw/articles/HowABACWork.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["attribute-based-access-control"]
+    },
+    "raw/articles/LogicalFormulaandEnumerated.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["abac-policy-models"]
+    },
+    "raw/articles/ModelsAndPolicies.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["dac-vs-mac", "access-control-models-vs-policies"]
+    },
+    "raw/articles/NGAC.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["next-generation-access-control"]
+    },
+    "raw/articles/PolicyEnforcement.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["access-control-policy-enforcement", "authentication-vs-authorization"]
+    },
+    "raw/articles/Terminology.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["access-control-entities", "authentication-vs-authorization"]
+    },
+    "raw/articles/Using.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["attribute-based-access-control"]
+    },
+    "raw/articles/dac.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["discretionary-access-control", "dac-vs-mac"]
+    },
+    "raw/articles/intro.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["attribute-based-access-control"]
+    },
+    "raw/articles/mac.md": {
+      "absorbed_at": "2026-04-23",
+      "wiki_articles": ["mandatory-access-control", "dac-vs-mac"]
+    }
+  }
+}

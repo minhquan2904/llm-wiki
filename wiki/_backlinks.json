@@ -1,0 +1,54 @@
+{
+  "abac-architecture": [
+    "abac-attribute-management",
+    "attribute-based-access-control",
+    "next-generation-access-control",
+    "access-control-policy-enforcement"
+  ],
+  "attribute-based-access-control": [
+    "abac-architecture",
+    "abac-attribute-management",
+    "abac-policy-models",
+    "abac-vs-rbac",
+    "authentication-vs-authorization",
+    "dac-vs-mac"
+  ],
+  "next-generation-access-control": [
+    "abac-architecture",
+    "abac-policy-models"
+  ],
+  "abac-attribute-management": [
+    "abac-vs-rbac",
+    "attribute-based-access-control"
+  ],
+  "abac-vs-rbac": [
+    "abac-attribute-management",
+    "mandatory-access-control"
+  ],
+  "abac-policy-models": [],
+  "mandatory-access-control": [
+    "dac-vs-mac",
+    "discretionary-access-control"
+  ],
+  "dac-vs-mac": [
+    "discretionary-access-control",
+    "mandatory-access-control"
+  ],
+  "discretionary-access-control": [
+    "dac-vs-mac",
+    "mandatory-access-control"
+  ],
+  "access-control-policy-enforcement": [
+    "access-control-entities",
+    "access-control-models-vs-policies",
+    "authentication-vs-authorization"
+  ],
+  "access-control-entities": [
+    "access-control-policy-enforcement",
+    "authentication-vs-authorization"
+  ],
+  "authentication-vs-authorization": [
+    "access-control-policy-enforcement"
+  ],
+  "access-control-models-vs-policies": []
+}
