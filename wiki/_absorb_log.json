@@ -212,6 +212,42 @@
     "raw/articles/material-react-react-với-typescript-series-overview.md": {
       "absorbed_at": "2026-04-24",
       "wiki_articles": []
+    },
+    "raw/papers/làm-chủ-spring-validation-chiến-lược-phòng-thủ-đa-tầng.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["spring-validation"]
+    },
+    "raw/papers/nhập-môn-spring-boot-bí-kíp-nấu-code-chuẩn-5-sao.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["spring-ioc-di"]
+    },
+    "raw/papers/spring-framework-làm-chủ-custom-annotation-metaprogramming.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["spring-annotations"]
+    },
+    "raw/papers/atomic-concurrency-patterns-trong-javatối-ưu-hóa-hiệu-năng-đa-luồng-từ-jvm-đến-s.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["java-concurrency-fundamentals"]
+    },
+    "raw/papers/jackson.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["jackson-databind", "java-generics"]
+    },
+    "raw/papers/java-generics-bi-kip-tran-phai.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["java-generics"]
+    },
+    "raw/papers/multithreading-concurrency-trong-spring-boot-từ-cơ-bản-đến-virtual-threads.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["spring-async-execution", "java-virtual-threads", "java-concurrency-fundamentals"]
+    },
+    "raw/papers/mutable-vs-immutabletác-động-kiến-trúc-trong-java-spring-từ-cơ-chế-jvm-đến-thiết.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["java-immutability", "java-concurrent-collections", "spring-ioc-di"]
+    },
+    "raw/papers/đa-luồng-chân-kinh.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["java-concurrency-fundamentals", "java-concurrent-collections", "java-immutability", "spring-ioc-di"]
     }
   }
 }

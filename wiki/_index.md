@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 53  
+**Total articles:** 63  
 **Last updated:** 2026-04-24
 
 ---
 
-## Concepts (38 articles)
+## Concepts (47 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -56,8 +56,17 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[typescript-functions]] | TypeScript Functions, Optional Parameters, Void vs Never | Phân tích cấu trúc định kiểu của hàm, quản lý tham số và sự phân biệt sâu sắc giữa hai kiểu trả về đặc thù: void và never. |
 | [[typescript-type-narrowing]] | Union Types, Type Narrowing, Discriminated Unions, Exhaustiveness Checking | Phân tích cơ chế quản lý đa hình thông qua Union Types và các kỹ thuật thu hẹp kiểu dữ liệu (Type Narrowing) nhằm đảm bảo an toàn tại Compile-time. |
 | [[typescript-generics]] | TypeScript Generics, Generic Constraints, Generic Default | Phân tích sức mạnh của Generics, cách sử dụng tham số kiểu <T> để kiến tạo các cấu trúc dữ liệu và hàm linh hoạt, có thể tái sử dụng cao mà không đánh đổi tính an toàn tĩnh. |
+| [[spring-validation]] | spring-validation, bean-validation | Cơ chế kiểm duyệt dữ liệu trong Spring Boot, kết hợp giữa Jakarta Bean Validation và Hibernate Validator theo mô hình phòng thủ đa tầng. |
+| [[spring-ioc-di]] | spring-ioc-di, ioc-container | Kiến trúc cốt lõi của Spring Framework dựa trên cơ chế Đảo ngược Điều khiển (IoC) và Tiêm Phụ thuộc (DI) thông qua ApplicationContext. |
+| [[spring-annotations]] | spring-annotations, metaprogramming | Kiến trúc hướng siêu dữ liệu (Metadata) trong Spring Framework giúp giảm thiểu mã nguồn khuôn mẫu thông qua hệ thống Annotation và cơ chế xử lý động. |
+| [[java-generics]] | java-generics, type-erasure | Phân tích cơ chế Generics trong ngôn ngữ Java, nguyên lý Type Erasure, và quy tắc sử dụng Wildcards (PECS) để đảm bảo tính an toàn bộ nhớ tại Compile-time. |
+| [[java-concurrency-fundamentals]] | java-concurrency, multithreading | Cơ sở lý thuyết về lập trình đa luồng trong nền tảng Java, từ vấn đề Race Condition đến các cơ chế đồng bộ hóa cốt lõi như Locks, Volatile và Atomic. |
+| [[java-concurrent-collections]] | java-concurrent-collections, concurrenthashmap | Phân tích các chiến lược lưu trữ tập hợp an toàn luồng trong Java, trọng tâm là kiến trúc Bucket Locking của ConcurrentHashMap và nguyên tắc Defensive Copying. |
+| [[spring-async-execution]] | spring-async, enableasync | Phân tích kiến trúc thực thi bất đồng bộ của Spring Framework dựa trên Annotation @Async và vai trò của ThreadPoolTaskExecutor. |
+| [[java-virtual-threads]] | virtual-threads, loom | Cách mạng kiến trúc đa luồng từ Project Loom, tách rời luồng Java khỏi luồng Hệ điều hành thông qua Virtual Threads và định hình lại mô hình xử lý đa luồng hiện đại. |
+| [[java-immutability]] | java-immutability, records | Phân tích tác động kiến trúc của tính bất biến, từ cơ chế phòng thủ đa luồng đến việc triển khai Java Records và Stateless Spring Beans. |
 
-## Tools (7 articles)
+## Tools (8 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -68,6 +77,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[oracle-database]] | Oracle, Oracle DB | Hệ quản trị CSDL quan hệ tiêu chuẩn vàng cho các hệ thống Core Banking và tài chính. |
 | [[react-router-dom]] | React Router | Thư viện quản lý định tuyến tiêu chuẩn dành cho các ứng dụng Single Page Application (SPA) xây dựng bằng React. |
 | [[jotai]] | | Thư viện quản lý trạng thái (state management) cho React theo mô hình cấu trúc nguyên tử (Atomic). |
+| [[jackson-databind]] | jackson, jackson-databind | Bộ chuyển đổi dữ liệu JSON tiêu chuẩn của hệ sinh thái Java, nổi bật với hiệu suất cao và khả năng tích hợp sâu sắc với Spring Boot thông qua ObjectMapper. |
 
 ## People (0 articles)
 
@@ -90,7 +100,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 ---
 
-## Raw Sources (40 documents)
+## Raw Sources (49 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -147,6 +157,15 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/articles/material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md` | Article | 2026-04-24 |
 | `raw/articles/material-file-tree-virtual-dom-vs-real-dom-bí-mật-đằng-sau-hiệu-năng-gốc-của-rea.md` | Article | 2026-04-24 |
 | `raw/articles/material-react-react-với-typescript-series-overview.md` | Article | 2026-04-24 |
+| `raw/papers/làm-chủ-spring-validation-chiến-lược-phòng-thủ-đa-tầng.md` | Article | 2026-04-24 |
+| `raw/papers/nhập-môn-spring-boot-bí-kíp-nấu-code-chuẩn-5-sao.md` | Article | 2026-04-24 |
+| `raw/papers/spring-framework-làm-chủ-custom-annotation-metaprogramming.md` | Article | 2026-04-24 |
+| `raw/papers/atomic-concurrency-patterns-trong-javatối-ưu-hóa-hiệu-năng-đa-luồng-từ-jvm-đến-s.md` | Article | 2026-04-24 |
+| `raw/papers/jackson.md` | Article | 2026-04-24 |
+| `raw/papers/java-generics-bi-kip-tran-phai.md` | Article | 2026-04-24 |
+| `raw/papers/multithreading-concurrency-trong-spring-boot-từ-cơ-bản-đến-virtual-threads.md` | Article | 2026-04-24 |
+| `raw/papers/mutable-vs-immutabletác-động-kiến-trúc-trong-java-spring-từ-cơ-chế-jvm-đến-thiết.md` | Article | 2026-04-24 |
+| `raw/papers/đa-luồng-chân-kinh.md` | Article | 2026-04-24 |
 
 ---
 

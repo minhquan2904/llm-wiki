@@ -41,3 +41,11 @@ summary: "Chronological log of all wiki operations"
 ## [2026-04-23] compile | 8 bài mới, 0 cập nhật từ 8 tài liệu raw/articles (TypeScript)
 ## [2026-04-24] ingest | raw/articles/react (React Series)
 ## [2026-04-24] compile | 3 bài mới, 0 cập nhật từ 4 tài liệu raw/articles (React Series)
+## [2026-04-24] ingest | Mutable vs. ImmutableTác động Kiến trúc trong Java & Spring
+## [2026-04-24] ingest | Làm chủ Jackson & ObjectMapper trong Java Enterprise
+## [2026-04-24] ingest | Multithreading & Concurrency trong Spring Boot: Từ Cơ Bản đến Virtual Threads
+## [2026-04-24] ingest | Nhập môn Spring Boot: Bí kíp 'Nấu Code' Chuẩn 5 Sao
+## [2026-04-24] ingest | Spring Framework: Làm Chủ Custom Annotation & Metaprogramming
+## [2026-04-24] ingest | Làm Chủ Spring Validation: Chiến Lược Phòng Thủ Đa Tầng
+## [2026-04-24] ingest | Nhập Môn Java Concurrency & Quản Lý Tài Nguyên
+## [2026-04-24] compile | 10 bài mới, 0 cập nhật từ 9 tài liệu raw/papers (Java & Spring)

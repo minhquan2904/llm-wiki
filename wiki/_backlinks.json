@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 56,
-  "total_links": 152,
+  "total_articles": 66,
+  "total_links": 173,
   "backlinks": {
     "attribute-based-access-control": [
       "abac-vs-rbac",
@@ -62,6 +62,12 @@
       "attribute-based-access-control",
       "next-generation-access-control"
     ],
+    "java-concurrency-fundamentals": [
+      "java-concurrent-collections",
+      "java-immutability",
+      "java-virtual-threads",
+      "spring-async-execution"
+    ],
     "javascript-variables-and-scope": [
       "javascript-advanced-mechanisms",
       "javascript-memory-management",
@@ -108,6 +114,21 @@
       "clean-code-javascript-patterns",
       "dom-performance-optimization",
       "javascript-under-the-hood"
+    ],
+    "spring-async-execution": [
+      "java-concurrency-fundamentals",
+      "java-virtual-threads",
+      "spring-annotations"
+    ],
+    "java-immutability": [
+      "java-concurrent-collections",
+      "spring-ioc-di",
+      "jackson-databind"
+    ],
+    "spring-ioc-di": [
+      "java-immutability",
+      "spring-annotations",
+      "spring-validation"
     ],
     "interface-vs-type-alias": [
       "typescript-generics",
@@ -170,6 +191,10 @@
       "flashback-data-archive",
       "soft-delete-anti-pattern"
     ],
+    "typescript-generics": [
+      "java-generics",
+      "typescript"
+    ],
     "clean-code-javascript-patterns": [
       "javascript-asynchronous-programming",
       "javascript-variables-and-scope"
@@ -185,6 +210,10 @@
     "socratic-gate-protocol": [
       "sequential-multi-domain-execution",
       "google-antigravity"
+    ],
+    "spring-annotations": [
+      "spring-async-execution",
+      "spring-ioc-di"
     ],
     "ts-module-01.md": [
       "typescript-basic-types",
@@ -234,6 +263,15 @@
     "javascript-memory-management#heap-memory-bộ-nhớ-động": [
       "dom-performance-optimization"
     ],
+    "java-concurrent-collections": [
+      "java-concurrency-fundamentals"
+    ],
+    "java-virtual-threads": [
+      "java-concurrency-fundamentals"
+    ],
+    "jackson-databind": [
+      "java-generics"
+    ],
     "clean-code-javascript-patterns#xử-lý-bất-đồng-bộ-trong-vòng-lặp": [
       "javascript-asynchronous-programming"
     ],
@@ -255,6 +293,9 @@
     "message-broker": [
       "publish-subscribe"
     ],
+    "java-records": [
+      "spring-validation"
+    ],
     "ts-module-03.md": [
       "tsconfig"
     ],
@@ -273,9 +314,6 @@
     "typescript-basic-types": [
       "typescript"
     ],
-    "typescript-generics": [
-      "typescript"
-    ],
     "ts-summary.md": [
       "typescript"
     ],
@@ -284,6 +322,9 @@
     ],
     "antigravity-skills-system": [
       "antigravity-kit"
+    ],
+    "java-generics": [
+      "jackson-databind"
     ],
     "react-router-dom": [
       "jotai"
