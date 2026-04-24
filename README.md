@@ -13,6 +13,20 @@ Vòng lặp cốt lõi:
 3. **Tôi hỏi đáp** với kho kiến thức này, và AI sẽ trả lời dựa trên chính những gì tôi đã lưu trữ.
 4. **Kiến thức tích lũy** — mỗi chu kỳ giúp hệ thống ngày càng thông minh và phong phú hơn.
 
+## 🎯 Chủ Đề & Triết Lý
+
+**Các Trụ Cột Kiến Thức (Pillars):**
+Kho lưu trữ này không chứa các ghi chú ngẫu nhiên, mà được tổ chức chặt chẽ xoay quanh 4 trụ cột kỹ thuật cốt lõi:
+1. **Kiến trúc & Hệ thống (Architecture & Systems):** System Design, Design Patterns (DI, Command, State, Repository), Message Brokers (Kafka, RabbitMQ) và Kiến trúc Cơ sở dữ liệu (Oracle, ACID).
+2. **Nền tảng Ngôn ngữ & Đa luồng:** Giải phẫu cơ chế lõi (under-the-hood) của **JavaScript/TypeScript** (Event Loop, Memory, Type System) và **Java** (Multithreading, Virtual Threads, Immutability).
+3. **Bảo mật & Kiểm soát Truy cập (Security & Access Control):** Phân tích chuyên sâu các mô hình ủy quyền và phân quyền (ABAC, RBAC, DAC, MAC, NGAC).
+4. **Hệ sinh thái Frameworks:** Các triết lý thiết kế đằng sau Spring Boot (IoC, Validation, Metaprogramming) và kiến trúc giao diện (React, RxJS, NgRx).
+
+**Triết Lý & Phong Cách (Style & Tone):**
+Kiến thức tại đây được đúc kết từ sự giao thoa giữa tư duy học thuật và thực chiến **(Academic + Pragmatic)**:
+- **Chuẩn mực Bách khoa:** Khách quan, trung lập và có hệ thống. Thông tin được đào sâu đến tận bản chất (cách máy ảo JVM hay V8 hoạt động) thay vì chỉ dừng ở các hướng dẫn "How-to" bề mặt.
+- **Góc nhìn Kỹ sư (Pragmatic):** Không sa đà vào lý thuyết suông. Mọi khái niệm đều được mổ xẻ dưới lăng kính Đánh đổi (Trade-off), các bài viết so sánh điểm mạnh/yếu (A vs B), và bối cảnh áp dụng thực tế để giải quyết bài toán thiết kế phần mềm.
+
 ## 📂 Kiến Trúc Thư Mục
 
 ```text
