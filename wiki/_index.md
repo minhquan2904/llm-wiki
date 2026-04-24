@@ -9,8 +9,8 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 50  
-**Last updated:** 2026-04-23
+**Total articles:** 53  
+**Last updated:** 2026-04-24
 
 ---
 
@@ -57,7 +57,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[typescript-type-narrowing]] | Union Types, Type Narrowing, Discriminated Unions, Exhaustiveness Checking | Phân tích cơ chế quản lý đa hình thông qua Union Types và các kỹ thuật thu hẹp kiểu dữ liệu (Type Narrowing) nhằm đảm bảo an toàn tại Compile-time. |
 | [[typescript-generics]] | TypeScript Generics, Generic Constraints, Generic Default | Phân tích sức mạnh của Generics, cách sử dụng tham số kiểu <T> để kiến tạo các cấu trúc dữ liệu và hàm linh hoạt, có thể tái sử dụng cao mà không đánh đổi tính an toàn tĩnh. |
 
-## Tools (5 articles)
+## Tools (7 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -66,6 +66,8 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[apache-kafka]] | Kafka | Nền tảng xử lý luồng sự kiện phân tán, nổi bật với thông lượng cao và khả năng lưu trữ dữ liệu thời gian thực. |
 | [[rabbitmq]] | | Message broker mã nguồn mở linh hoạt, hỗ trợ nhiều giao thức và định tuyến tin nhắn phức tạp. |
 | [[oracle-database]] | Oracle, Oracle DB | Hệ quản trị CSDL quan hệ tiêu chuẩn vàng cho các hệ thống Core Banking và tài chính. |
+| [[react-router-dom]] | React Router | Thư viện quản lý định tuyến tiêu chuẩn dành cho các ứng dụng Single Page Application (SPA) xây dựng bằng React. |
+| [[jotai]] | | Thư viện quản lý trạng thái (state management) cho React theo mô hình cấu trúc nguyên tử (Atomic). |
 
 ## People (0 articles)
 
@@ -73,7 +75,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 |---------|---------|---------|
 | _Empty_ | | |
 
-## Comparisons (7 articles)
+## Comparisons (8 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -84,10 +86,11 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[kafka-vs-rabbitmq]] | RabbitMQ vs Kafka, So sánh Kafka và RabbitMQ | Phân tích và đối chiếu sự khác biệt giữa RabbitMQ (hệ thống định tuyến tin nhắn) và Apache Kafka (nền tảng xử lý luồng sự kiện). |
 | [[delete-vs-truncate]] | so sánh delete và truncate, khác biệt giữa delete và truncate | Phân tích sự khác biệt cốt lõi giữa lệnh xóa mềm dẻo (DELETE) và lệnh dọn dẹp cấu trúc (TRUNCATE) trong cơ sở dữ liệu quan hệ. |
 | [[interface-vs-type-alias]] | Interface vs Type Alias, Declaration Merging, Intersection Types | Phân tích sự khác biệt về mặt kiến trúc, cơ chế kế thừa, và trải nghiệm lập trình (DX) giữa hai trường phái định kiểu cấu trúc dữ liệu cốt lõi trong TypeScript. |
+| [[virtual-dom-vs-real-dom]] | Virtual DOM vs Real DOM | Phân tích sự khác biệt về bản chất và hiệu năng giữa kiến trúc Real DOM truyền thống và giải pháp trung gian Virtual DOM của React. |
 
 ---
 
-## Raw Sources (36 documents)
+## Raw Sources (40 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -140,6 +143,10 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/articles/ts-module-05.md` | Article | 2026-04-23 |
 | `raw/articles/ts-module-06.md` | Article | 2026-04-23 |
 | `raw/articles/ts-module-07.md` | Article | 2026-04-23 |
+| `raw/articles/material-routes-react-router-dom-định-tuyến-cho-react-app.md` | Article | 2026-04-24 |
+| `raw/articles/material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md` | Article | 2026-04-24 |
+| `raw/articles/material-file-tree-virtual-dom-vs-real-dom-bí-mật-đằng-sau-hiệu-năng-gốc-của-rea.md` | Article | 2026-04-24 |
+| `raw/articles/material-react-react-với-typescript-series-overview.md` | Article | 2026-04-24 |
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23",
+  "last_updated": "2026-04-24",
   "sources": {
     "raw/articles/1.1.md": {
       "absorbed_at": "2026-04-23",
@@ -196,6 +196,22 @@
     "raw/articles/ts-module-07.md": {
       "absorbed_at": "2026-04-23",
       "wiki_articles": ["typescript-generics"]
+    },
+    "raw/articles/material-routes-react-router-dom-định-tuyến-cho-react-app.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["react-router-dom"]
+    },
+    "raw/articles/material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["jotai"]
+    },
+    "raw/articles/material-file-tree-virtual-dom-vs-real-dom-bí-mật-đằng-sau-hiệu-năng-gốc-của-rea.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["virtual-dom-vs-real-dom"]
+    },
+    "raw/articles/material-react-react-với-typescript-series-overview.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": []
     }
   }
 }

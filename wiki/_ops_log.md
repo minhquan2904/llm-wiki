@@ -39,3 +39,5 @@ summary: "Chronological log of all wiki operations"
 ## [2026-04-23] file-back | wiki/comparisons/delete-vs-truncate.md
 ## [2026-04-23] ingest | raw/misc/ts (TypeScript: Sinh Tồn Trong Kỷ Nguyên Kỹ Thuật Số)
 ## [2026-04-23] compile | 8 bài mới, 0 cập nhật từ 8 tài liệu raw/articles (TypeScript)
+## [2026-04-24] ingest | raw/articles/react (React Series)
+## [2026-04-24] compile | 3 bài mới, 0 cập nhật từ 4 tài liệu raw/articles (React Series)

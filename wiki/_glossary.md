@@ -29,6 +29,9 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 ## I
 - **Immutability:** Tính bất biến. Trạng thái không thể bị thay đổi sau khi đã được khởi tạo, đóng vai trò quan trọng trong việc quản lý bộ nhớ và kiến trúc State Management.
 
+## J
+- **Jotai:** Thư viện quản lý trạng thái (state management) cho React theo mô hình nguyên tử (Atomic).
+
 ## K
 - **Kafka:** Nền tảng xử lý luồng sự kiện phân tán, lưu trữ dữ liệu theo thời gian thực với thông lượng cực cao.
 
@@ -62,6 +65,8 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **RAP (Resource Access Point):** Điểm truy cập tài nguyên. Giao diện trực tiếp bảo vệ và quản lý các tài nguyên, thường phối hợp với PEP để thực thi quyết định cho các gói dữ liệu cụ thể.
 - **RabbitMQ:** Message broker mã nguồn mở linh hoạt, phổ biến nhờ mô hình định tuyến thông điệp phong phú qua Exchanges và Queues.
 - **RBAC (Role-Based Access Control):** Kiểm soát truy cập dựa trên vai trò. Mô hình truyền thống định nghĩa quyền truy cập dựa trên chức danh công việc của người dùng trong hệ thống.
+- **React:** Thư viện JavaScript mã nguồn mở dùng để xây dựng giao diện người dùng dựa trên các Component và cơ chế Virtual DOM.
+- **React Router DOM:** Thư viện quản lý định tuyến (routing) tiêu chuẩn cho các ứng dụng trang đơn (SPA) trong hệ sinh thái React.
 - **Reactive Programming:** Lập trình phản ứng. Mô hình lập trình xoay quanh việc thiết lập các luồng dữ liệu bất đồng bộ (Data Streams) và phản ứng khi có dữ liệu mới.
 - **Reducer:** Hàm thuần túy (Pure Function) trong mô hình Redux/NgRx chịu trách nhiệm tiếp nhận trạng thái hiện tại và một hành động (Action) để trả về một trạng thái hoàn toàn mới.
 
@@ -72,6 +77,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Sequential Multi-Domain Execution:** Thực thi đa miền tuần tự. Kiến trúc điều phối ép các tác tử AI làm việc theo các giai đoạn phân tầng có tính trật tự thời gian khắt khe nhằm giải quyết các dự án phức tạp.
 - **Skills System:** Hệ thống Kỹ năng. Lớp hạ tầng chuyên biệt tổ chức và phân tán cơ sở tri thức cho tác tử AI thành các mô-đun biệt lập.
 - **Socratic Gate Protocol:** Giao thức Cổng Socrates. Cơ chế kiểm duyệt ý định tiền thực thi buộc AI đặt câu hỏi ngược lại người dùng thay vì tự động sinh mã vô căn cứ nhằm triệt tiêu ảo giác kiến trúc.
+- **SPA (Single Page Application):** Ứng dụng trang đơn. Mô hình ứng dụng web nơi toàn bộ nội dung được tải trong một trang HTML duy nhất và được điều hướng cục bộ bằng JavaScript.
 - **Store:** "Kho thóc trung ương" trong kiến trúc State Management, là nơi duy nhất (Single Source of Truth) lưu trữ toàn bộ dữ liệu (State) của ứng dụng.
 - **Strict Mode:** Chế độ thiết quân luật. Cấu hình hạt nhân của TypeScript kích hoạt chuỗi kiểm tra khắt khe nhằm triệt tiêu các lỗ hổng logic tiềm ẩn tại thời điểm biên dịch.
 - **Subject:** Chủ thể. Các thực thể chủ động (như người dùng, tiến trình máy tính) đóng vai trò yêu cầu hoặc thực hiện các hoạt động lên các Đối tượng.
@@ -83,3 +89,6 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## U
 - **Union Types:** Kiểu hợp. Cơ chế cho phép một biến hoặc tham số có thể nhận một trong nhiều định dạng kiểu khác nhau, hỗ trợ tính đa hình trong hệ thống định kiểu.
+
+## V
+- **Virtual DOM:** Bản sao nháp ảo của cấu trúc HTML DOM, giúp gộp các thay đổi (Batching) để tối ưu hóa tần suất tính toán (Reflow/Repaint) của trình duyệt.

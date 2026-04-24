@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 53,
-  "total_links": 143,
+  "total_articles": 56,
+  "total_links": 152,
   "backlinks": {
     "attribute-based-access-control": [
       "abac-vs-rbac",
@@ -29,6 +29,13 @@
       "database-normalization",
       "flashback-data-archive",
       "pl-sql"
+    ],
+    "javascript-under-the-hood": [
+      "virtual-dom-vs-real-dom",
+      "javascript-advanced-mechanisms",
+      "javascript-asynchronous-programming",
+      "javascript-memory-management",
+      "javascript-variables-and-scope"
     ],
     "antigravity-kit": [
       "antigravity-skills-system",
@@ -60,12 +67,6 @@
       "javascript-memory-management",
       "javascript-under-the-hood",
       "ngrx-state-management"
-    ],
-    "javascript-under-the-hood": [
-      "javascript-advanced-mechanisms",
-      "javascript-asynchronous-programming",
-      "javascript-memory-management",
-      "javascript-variables-and-scope"
     ],
     "typescript-functions": [
       "typescript-basic-types",
@@ -177,6 +178,10 @@
       "javascript-asynchronous-programming",
       "ngrx-state-management"
     ],
+    "ngrx-state-management": [
+      "rxjs-reactive-programming",
+      "jotai"
+    ],
     "socratic-gate-protocol": [
       "sequential-multi-domain-execution",
       "google-antigravity"
@@ -207,6 +212,12 @@
     ],
     "ts-module-06.md": [
       "interface-vs-type-alias"
+    ],
+    "dom-performance-optimization": [
+      "virtual-dom-vs-real-dom"
+    ],
+    "material-file-tree-virtual-dom-vs-real-dom-bí-mật-đằng-sau-hiệu-năng-gốc-của-rea.md": [
+      "virtual-dom-vs-real-dom"
     ],
     "authentication-vs-authorization": [
       "access-control-policy-enforcement"
@@ -244,9 +255,6 @@
     "message-broker": [
       "publish-subscribe"
     ],
-    "ngrx-state-management": [
-      "rxjs-reactive-programming"
-    ],
     "ts-module-03.md": [
       "tsconfig"
     ],
@@ -277,11 +285,26 @@
     "antigravity-skills-system": [
       "antigravity-kit"
     ],
+    "react-router-dom": [
+      "jotai"
+    ],
+    "material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md": [
+      "jotai"
+    ],
     "pl-sql": [
       "oracle-database"
     ],
     "summary.md": [
       "oracle-database"
+    ],
+    "jotai": [
+      "react-router-dom"
+    ],
+    "virtual-dom-vs-real-dom": [
+      "react-router-dom"
+    ],
+    "material-routes-react-router-dom-định-tuyến-cho-react-app.md": [
+      "react-router-dom"
     ]
   }
 }
