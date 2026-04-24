@@ -20,6 +20,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **CAS (Compare-And-Swap):** Thuật toán lõi trong các thư viện nguyên tử (Atomic), hoạt động theo cơ chế khóa lạc quan (lock-free) bằng cách liên tục kiểm tra và đối chiếu bộ nhớ.
 - **Closure:** Bao đóng. Hiện tượng một hàm ghi nhớ và có thể truy cập các biến nằm ở phạm vi bên ngoài của nó ngay cả khi hàm bên ngoài đã thực thi xong.
 - **Cognitive Routing:** Định tuyến nhận thức đa chiều. Cơ chế tự động nhận diện ý định ẩn từ mô tả tự nhiên để ánh xạ công việc tới chuyên gia AI phù hợp.
+- **Composition:** Lắp ráp. Kỹ thuật thiết kế phần mềm kết hợp các đối tượng hoặc kiểu dữ liệu để tạo ra cấu trúc dữ liệu phức tạp hơn, ưu tiên sử dụng thay thế cho Kế thừa.
 - **ConcurrentHashMap:** Cấu trúc dữ liệu từ điển hỗ trợ đa luồng tốc độ cao dựa trên cơ chế Bucket Locking và thuật toán CAS, không cho phép chứa khóa (key) hoặc giá trị (value) null.
 
 ## D
@@ -30,7 +31,11 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **EPP (Event Processing Point):** Điểm xử lý sự kiện. Thành phần trong mô hình NGAC, chịu trách nhiệm nhận diện và phản ứng với các thay đổi trạng thái trong môi trường theo thời gian thực để cập nhật chính sách.
 - **Event Loop:** Vòng lặp sự kiện. Cơ chế điều phối cốt lõi của JavaScript giúp ngôn ngữ luồng đơn này xử lý các tác vụ bất đồng bộ mà không bị chặn (non-blocking).
 
+## F
+- **Forward Proxy:** Proxy thuận. Cổng trung gian đứng giữa người dùng (client) và Internet, hoạt động thay mặt người dùng để truy xuất tài nguyên từ bên ngoài.
+
 ## G
+- **Generic Repository Pattern:** Mẫu thiết kế trừu tượng hóa các thao tác cơ sở dữ liệu chung (CRUD) vào một lớp duy nhất sử dụng tham số kiểu (Generics) để giảm thiểu mã lặp lại.
 - **Generics:** Hệ gen nhân tạo. Khái niệm sử dụng tham số kiểu (Type Parameter) để xây dựng cấu trúc dữ liệu và hàm linh hoạt, đảm bảo an toàn tĩnh (Compile-time) nhưng bị Xóa kiểu (Type Erasure) lúc chạy.
 
 ## H
@@ -38,6 +43,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## I
 - **Immutability:** Tính bất biến. Trạng thái không thể bị thay đổi sau khi đã được khởi tạo, đóng vai trò quan trọng trong việc bảo vệ an toàn bộ nhớ khi lập trình đa luồng (Race Condition).
+- **Inheritance:** Kế thừa. Cơ chế cốt lõi của OOP cho phép một lớp (class) dựa trên một lớp khác, kế thừa trạng thái và hành vi của nó, biểu diễn mối quan hệ "is-a".
 - **Inversion of Control (IoC):** Đảo ngược điều khiển. Triết lý kiến trúc mà trong đó luồng điều khiển và việc quản lý vòng đời đối tượng được giao lại cho một Container trung tâm (như Spring).
 
 ## J
@@ -46,6 +52,10 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## K
 - **Kafka:** Nền tảng xử lý luồng sự kiện phân tán, lưu trữ dữ liệu theo thời gian thực với thông lượng cực cao.
+
+## L
+- **Leaky Abstraction:** Trừu tượng bị rò rỉ. Hiện tượng xảy ra khi một lớp trừu tượng không thể che giấu hoàn toàn sự phức tạp của hệ thống bên dưới, buộc người sử dụng phải can thiệp trực tiếp vào chi tiết thực thi.
+- **Load Balancing:** Cân bằng tải. Kỹ thuật phân phối lưu lượng mạng đến nhiều máy chủ khác nhau nhằm tối ưu hóa việc sử dụng tài nguyên và ngăn ngừa tình trạng quá tải.
 
 ## M
 - **MAC (Mandatory Access Control):** Kiểm soát truy cập bắt buộc. Mô hình nghiêm ngặt nơi mọi quyền truy cập đều bị chi phối bởi các quy tắc trung tâm, bất kể ý chí của người dùng sở hữu.
@@ -56,6 +66,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## N
 - **NGAC (Next-Generation Access Control):** Kiểm soát truy cập thế hệ tiếp theo. Mô hình truy cập dựa trên biểu đồ, cho phép biểu diễn các chính sách phức tạp và đồng nhất.
+- **NGINX:** Máy chủ web và hệ thống proxy ngược mã nguồn mở nổi tiếng với kiến trúc xử lý bất đồng bộ và hướng sự kiện.
 - **NgRx:** Thư viện quản trị trạng thái (State Management) dành cho Angular, dựa trên mô hình Redux Pattern và RxJS.
 
 ## O
@@ -84,11 +95,13 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **React Router DOM:** Thư viện quản lý định tuyến (routing) tiêu chuẩn cho các ứng dụng trang đơn (SPA) trong React.
 - **Reactive Programming:** Lập trình phản ứng. Mô hình lập trình xoay quanh việc thiết lập các luồng dữ liệu bất đồng bộ (Data Streams).
 - **Reducer:** Hàm thuần túy (Pure Function) trong mô hình Redux chịu trách nhiệm nhận trạng thái hiện tại và Action để trả về một trạng thái hoàn toàn mới.
+- **Reverse Proxy:** Proxy ngược. Cổng trung gian đứng trước các máy chủ backend (như web server), làm nhiệm vụ nhận yêu cầu từ Internet và phân phối đến các máy chủ nội bộ một cách an toàn.
 
 ## S
 - **Sequential Multi-Domain Execution:** Thực thi đa miền tuần tự. Kiến trúc điều phối ép AI làm việc theo các giai đoạn phân tầng có trật tự thời gian khắt khe.
 - **Skills System:** Hệ thống Kỹ năng. Lớp hạ tầng phân tán cơ sở tri thức cho tác tử AI thành các mô-đun biệt lập.
 - **Socratic Gate Protocol:** Giao thức Cổng Socrates. Cơ chế kiểm duyệt ý định tiền thực thi buộc AI đặt câu hỏi ngược lại người dùng để chống ảo giác.
+- **SOLID Principles:** Các nguyên tắc SOLID. Bộ 5 nguyên tắc thiết kế hướng đối tượng (SRP, OCP, LSP, ISP, DIP) nhằm giúp phần mềm linh hoạt, dễ bảo trì và dễ mở rộng.
 - **SPA (Single Page Application):** Ứng dụng trang đơn. Trang web tải một lần duy nhất và điều hướng cục bộ bằng JavaScript.
 - **Stateless Bean:** Đối tượng phi trạng thái trong thiết kế Spring Framework, nơi dữ liệu khả biến cấp toàn cục bị cấm nhằm bảo đảm an toàn trên môi trường đa luồng (Singleton).
 - **Store:** "Kho thóc trung ương" trong kiến trúc State Management, là nơi duy nhất lưu trữ toàn bộ dữ liệu (State) của ứng dụng.

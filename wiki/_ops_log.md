@@ -49,3 +49,16 @@ summary: "Chronological log of all wiki operations"
 ## [2026-04-24] ingest | Làm Chủ Spring Validation: Chiến Lược Phòng Thủ Đa Tầng
 ## [2026-04-24] ingest | Nhập Môn Java Concurrency & Quản Lý Tài Nguyên
 ## [2026-04-24] compile | 10 bài mới, 0 cập nhật từ 9 tài liệu raw/papers (Java & Spring)
+## [2026-04-24] ask | jackson là gì
+## [2026-04-24] ingest | NGINX - Động cơ bí ẩn và chiếc dao Thụy Sỹ
+## [2026-04-24] compile | 1 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (Nginx)
+## [2026-04-24] ingest | Từ Rừng Rậm đến LEGO: Nghệ thuật thiết kế phần mềm
+## [2026-04-24] compile | 1 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (OOP LEGO)
+## [2026-04-24] ingest | Generic Repository: Những Sự Đánh Đổi và Hướng Tiếp Cận Hybrid
+## [2026-04-24] compile | 1 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (Generic Repo)
+## [2026-04-24] ingest | Từ Nguyên tắc đến Kiến trúc: Dependency Injection là Trụ cột Chính
+## [2026-04-24] compile | 1 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (Dependency Injection)
+## [2026-04-24] ingest | Kiến trúc Bền vững trong FinTech: Ứng dụng State & Command Pattern
+## [2026-04-24] compile | 2 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (State & Command Pattern)
+
+

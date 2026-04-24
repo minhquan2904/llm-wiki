@@ -248,6 +248,26 @@
     "raw/papers/đa-luồng-chân-kinh.md": {
       "absorbed_at": "2026-04-24",
       "wiki_articles": ["java-concurrency-fundamentals", "java-concurrent-collections", "java-immutability", "spring-ioc-di"]
+    },
+    "raw/articles/nginx-tong-quan-va-cau-hinh.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["nginx"]
+    },
+    "raw/articles/tu-rung-ram-den-lego-nghe-thuat-thiet-ke-phan-mem.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["composition-vs-inheritance"]
+    },
+    "raw/articles/generic-repository-pattern.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["generic-repository-pattern"]
+    },
+    "raw/articles/dependency-injection-in-oop.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["dependency-injection"]
+    },
+    "raw/articles/state-and-command-pattern-fintech.md": {
+      "absorbed_at": "2026-04-24",
+      "wiki_articles": ["state-pattern", "command-pattern"]
     }
   }
 }

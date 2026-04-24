@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 63  
+**Total articles:** 69  
 **Last updated:** 2026-04-24
 
 ---
 
-## Concepts (47 articles)
+## Concepts (48 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -65,8 +65,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[spring-async-execution]] | spring-async, enableasync | Phân tích kiến trúc thực thi bất đồng bộ của Spring Framework dựa trên Annotation @Async và vai trò của ThreadPoolTaskExecutor. |
 | [[java-virtual-threads]] | virtual-threads, loom | Cách mạng kiến trúc đa luồng từ Project Loom, tách rời luồng Java khỏi luồng Hệ điều hành thông qua Virtual Threads và định hình lại mô hình xử lý đa luồng hiện đại. |
 | [[java-immutability]] | java-immutability, records | Phân tích tác động kiến trúc của tính bất biến, từ cơ chế phòng thủ đa luồng đến việc triển khai Java Records và Stateless Spring Beans. |
+| [[generic-repository-pattern]] | Mẫu thiết kế Generic Repository, Hướng tiếp cận Hybrid Repository, Leaky Abstraction | Mẫu thiết kế cung cấp lớp giao tiếp dữ liệu chung nhằm giảm thiểu mã lặp lại, đồng thời đi kèm các đánh đổi về rò rỉ trừu tượng và hiệu năng. |
+| [[dependency-injection]] | Dependency Injection trong OOP | Phân tích nguyên lý SOLID, cơ chế Đảo ngược Điều khiển (IoC) và Tiêm Phụ thuộc (DI) như những trụ cột kiến trúc giúp giảm thiểu phụ thuộc cứng trong phát triển phần mềm. |
+| [[state-pattern]] | Mẫu thiết kế State, Quản lý trạng thái | Mẫu thiết kế hành vi cho phép một đối tượng thay đổi hành vi của nó khi trạng thái nội bộ thay đổi, giúp loại bỏ các câu lệnh điều kiện phức tạp. |
+| [[command-pattern]] | Mẫu thiết kế Command, Quản lý giao dịch, Command Object | Mẫu thiết kế hành vi giúp biến đổi một yêu cầu thành một đối tượng độc lập, hỗ trợ thực thi bất đồng bộ, lưu vết kiểm toán và hoàn tác (Undo). |
 
-## Tools (8 articles)
+## Tools (9 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -78,6 +82,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[react-router-dom]] | React Router | Thư viện quản lý định tuyến tiêu chuẩn dành cho các ứng dụng Single Page Application (SPA) xây dựng bằng React. |
 | [[jotai]] | | Thư viện quản lý trạng thái (state management) cho React theo mô hình cấu trúc nguyên tử (Atomic). |
 | [[jackson-databind]] | jackson, jackson-databind | Bộ chuyển đổi dữ liệu JSON tiêu chuẩn của hệ sinh thái Java, nổi bật với hiệu suất cao và khả năng tích hợp sâu sắc với Spring Boot thông qua ObjectMapper. |
+| [[nginx]] | Nginx, engine x | Máy chủ web mã nguồn mở nổi bật với cơ chế xử lý bất đồng bộ, thường được ứng dụng làm Reverse Proxy và Load Balancer. |
 
 ## People (0 articles)
 
@@ -85,7 +90,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 |---------|---------|---------|
 | _Empty_ | | |
 
-## Comparisons (8 articles)
+## Comparisons (9 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -97,10 +102,11 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[delete-vs-truncate]] | so sánh delete và truncate, khác biệt giữa delete và truncate | Phân tích sự khác biệt cốt lõi giữa lệnh xóa mềm dẻo (DELETE) và lệnh dọn dẹp cấu trúc (TRUNCATE) trong cơ sở dữ liệu quan hệ. |
 | [[interface-vs-type-alias]] | Interface vs Type Alias, Declaration Merging, Intersection Types | Phân tích sự khác biệt về mặt kiến trúc, cơ chế kế thừa, và trải nghiệm lập trình (DX) giữa hai trường phái định kiểu cấu trúc dữ liệu cốt lõi trong TypeScript. |
 | [[virtual-dom-vs-real-dom]] | Virtual DOM vs Real DOM | Phân tích sự khác biệt về bản chất và hiệu năng giữa kiến trúc Real DOM truyền thống và giải pháp trung gian Virtual DOM của React. |
+| [[composition-vs-inheritance]] | Composition over Inheritance | Phân tích sự khác biệt giữa thiết kế theo mô hình Kế thừa cứng nhắc và Lắp ráp linh hoạt trong OOP. |
 
 ---
 
-## Raw Sources (49 documents)
+## Raw Sources (52 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -166,6 +172,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/papers/multithreading-concurrency-trong-spring-boot-từ-cơ-bản-đến-virtual-threads.md` | Article | 2026-04-24 |
 | `raw/papers/mutable-vs-immutabletác-động-kiến-trúc-trong-java-spring-từ-cơ-chế-jvm-đến-thiết.md` | Article | 2026-04-24 |
 | `raw/papers/đa-luồng-chân-kinh.md` | Article | 2026-04-24 |
+| `raw/articles/nginx-tong-quan-va-cau-hinh.md` | Article | 2026-04-24 |
+| `raw/articles/tu-rung-ram-den-lego-nghe-thuat-thiet-ke-phan-mem.md` | Article | 2026-04-24 |
+| `raw/articles/generic-repository-pattern.md` | Article | 2026-04-24 |
+| `raw/articles/dependency-injection-in-oop.md` | Article | 2026-04-24 |
+| `raw/articles/state-and-command-pattern-fintech.md` | Article | 2026-04-24 |
+
 
 ---
 
