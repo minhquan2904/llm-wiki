@@ -60,5 +60,7 @@ summary: "Chronological log of all wiki operations"
 ## [2026-04-24] compile | 1 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (Dependency Injection)
 ## [2026-04-24] ingest | Kiến trúc Bền vững trong FinTech: Ứng dụng State & Command Pattern
 ## [2026-04-24] compile | 2 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (State & Command Pattern)
-
-
+## [2026-04-29] ask | jotai trong react là gì
+## [2026-04-29] ask | tanstack/react-query là gì
+## [2026-04-29] autoresearch | tanstack react query kiến trúc — 1 vòng, 1 nguồn nạp
+## [2026-04-29] compile | 1 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (tanstack-query-architecture.md)

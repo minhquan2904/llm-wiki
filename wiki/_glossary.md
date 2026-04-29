@@ -99,10 +99,12 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## S
 - **Sequential Multi-Domain Execution:** Thực thi đa miền tuần tự. Kiến trúc điều phối ép AI làm việc theo các giai đoạn phân tầng có trật tự thời gian khắt khe.
+- **Server State:** Trạng thái máy chủ. Dữ liệu lưu trữ ở máy chủ, có tính bất đồng bộ, không thuộc sở hữu độc quyền của frontend và có thể bị lỗi thời. **Xem thêm:** [[tanstack-query]]
 - **Skills System:** Hệ thống Kỹ năng. Lớp hạ tầng phân tán cơ sở tri thức cho tác tử AI thành các mô-đun biệt lập.
 - **Socratic Gate Protocol:** Giao thức Cổng Socrates. Cơ chế kiểm duyệt ý định tiền thực thi buộc AI đặt câu hỏi ngược lại người dùng để chống ảo giác.
 - **SOLID Principles:** Các nguyên tắc SOLID. Bộ 5 nguyên tắc thiết kế hướng đối tượng (SRP, OCP, LSP, ISP, DIP) nhằm giúp phần mềm linh hoạt, dễ bảo trì và dễ mở rộng.
 - **SPA (Single Page Application):** Ứng dụng trang đơn. Trang web tải một lần duy nhất và điều hướng cục bộ bằng JavaScript.
+- **Stale-While-Revalidate:** Trả cũ tải mới. Chiến lược caching cho phép hiển thị dữ liệu cũ (stale) ngay lập tức trong lúc âm thầm tải lại dữ liệu mới (fresh) ở nền để tối ưu trải nghiệm. **Xem thêm:** [[tanstack-query]]
 - **Stateless Bean:** Đối tượng phi trạng thái trong thiết kế Spring Framework, nơi dữ liệu khả biến cấp toàn cục bị cấm nhằm bảo đảm an toàn trên môi trường đa luồng (Singleton).
 - **Store:** "Kho thóc trung ương" trong kiến trúc State Management, là nơi duy nhất lưu trữ toàn bộ dữ liệu (State) của ứng dụng.
 - **Strict Mode:** Chế độ thiết quân luật trong TypeScript nhằm kích hoạt chuỗi kiểm tra khắt khe, triệt tiêu lỗi tiềm ẩn tại Compile-time.
@@ -110,6 +112,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Subject:** Chủ thể. Các thực thể chủ động đóng vai trò yêu cầu hoặc thực hiện các hoạt động lên Đối tượng.
 
 ## T
+- **TanStack Query:** (hay React Query). Thư viện quản lý trạng thái máy chủ chuyên nghiệp, giải quyết các vấn đề liên quan đến fetching, caching và đồng bộ dữ liệu. **Xem thêm:** [[tanstack-query]]
 - **ThreadPoolTaskExecutor:** Lớp bảo bọc (Wrapper) của Spring giúp cấu hình và giới hạn tài nguyên bể luồng nhằm thực thi các thao tác bất đồng bộ an toàn.
 - **Type Coercion:** Ép kiểu ngầm. Cơ chế tự động chuyển đổi định dạng dữ liệu của JavaScript khi tính toán giữa các giá trị không đồng nhất.
 - **Type Erasure:** Xóa kiểu. Việc trình biên dịch xóa bỏ định nghĩa tham số Generics (thành Object) trên Bytecode để tương thích ngược, làm mất thông tin tại Runtime.

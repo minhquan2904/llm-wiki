@@ -268,6 +268,10 @@
     "raw/articles/state-and-command-pattern-fintech.md": {
       "absorbed_at": "2026-04-24",
       "wiki_articles": ["state-pattern", "command-pattern"]
+    },
+    "raw/articles/tanstack-query-architecture.md": {
+      "absorbed_at": "2026-04-29",
+      "wiki_articles": ["tanstack-query"]
     }
   }
 }

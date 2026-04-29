@@ -9,8 +9,8 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 69  
-**Last updated:** 2026-04-24
+**Total articles:** 70  
+**Last updated:** 2026-04-29
 
 ---
 
@@ -70,7 +70,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[state-pattern]] | Mẫu thiết kế State, Quản lý trạng thái | Mẫu thiết kế hành vi cho phép một đối tượng thay đổi hành vi của nó khi trạng thái nội bộ thay đổi, giúp loại bỏ các câu lệnh điều kiện phức tạp. |
 | [[command-pattern]] | Mẫu thiết kế Command, Quản lý giao dịch, Command Object | Mẫu thiết kế hành vi giúp biến đổi một yêu cầu thành một đối tượng độc lập, hỗ trợ thực thi bất đồng bộ, lưu vết kiểm toán và hoàn tác (Undo). |
 
-## Tools (9 articles)
+## Tools (10 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -83,6 +83,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[jotai]] | | Thư viện quản lý trạng thái (state management) cho React theo mô hình cấu trúc nguyên tử (Atomic). |
 | [[jackson-databind]] | jackson, jackson-databind | Bộ chuyển đổi dữ liệu JSON tiêu chuẩn của hệ sinh thái Java, nổi bật với hiệu suất cao và khả năng tích hợp sâu sắc với Spring Boot thông qua ObjectMapper. |
 | [[nginx]] | Nginx, engine x | Máy chủ web mã nguồn mở nổi bật với cơ chế xử lý bất đồng bộ, thường được ứng dụng làm Reverse Proxy và Load Balancer. |
+| [[tanstack-query]] | React Query, TanStack React Query | Thư viện quản lý trạng thái máy chủ (Server State) độc lập cho ứng dụng web, nổi bật với cơ chế caching tự động và kiến trúc Observer. |
 
 ## People (0 articles)
 
@@ -106,7 +107,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 ---
 
-## Raw Sources (52 documents)
+## Raw Sources (53 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -177,6 +178,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/articles/generic-repository-pattern.md` | Article | 2026-04-24 |
 | `raw/articles/dependency-injection-in-oop.md` | Article | 2026-04-24 |
 | `raw/articles/state-and-command-pattern-fintech.md` | Article | 2026-04-24 |
+| [[raw/articles/tanstack-query-architecture.md]] | Article | 2026-04-29 |
 
 
 ---
