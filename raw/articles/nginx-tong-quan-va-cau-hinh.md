@@ -87,17 +87,17 @@ upstream api_gateways {
 # 2. Server block xử lý request
 server {
     listen 443 ssl; # Hoặc listen 9092 theo ví dụ
-    server_name eibomni.vnpaytest.vn;
+    server_name eibomni.kylantest.vn;
 
     root /home/dvnh/EIB_OMNI/ib-web;
     index index.html;
 
     # 3. Khai báo các response header toàn cục cho server block (VD: CSP)
-    set $CSP_image   "img-src 'self' 'unsafe-inline' blob: data: *.vnpay.vn;";
+    set $CSP_image   "img-src 'self' 'unsafe-inline' blob: data: *.kylan.vn;";
     set $CSP_script  "script-src 'self' 'unsafe-inline';";
     set $CSP_style   "style-src 'self' 'unsafe-inline' fonts.googleapis.com;";
     set $CSP_font    "font-src 'self' data: fonts.gstatic.com;";
-    set $CSP_connect "connect-src 'self' 'unsafe-inline' blob: data: *.vnpaytest.vn;";
+    set $CSP_connect "connect-src 'self' 'unsafe-inline' blob: data: *.kylantest.vn;";
 
     set $CSP "default-src 'self'; ${CSP_connect} ${CSP_image} ${CSP_script} ${CSP_style} ${CSP_font}";
 
