@@ -64,3 +64,12 @@ summary: "Chronological log of all wiki operations"
 ## [2026-04-29] ask | tanstack/react-query là gì
 ## [2026-04-29] autoresearch | tanstack react query kiến trúc — 1 vòng, 1 nguồn nạp
 ## [2026-04-29] compile | 1 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (tanstack-query-architecture.md)
+## [2026-04-29] ask | React Router DOM v6 là gì
+## [2026-04-29] ask | shadcn/ui là gì
+## [2026-05-04] autoresearch | biểu đồ sự khác biệt về người dùng AI và người ko dùng AI — 2 vòng, 3 nguồn nạp
+## [2026-05-04] ask | biểu đồ sự khác biệt giữa người dùng AI và người ko dùng
+## [2026-05-04] ingest | raw/ngac (Next Generation Access Control)
+## [2026-05-04] compile | 2 bài mới, 1 cập nhật từ 1 tài liệu raw/ngac (NGAC Architecture, Security Model)
+## [2026-05-04] ingest | raw/ngac/ngac_in_real_project (NGAC Practical Guide, Permission Check Queries, Permission DB Mapping, Permission Graph)
+## [2026-05-04] compile | 3 bài mới, 1 cập nhật từ 4 tài liệu raw/ngac_in_real_project (NGAC Database Design, Permission Graph, Practical Implementation)
+## [2026-05-04] ingest | NGAC Practical Guide — Tài liệu thực chiến

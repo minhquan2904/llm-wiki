@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-05-04",
   "sources": {
     "raw/articles/1.1.md": {
       "absorbed_at": "2026-04-23",
@@ -272,6 +272,51 @@
     "raw/articles/tanstack-query-architecture.md": {
       "absorbed_at": "2026-04-29",
       "wiki_articles": ["tanstack-query"]
+    },
+    "raw/articles/hbs-jagged-frontier-ai-productivity.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["jagged-technological-frontier", "skill-leveling-effect"]
+    },
+    "raw/articles/pew-brookings-ai-adoption-demographics.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ai-users-vs-non-users"]
+    },
+    "raw/articles/stanford-nber-ai-users-vs-non-users.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ai-users-vs-non-users"]
+    },
+    "raw/ngac/ngac.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "next-generation-access-control",
+        "ngac-architecture",
+        "ngac-security-model"
+      ]
+    },
+    "raw/ngac/ngac_in_real_project/ngac-practical-guide.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "ngac-practical-implementation",
+        "next-generation-access-control"
+      ]
+    },
+    "raw/ngac/ngac_in_real_project/permission-check-queries.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "ngac-database-design"
+      ]
+    },
+    "raw/ngac/ngac_in_real_project/permission-db-mapping.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "ngac-database-design"
+      ]
+    },
+    "raw/ngac/ngac_in_real_project/permission-graph.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "ngac-permission-graph"
+      ]
     }
   }
 }

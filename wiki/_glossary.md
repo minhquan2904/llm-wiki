@@ -26,6 +26,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 ## D
 - **DAC (Discretionary Access Control):** Kiểm soát truy cập tùy ý. Mô hình kiểm soát linh hoạt cho phép người tạo/chủ sở hữu tài nguyên tự ý quản lý và chia sẻ lại quyền truy cập cho người khác.
 - **Dependency Injection (DI):** Tiêm phụ thuộc. Mô hình thực hành IoC trong đó các thành phần phụ thuộc của một đối tượng được tiêm vào từ bên ngoài (ưu tiên qua Constructor) thay vì đối tượng tự khởi tạo.
+- **Digital Divide:** Khoảng cách kỹ thuật số. Sự phân hóa về lợi thế và hiệu suất giữa người dùng thành thạo công nghệ (như AI) và người không sử dụng. **Xem thêm:** [[ai-users-vs-non-users]]
 
 ## E
 - **EPP (Event Processing Point):** Điểm xử lý sự kiện. Thành phần trong mô hình NGAC, chịu trách nhiệm nhận diện và phản ứng với các thay đổi trạng thái trong môi trường theo thời gian thực để cập nhật chính sách.
@@ -40,6 +41,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## H
 - **Hoisting:** Cơ chế kéo phần khai báo biến (var) hoặc hàm lên đầu phạm vi (scope) trong giai đoạn biên dịch trước khi thực thi.
+- **Hybrid NGAC:** NGAC lai. Mô hình kiến trúc phân tách vai trò: NGAC hoạt động như một "Guard" (bảo vệ các tác vụ trong in-memory graph), còn hệ thống RDBMS đóng vai trò "Store" nhằm tối ưu các truy vấn liệt kê (list) và phân trang (pagination). **Xem thêm:** [[ngac-practical-implementation]]
 
 ## I
 - **Immutability:** Tính bất biến. Trạng thái không thể bị thay đổi sau khi đã được khởi tạo, đóng vai trò quan trọng trong việc bảo vệ an toàn bộ nhớ khi lập trình đa luồng (Race Condition).
@@ -48,6 +50,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## J
 - **Jackson (Databind):** Thư viện xử lý JSON tiêu chuẩn trong hệ sinh thái Java, nổi bật với hiệu năng cao và tính tích hợp sâu sắc với Spring Boot.
+- **Jagged Technological Frontier:** Biên giới công nghệ lởm chởm. Khái niệm mô tả năng lực không đồng đều của AI khi xử lý các tác vụ có độ phức tạp tương đương. **Xem thêm:** [[jagged-technological-frontier]]
 - **Jotai:** Thư viện quản lý trạng thái (state management) cho React theo mô hình nguyên tử (Atomic).
 
 ## K
@@ -72,6 +75,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 ## O
 - **Object:** Đối tượng. Các tài nguyên thụ động trong hệ thống như tập tin, cơ sở dữ liệu, là mục tiêu của các yêu cầu thao tác.
 - **ObjectMapper:** Trái tim của thư viện Jackson, chịu trách nhiệm chính trong việc chuyển đổi (Serialize/Deserialize) qua lại giữa JSON và đối tượng Java.
+- **Obligation (Nghĩa vụ):** Cơ chế định tuyến động (dynamic routing) trong NGAC. Tự động kích hoạt các thao tác (như tạo/xóa Assignment) khi khớp với một mẫu sự kiện nhất định.
 - **Observable:** Khái niệm cốt lõi của RxJS đại diện cho một luồng dữ liệu (Data Stream) phát sóng theo thời gian.
 
 ## P
@@ -84,6 +88,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Promise:** Đối tượng đại diện cho sự hoàn thành hoặc thất bại của một tiến trình bất đồng bộ trong tương lai.
 - **Prop Drilling:** Hiện tượng truyền dữ liệu qua nhiều Component trung gian từ cha xuống cháu, gây khó khăn cho bảo trì.
 - **Prototypal Inheritance:** Kế thừa nguyên mẫu. Cơ chế chia sẻ thuộc tính giữa các object trong JavaScript thông qua một chuỗi liên kết ngầm.
+- **Productivity Tax:** Thuế năng suất. Hệ lụy (The Expert Paradox) khi chuyên gia phải mất nhiều công sức để sửa đổi kết quả của AI cho khớp với tiêu chuẩn cá nhân thay vì tự làm từ đầu.
 - **Pub/Sub (Publish/Subscribe):** Mô hình giao tiếp bất đồng bộ, phân phối sự kiện thông qua các chủ đề (topics) mà không cần chỉ định đích đến.
 
 ## R
@@ -95,6 +100,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **React Router DOM:** Thư viện quản lý định tuyến (routing) tiêu chuẩn cho các ứng dụng trang đơn (SPA) trong React.
 - **Reactive Programming:** Lập trình phản ứng. Mô hình lập trình xoay quanh việc thiết lập các luồng dữ liệu bất đồng bộ (Data Streams).
 - **Reducer:** Hàm thuần túy (Pure Function) trong mô hình Redux chịu trách nhiệm nhận trạng thái hiện tại và Action để trả về một trạng thái hoàn toàn mới.
+- **Reconciliation Pattern:** Mẫu thiết kế đối soát. Chống phân mảnh dữ liệu bằng cách đồng bộ lại (re-sync) cấu trúc đồ thị quyền (NGAC Graph) với dữ liệu nghiệp vụ (Denormalized Store) mỗi khi xảy ra sự kiện thay đổi tổ chức như chuyển phòng ban hoặc thay đổi vai trò. **Xem thêm:** [[ngac-practical-implementation]]
 - **Reverse Proxy:** Proxy ngược. Cổng trung gian đứng trước các máy chủ backend (như web server), làm nhiệm vụ nhận yêu cầu từ Internet và phân phối đến các máy chủ nội bộ một cách an toàn.
 
 ## S
@@ -103,7 +109,9 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Skills System:** Hệ thống Kỹ năng. Lớp hạ tầng phân tán cơ sở tri thức cho tác tử AI thành các mô-đun biệt lập.
 - **Socratic Gate Protocol:** Giao thức Cổng Socrates. Cơ chế kiểm duyệt ý định tiền thực thi buộc AI đặt câu hỏi ngược lại người dùng để chống ảo giác.
 - **SOLID Principles:** Các nguyên tắc SOLID. Bộ 5 nguyên tắc thiết kế hướng đối tượng (SRP, OCP, LSP, ISP, DIP) nhằm giúp phần mềm linh hoạt, dễ bảo trì và dễ mở rộng.
-- **SPA (Single Page Application):** Ứng dụng trang đơn. Trang web tải một lần duy nhất và điều hướng cục bộ bằng JavaScript.
+- **Single Page Application (SPA):** Ứng dụng trang đơn. Trang web tải một lần duy nhất và điều hướng cục bộ bằng JavaScript.
+- **Share_OA:** Object Attribute Chia sẻ. Một Node (đỉnh) quy ước trong đồ thị quyền NGAC dùng làm vùng chứa đại diện cho một liên kết chia sẻ hoặc một nhóm đối tượng có chung chính sách, thay vì phải tạo Node quyền trên từng tệp tin riêng lẻ. **Xem thêm:** [[ngac-permission-graph]]
+- **Skill-Leveling Effect:** Hiệu ứng san bằng kỹ năng. Hiện tượng công cụ AI tạo sinh mang lại mức tăng hiệu suất đột biến cho người có kỹ năng thấp, qua đó thu hẹp khoảng cách với các chuyên gia. **Xem thêm:** [[skill-leveling-effect]]
 - **Stale-While-Revalidate:** Trả cũ tải mới. Chiến lược caching cho phép hiển thị dữ liệu cũ (stale) ngay lập tức trong lúc âm thầm tải lại dữ liệu mới (fresh) ở nền để tối ưu trải nghiệm. **Xem thêm:** [[tanstack-query]]
 - **Stateless Bean:** Đối tượng phi trạng thái trong thiết kế Spring Framework, nơi dữ liệu khả biến cấp toàn cục bị cấm nhằm bảo đảm an toàn trên môi trường đa luồng (Singleton).
 - **Store:** "Kho thóc trung ương" trong kiến trúc State Management, là nơi duy nhất lưu trữ toàn bộ dữ liệu (State) của ứng dụng.

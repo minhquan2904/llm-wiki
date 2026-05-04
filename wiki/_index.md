@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 70  
-**Last updated:** 2026-04-29
+**Total articles:** 78  
+**Last updated:** 2026-05-04
 
 ---
 
-## Concepts (48 articles)
+## Concepts (55 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -29,6 +29,11 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[discretionary-access-control]] | DAC, Discretionary Access Control | Mô hình kiểm soát truy cập dựa trên sự phân quyền chủ động của người sở hữu đối tượng. |
 | [[mandatory-access-control]] | MAC, Mandatory Access Control | Mô hình kiểm soát truy cập nghiêm ngặt do cơ quan quản trị trung tâm thiết lập, không phụ thuộc vào ý muốn của người dùng. |
 | [[next-generation-access-control]] | Next-Generation Access Control, NGAC | Mô hình kiểm soát truy cập linh hoạt, hỗ trợ đa chính sách và quản lý sự kiện trạng thái. |
+| [[ngac-architecture]] | NGAC Architecture | Phân tích cấu trúc thực thi của NGAC bao gồm Information Flows và Functional Entities (PEP, PDP, EPP...). |
+| [[ngac-database-design]] | NGAC Schema Mapping, NGAC Database Design | Phân tích cách ánh xạ in-memory graph của NGAC thành 3 bảng cốt lõi trong cơ sở dữ liệu quan hệ, kết nối với dữ liệu nghiệp vụ và sử dụng Recursive CTE để debug. |
+| [[ngac-permission-graph]] | Đồ thị quyền NGAC, NGAC Graph, Permission Graph | Phân tích cấu trúc đồ thị quyền NGAC (Permission Graph) qua các cấp độ tổ chức như Workspace, Department, Channel, Drive và Approval. |
+| [[ngac-practical-implementation]] | Hybrid NGAC, NGAC Practical Implementation, NGAC trong thực tế | Phân tích kiến trúc triển khai NGAC thực tế (Case study: KyLan), giải quyết bài toán hiệu năng thông qua lược bỏ Object nodes và kết hợp NGAC Guard với Denormalized SQL. |
+| [[ngac-security-model]] | NGAC Security Model | Phân tích mô hình toán học, Basic Elements và Relations cốt lõi của NGAC (INCITS 565-2020). |
 | [[sequential-multi-domain-execution]] | Sequential Multi-Domain Execution | Kiến trúc điều phối giải quyết độ phức tạp bằng cách buộc các tác tử làm việc theo trật tự thời gian khắt khe. |
 | [[socratic-gate-protocol]] | Socratic Gate Protocol | Cơ chế kiểm duyệt ý định tiền thực thi nhằm triệt tiêu ảo giác kiến trúc trong hệ thống AI. |
 | [[javascript-variables-and-scope]] | var, let, const, scope, hoisting, closure, immutability | Phân tích sâu về cơ chế khai báo biến, phạm vi hoạt động, hoisting và closure trong JavaScript. |
@@ -69,7 +74,8 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[dependency-injection]] | Dependency Injection trong OOP | Phân tích nguyên lý SOLID, cơ chế Đảo ngược Điều khiển (IoC) và Tiêm Phụ thuộc (DI) như những trụ cột kiến trúc giúp giảm thiểu phụ thuộc cứng trong phát triển phần mềm. |
 | [[state-pattern]] | Mẫu thiết kế State, Quản lý trạng thái | Mẫu thiết kế hành vi cho phép một đối tượng thay đổi hành vi của nó khi trạng thái nội bộ thay đổi, giúp loại bỏ các câu lệnh điều kiện phức tạp. |
 | [[command-pattern]] | Mẫu thiết kế Command, Quản lý giao dịch, Command Object | Mẫu thiết kế hành vi giúp biến đổi một yêu cầu thành một đối tượng độc lập, hỗ trợ thực thi bất đồng bộ, lưu vết kiểm toán và hoàn tác (Undo). |
-
+| [[jagged-technological-frontier]] | Biên giới công nghệ lởm chởm, The Jagged Frontier | Khái niệm mô tả năng lực không đồng đều của AI: xuất sắc ở một số tác vụ nhưng lại thất bại ở các tác vụ có độ khó tương đương nằm ngoài 'biên giới' khả năng. |
+| [[skill-leveling-effect]] | Hiệu ứng san bằng kỹ năng, San bằng kỹ năng AI | Hiện tượng công cụ AI tạo sinh mang lại mức tăng hiệu suất lớn nhất cho những người có kỹ năng thấp, qua đó thu hẹp khoảng cách với các chuyên gia. |
 ## Tools (10 articles)
 
 | Article | Aliases | Summary |
@@ -91,7 +97,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 |---------|---------|---------|
 | _Empty_ | | |
 
-## Comparisons (9 articles)
+## Comparisons (10 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -104,10 +110,10 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[interface-vs-type-alias]] | Interface vs Type Alias, Declaration Merging, Intersection Types | Phân tích sự khác biệt về mặt kiến trúc, cơ chế kế thừa, và trải nghiệm lập trình (DX) giữa hai trường phái định kiểu cấu trúc dữ liệu cốt lõi trong TypeScript. |
 | [[virtual-dom-vs-real-dom]] | Virtual DOM vs Real DOM | Phân tích sự khác biệt về bản chất và hiệu năng giữa kiến trúc Real DOM truyền thống và giải pháp trung gian Virtual DOM của React. |
 | [[composition-vs-inheritance]] | Composition over Inheritance | Phân tích sự khác biệt giữa thiết kế theo mô hình Kế thừa cứng nhắc và Lắp ráp linh hoạt trong OOP. |
-
+| [[ai-users-vs-non-users]] | Sự khác biệt người dùng AI và không dùng AI, AI divide | Phân tích sự phân hóa về năng suất, hiệu suất làm việc, nhân khẩu học và thái độ tiếp nhận giữa nhóm người sử dụng công cụ AI và nhóm từ chối hoặc chưa tiếp cận AI. |
 ---
 
-## Raw Sources (53 documents)
+## Raw Sources (61 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -179,7 +185,14 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/articles/dependency-injection-in-oop.md` | Article | 2026-04-24 |
 | `raw/articles/state-and-command-pattern-fintech.md` | Article | 2026-04-24 |
 | [[raw/articles/tanstack-query-architecture.md]] | Article | 2026-04-29 |
-
+| [[raw/articles/hbs-jagged-frontier-ai-productivity.md]] | Article | 2026-05-04 |
+| [[raw/articles/pew-brookings-ai-adoption-demographics.md]] | Article | 2026-05-04 |
+| [[raw/articles/stanford-nber-ai-users-vs-non-users.md]] | Article | 2026-05-04 |
+| `raw/ngac/ngac.md` | Article | 2026-05-04 |
+| `raw/ngac/ngac_in_real_project/ngac-practical-guide.md` | Article | 2026-05-04 |
+| `raw/ngac/ngac_in_real_project/permission-check-queries.md` | Article | 2026-05-04 |
+| `raw/ngac/ngac_in_real_project/permission-db-mapping.md` | Article | 2026-05-04 |
+| `raw/ngac/ngac_in_real_project/permission-graph.md` | Article | 2026-05-04 |
 
 ---
 
