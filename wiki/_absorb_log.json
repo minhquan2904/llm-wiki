@@ -1,6 +1,42 @@
 {
   "last_updated": "2026-05-04",
   "sources": {
+    "raw/ngac/ngac_system/approval-flow.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ngac-approval-workflow"]
+    },
+    "raw/ngac/ngac_system/chat-flow.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ngac-messaging-realtime"]
+    },
+    "raw/ngac/ngac_system/ngac-flow.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ngac-permission-graph"]
+    },
+    "raw/ngac/ngac_system/ngac-model.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ngac-permission-graph"]
+    },
+    "raw/ngac/ngac_system/organization-structure.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ngac-organization-model"]
+    },
+    "raw/ngac/ngac_system/overview.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ngac-microservices-architecture"]
+    },
+    "raw/ngac/ngac_system/realtime-flow.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ngac-messaging-realtime"]
+    },
+    "raw/ngac/ngac_system/system-architecture.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ngac-microservices-architecture"]
+    },
+    "raw/ngac/ngac_system/user-lifecycle.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": ["ngac-organization-model"]
+    },
     "raw/articles/1.1.md": {
       "absorbed_at": "2026-04-23",
       "wiki_articles": ["google-antigravity", "antigravity-kit"]

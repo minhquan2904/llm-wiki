@@ -23,7 +23,7 @@ Cách thô sơ nhất để báo cho JavaScript biết *"Làm xong việc này r
 // Function bất đồng bộ cũ kỹ
 function fetchUserData(id, callback) {
   setTimeout(() => {
-    callback({ userId: id, username: "QuanBM" }); // Trả kết quả thông qua gọi lại hàm
+    callback({ userId: id, username: "JohnDoe" }); // Trả kết quả thông qua gọi lại hàm
   }, 1000);
 }
 

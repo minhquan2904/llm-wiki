@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 79  
+**Total articles:** 83  
 **Last updated:** 2026-05-04
 
 ---
 
-## Concepts (56 articles)
+## Concepts (60 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -30,7 +30,11 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[mandatory-access-control]] | MAC, Mandatory Access Control | Mô hình kiểm soát truy cập nghiêm ngặt do cơ quan quản trị trung tâm thiết lập, không phụ thuộc vào ý muốn của người dùng. |
 | [[next-generation-access-control]] | Next-Generation Access Control, NGAC | Mô hình kiểm soát truy cập linh hoạt, hỗ trợ đa chính sách và quản lý sự kiện trạng thái. |
 | [[ngac-architecture]] | NGAC Architecture | Phân tích cấu trúc thực thi của NGAC bao gồm Information Flows và Functional Entities (PEP, PDP, EPP...). |
+| [[ngac-approval-workflow]] | NGAC Approval Flow | Phân tích hệ thống phê duyệt đa bước sử dụng đồ thị NGAC để linh hoạt phân công và xác thực quyền hạn theo thời gian thực. |
 | [[ngac-database-design]] | NGAC Schema Mapping, NGAC Database Design | Phân tích cách ánh xạ in-memory graph của NGAC thành 3 bảng cốt lõi trong cơ sở dữ liệu quan hệ, kết nối với dữ liệu nghiệp vụ và sử dụng Recursive CTE để debug. |
+| [[ngac-messaging-realtime]] | NGAC Messaging System, Realtime Events | Phân tích cơ chế hoạt động của tính năng Chat và hệ thống Realtime WebSocket được bảo vệ bởi NGAC. |
+| [[ngac-microservices-architecture]] | NGAC Microservices Architecture | Cấu trúc microservices của nền tảng dựa trên NGAC, bao gồm API Gateway, gRPC, Event-Driven với Kafka và Redis. |
+| [[ngac-organization-model]] | NGAC Organization Model, User Lifecycle | Cách hệ thống NGAC tổ chức người dùng, Workspace, Department và vòng đời định danh qua JWT. |
 | [[ngac-permission-graph]] | Đồ thị quyền NGAC, NGAC Graph, Permission Graph | Phân tích cấu trúc đồ thị quyền NGAC (Permission Graph) qua các cấp độ tổ chức như Workspace, Department, Channel, Drive và Approval. |
 | [[ngac-practical-implementation]] | Hybrid NGAC, NGAC Practical Implementation, NGAC trong thực tế | Phân tích kiến trúc triển khai NGAC thực tế (Case study: KyLan), giải quyết bài toán hiệu năng thông qua lược bỏ Object nodes và kết hợp NGAC Guard với Denormalized SQL. |
 | [[ngac-security-model]] | NGAC Security Model | Phân tích mô hình toán học, Basic Elements và Relations cốt lõi của NGAC (INCITS 565-2020). |

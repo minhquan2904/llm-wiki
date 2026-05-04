@@ -79,3 +79,6 @@ summary: "Chronological log of all wiki operations"
 ## [2026-05-04] file-back | outputs/summaries/ngac-enterprise-approval-case-study-2026-05-04.md
 ## [2026-05-04] autoresearch | Materialized và denormalize trong NGAC — 1 vòng, 1 nguồn nạp
 ## [2026-05-04] compile | 1 bài mới, 2 cập nhật từ 1 tài liệu raw/articles (ngac-materialized-denormalize)
+## [2026-05-04] ask | Giải pháp performance cho danh sách lệnh chờ duyệt NGAC
+## [2026-05-04] ingest | raw/ngac/ngac_system (NGAC System Docs)
+## [2026-05-04] compile | 4 bài mới, 1 cập nhật từ 9 tài liệu raw/ngac/ngac_system (NGAC System Architecture, Organization Model, Messaging Realtime, Approval Workflow)

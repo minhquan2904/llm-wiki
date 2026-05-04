@@ -7,6 +7,8 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **ACL (Access Control List):** Danh sách kiểm soát truy cập. Biểu diễn lưu trữ theo định hướng Đối tượng, nơi mỗi tài nguyên sẽ lưu lại một danh sách chứa tên Chủ thể kèm theo quyền tương ứng.
 - **ApplicationContext:** Container cốt lõi của Spring Framework đảm nhiệm việc khởi tạo, quản lý vòng đời và kết nối các Spring Beans dựa trên cơ chế IoC.
 - **Architectural Hallucination:** Ảo giác kiến trúc. Rủi ro khi AI tự ý đưa ra quyết định sai lệch về yêu cầu nghiệp vụ hoặc mẫu thiết kế do tiếp nhận các câu lệnh mơ hồ.
+- **Assignment (NGAC):** Cạnh liên kết trên đồ thị quyền NGAC nối từ người dùng (U) tới nhóm người dùng (UA), đại diện cho việc gán thành viên vào nhóm/vai trò.
+- **Association (NGAC):** Cạnh liên kết trên đồ thị quyền NGAC nối từ nhóm người dùng (UA) tới nhóm tài nguyên (OA), quy định danh sách các thao tác (operations) được phép.
 - **Async/Await:** Cú pháp khai báo giúp viết mã bất đồng bộ trông giống như đồng bộ, giải quyết triệt để tình trạng Callback Hell trong JavaScript.
 - **Authentication:** Xác thực. Quá trình kiểm chứng danh tính của một thực thể để trả lời câu hỏi "Bạn là ai?".
 - **Authorization:** Ủy quyền. Quá trình kiểm tra và quyết định quyền hạn để trả lời câu hỏi "Bạn được phép làm gì?".
@@ -19,6 +21,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Capability List:** Danh sách khả năng. Biểu diễn lưu trữ theo định hướng Chủ thể, nơi hệ thống cấp cho mỗi người dùng một danh sách gồm các Đối tượng và quyền hạn tương ứng trên Đối tượng đó.
 - **CAS (Compare-And-Swap):** Thuật toán lõi trong các thư viện nguyên tử (Atomic), hoạt động theo cơ chế khóa lạc quan (lock-free) bằng cách liên tục kiểm tra và đối chiếu bộ nhớ.
 - **Closure:** Bao đóng. Hiện tượng một hàm ghi nhớ và có thể truy cập các biến nằm ở phạm vi bên ngoài của nó ngay cả khi hàm bên ngoài đã thực thi xong.
+- **Content OA / Members UA:** Cặp thực thể trên đồ thị quyền NGAC đại diện cho một kênh giao tiếp (Channel) trong hệ thống nhắn tin, giúp kiểm soát quyền đọc/ghi mà không cần ACL.
 - **Cognitive Routing:** Định tuyến nhận thức đa chiều. Cơ chế tự động nhận diện ý định ẩn từ mô tả tự nhiên để ánh xạ công việc tới chuyên gia AI phù hợp.
 - **Composition:** Lắp ráp. Kỹ thuật thiết kế phần mềm kết hợp các đối tượng hoặc kiểu dữ liệu để tạo ra cấu trúc dữ liệu phức tạp hơn, ưu tiên sử dụng thay thế cho Kế thừa.
 - **ConcurrentHashMap:** Cấu trúc dữ liệu từ điển hỗ trợ đa luồng tốc độ cao dựa trên cơ chế Bucket Locking và thuật toán CAS, không cho phép chứa khóa (key) hoặc giá trị (value) null.
@@ -27,6 +30,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **DAC (Discretionary Access Control):** Kiểm soát truy cập tùy ý. Mô hình kiểm soát linh hoạt cho phép người tạo/chủ sở hữu tài nguyên tự ý quản lý và chia sẻ lại quyền truy cập cho người khác.
 - **Dependency Injection (DI):** Tiêm phụ thuộc. Mô hình thực hành IoC trong đó các thành phần phụ thuộc của một đối tượng được tiêm vào từ bên ngoài (ưu tiên qua Constructor) thay vì đối tượng tự khởi tạo.
 - **Digital Divide:** Khoảng cách kỹ thuật số. Sự phân hóa về lợi thế và hiệu suất giữa người dùng thành thạo công nghệ (như AI) và người không sử dụng. **Xem thêm:** [[ai-users-vs-non-users]]
+- **Dynamic Approval Workflow:** Luồng phê duyệt động. Kiến trúc lợi dụng cơ chế tìm kiếm phạm vi (Scope Finding) của đồ thị NGAC để tìm kiếm người duyệt theo thời gian thực thay vì phân công cứng. **Xem thêm:** [[ngac-approval-workflow]]
 
 ## E
 - **EPP (Event Processing Point):** Điểm xử lý sự kiện. Thành phần trong mô hình NGAC, chịu trách nhiệm nhận diện và phản ứng với các thay đổi trạng thái trong môi trường theo thời gian thực để cập nhật chính sách.
@@ -75,12 +79,14 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## O
 - **Object:** Đối tượng. Các tài nguyên thụ động trong hệ thống như tập tin, cơ sở dữ liệu, là mục tiêu của các yêu cầu thao tác.
+- **Object Attribute (OA):** Nhóm tài nguyên. Thực thể trên đồ thị NGAC đại diện cho một tập hợp các đối tượng (ví dụ: Thư mục, Dữ liệu phòng ban) có chung chính sách bảo mật.
 - **ObjectMapper:** Trái tim của thư viện Jackson, chịu trách nhiệm chính trong việc chuyển đổi (Serialize/Deserialize) qua lại giữa JSON và đối tượng Java.
 - **Obligation (Nghĩa vụ):** Cơ chế định tuyến động (dynamic routing) trong NGAC. Tự động kích hoạt các thao tác (như tạo/xóa Assignment) khi khớp với một mẫu sự kiện nhất định.
 - **Observable:** Khái niệm cốt lõi của RxJS đại diện cho một luồng dữ liệu (Data Stream) phát sóng theo thời gian.
 
 ## P
 - **PAP (Policy Administration Point):** Điểm quản trị chính sách. Nơi các quản trị viên tạo lập, chỉnh sửa và quản lý vòng đời của các quy tắc kiểm soát quyền hạn.
+- **Policy Class (PC):** Đỉnh phân giải chính sách cao nhất trong đồ thị phân quyền NGAC. Trong thực tế thường đóng vai trò là ranh giới cô lập (Tenant) giữa các Không gian làm việc (Workspace).
 - **PDP (Policy Decision Point):** Điểm quyết định chính sách. "Khối óc" của hệ thống phân quyền, nơi thực hiện đánh giá các yêu cầu truy cập dựa trên chính sách.
 - **PECS (Producer Extends, Consumer Super):** Quy tắc cốt lõi khi sử dụng Wildcards trong Java Generics: dùng extends khi lấy dữ liệu ra và dùng super khi nạp dữ liệu vào.
 - **PEP (Policy Enforcement Point):** Điểm thực thi chính sách. "Trạm kiểm soát" chặn các luồng yêu cầu từ người dùng, gửi đến PDP chờ quyết định và sau đó cấp/từ chối quyền.
@@ -123,6 +129,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 ## T
 - **TanStack Query:** (hay React Query). Thư viện quản lý trạng thái máy chủ chuyên nghiệp, giải quyết các vấn đề liên quan đến fetching, caching và đồng bộ dữ liệu. **Xem thêm:** [[tanstack-query]]
 - **ThreadPoolTaskExecutor:** Lớp bảo bọc (Wrapper) của Spring giúp cấu hình và giới hạn tài nguyên bể luồng nhằm thực thi các thao tác bất đồng bộ an toàn.
+- **Time-of-Action Re-check:** Kiểm tra tại thời điểm hành động. Thuật toán bảo mật yêu cầu hệ thống luôn gọi NGAC kiểm tra lại quyền ngay khoảnh khắc user thực thi (như duyệt lệnh) để chống lỗ hổng do thay đổi phòng ban/vai trò.
 - **Transitive Closure:** Bao đóng bắc cầu. Trong đồ thị NGAC, đây là khái niệm toán học để xác định xem có đường đi hợp lệ nào nối từ chủ thể đến đối tượng hay không. Đây là thuật toán cốt lõi ($O(V^3)$) để quyết định quyền truy cập. **Xem thêm:** [[ngac-transitive-closure]]
 - **Type Coercion:** Ép kiểu ngầm. Cơ chế tự động chuyển đổi định dạng dữ liệu của JavaScript khi tính toán giữa các giá trị không đồng nhất.
 - **Type Erasure:** Xóa kiểu. Việc trình biên dịch xóa bỏ định nghĩa tham số Generics (thành Object) trên Bytecode để tương thích ngược, làm mất thông tin tại Runtime.
@@ -130,6 +137,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## U
 - **Union Types:** Kiểu hợp. Cơ chế cho phép biến/tham số nhận một trong nhiều định dạng kiểu, hỗ trợ tính đa hình tĩnh.
+- **User Attribute (UA):** Nhóm người dùng. Thực thể trên đồ thị NGAC đại diện cho một tập hợp người dùng chia sẻ chung quyền hạn (ví dụ: Owners, Members, Department Chief).
 
 ## V
 - **Virtual DOM:** Bản sao nháp ảo của cấu trúc HTML DOM, giúp gộp các thay đổi (Batching) để giảm thiểu tần suất tính toán đồ họa (Reflow/Repaint).

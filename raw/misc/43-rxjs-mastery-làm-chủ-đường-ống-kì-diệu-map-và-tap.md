@@ -50,7 +50,7 @@ import { map } from 'rxjs/operators';
 const responseAPI$ = from([{
   status: 200,
   data: {
-    user: { id: 99, name: "QuanBM" }
+    user: { id: 99, name: "JohnDoe" }
   }
 }]);
 
@@ -63,7 +63,7 @@ const nameOnly$ = responseAPI$.pipe(
 
 // Subscribe hưởng thành quả trong sạch
 nameOnly$.subscribe(res => console.log('👤 Tên là:', res)); 
-// In ra: "👤 Tên là: QUANBM"
+// In ra: "👤 Tên là: JOHNDOE"
 ```
 
 > **Đầu vào -> Đi qua `map` -> Đầu ra khác biệt hoàn toàn.**

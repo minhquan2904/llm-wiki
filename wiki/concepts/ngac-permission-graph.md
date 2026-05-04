@@ -56,6 +56,21 @@ Toàn bộ nghiệp vụ cấp/thu hồi quyền được quy về các phép to
 - **Thu hồi quyền:** Xóa cạnh Assignment.
 - **Tạo quyền mới cho nhóm:** Tạo một Association giữa UA và OA với danh sách `operations`.
 
+## Các Mẫu Kiểm Tra Quyền (Authorization Patterns)
+
+Hệ thống tận dụng đồ thị để giải quyết 4 bài toán phân quyền phổ biến:
+1. **Kiểm tra trực tiếp (Direct Check):** "User A có quyền X trên đối tượng Y không?". Dùng cho các thao tác cụ thể (vd: gửi tin nhắn, xóa file). Kết quả là Có/Không (`DecisionAllow`/`DecisionDeny`).
+2. **Lọc danh sách (Filter List):** "Trong 20 kênh chat, user A có quyền đọc những kênh nào?". Thay vì dùng SQL JOIN phức tạp, hệ thống chuyển sang hỏi NGAC từng ID một và lọc ra kết quả hợp lệ.
+3. **Tìm phạm vi (Scope Finding):** "Những ai có quyền duyệt yêu cầu mua sắm tại phòng ban này?". Thay vì hỏi từ User tới Tài nguyên, hệ thống đi ngược từ Tài nguyên (Scope OA) tìm về tất cả các UA có chứa quyền `approve`. Dùng chủ yếu trong Luồng phê duyệt động.
+4. **Kiểm tra tại thời điểm hành động (Time-of-Action Re-check):** "Lúc phân công duyệt, User A có quyền. Bây giờ lúc bấm duyệt, User A còn quyền không?". Hệ thống luôn gọi NGAC kiểm tra lại vào khoảnh khắc user thực thi hành động để chống lỗ hổng "bóng ma quyền hạn" (khi nhân sự chuyển phòng ban).
+
+## Chiến Lược Quản Lý Bộ Nhớ (Memory Strategy)
+
+Vì đồ thị quyền có thể rất lớn, Policy Service không tải toàn bộ vào RAM mà áp dụng chiến lược phân mảnh (Sharding):
+- **Per-Workspace Shards:** Đồ thị được chia nhỏ và tải lên RAM theo từng Workspace. Khi có request liên quan đến Workspace nào, Shard của Workspace đó sẽ được truy cập.
+- **LRU Eviction:** Trình quản lý `ShardManager` sử dụng cơ chế O(1) LRU (Least Recently Used) dựa trên doubly-linked list và index map. Khi số lượng Shards vượt quá `maxShards` (mặc định 1000), các Shard lâu không dùng sẽ bị loại bỏ khỏi bộ nhớ để giải phóng RAM.
+- **Lazy Load & Fallback:** Các Shard được lazy-load khi có request đầu tiên. Trong trường hợp Shard bị lỗi hoặc chưa sẵn sàng, hệ thống có thể fallback về Global Graph (chứa đồ thị tổng) để đảm bảo không gián đoạn dịch vụ.
+
 ## Liên Hệ / Ứng Dụng
 
 - Dùng đồ thị NGAC để kiểm soát quyền trong môi trường B2B / SaaS Multi-tenant.

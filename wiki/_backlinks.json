@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 81,
-  "total_links": 222,
+  "total_articles": 85,
+  "total_links": 230,
   "backlinks": {
     "attribute-based-access-control": [
       "abac-vs-rbac",
@@ -66,6 +66,13 @@
       "socratic-gate-protocol",
       "google-antigravity"
     ],
+    "ngac-practical-implementation": [
+      "next-generation-access-control",
+      "ngac-database-design",
+      "ngac-microservices-architecture",
+      "ngac-permission-graph",
+      "ngac-transitive-closure"
+    ],
     "typescript-type-narrowing": [
       "interface-vs-type-alias",
       "tsconfig",
@@ -96,17 +103,17 @@
       "javascript-under-the-hood",
       "ngrx-state-management"
     ],
-    "ngac-practical-implementation": [
-      "next-generation-access-control",
-      "ngac-database-design",
-      "ngac-permission-graph",
-      "ngac-transitive-closure"
-    ],
     "ngac-database-design": [
       "next-generation-access-control",
       "ngac-permission-graph",
       "ngac-practical-implementation",
       "ngac-transitive-closure"
+    ],
+    "ngac-permission-graph": [
+      "next-generation-access-control",
+      "ngac-approval-workflow",
+      "ngac-organization-model",
+      "ngac-practical-implementation"
     ],
     "typescript-functions": [
       "typescript-basic-types",
@@ -159,10 +166,20 @@
       "spring-ioc-di",
       "jackson-databind"
     ],
+    "ngac-architecture": [
+      "next-generation-access-control",
+      "ngac-microservices-architecture",
+      "ngac-practical-implementation"
+    ],
     "ngac-security-model": [
       "next-generation-access-control",
       "ngac-architecture",
       "ngac-permission-graph"
+    ],
+    "ngac-microservices-architecture": [
+      "ngac-approval-workflow",
+      "ngac-messaging-realtime",
+      "ngac-organization-model"
     ],
     "interface-vs-type-alias": [
       "typescript-generics",
@@ -257,13 +274,9 @@
       "javascript-asynchronous-programming",
       "ngrx-state-management"
     ],
-    "ngac-architecture": [
-      "next-generation-access-control",
-      "ngac-practical-implementation"
-    ],
-    "ngac-permission-graph": [
-      "next-generation-access-control",
-      "ngac-practical-implementation"
+    "publish-subscribe": [
+      "message-broker",
+      "ngac-messaging-realtime"
     ],
     "ngac-transitive-closure": [
       "ngac-database-design",
@@ -362,9 +375,6 @@
     ],
     "javascript-advanced-mechanisms": [
       "javascript-variables-and-scope"
-    ],
-    "publish-subscribe": [
-      "message-broker"
     ],
     "javascript-variables-and-scope#bản-chất-tính-bất-biến-của-const": [
       "ngrx-state-management"
