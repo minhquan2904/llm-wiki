@@ -73,3 +73,5 @@ summary: "Chronological log of all wiki operations"
 ## [2026-05-04] ingest | raw/ngac/ngac_in_real_project (NGAC Practical Guide, Permission Check Queries, Permission DB Mapping, Permission Graph)
 ## [2026-05-04] compile | 3 bài mới, 1 cập nhật từ 4 tài liệu raw/ngac_in_real_project (NGAC Database Design, Permission Graph, Practical Implementation)
 ## [2026-05-04] ingest | NGAC Practical Guide — Tài liệu thực chiến
+## [2026-05-04] ask | NGAC có load toàn bộ Graph để duyệt BFS/DFS check quyền không?
+## [2026-05-04] file-back | outputs/summaries/ngac-graph-traversal-reality-2026-05-04.md
