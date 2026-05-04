@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 73,
-  "total_links": 190,
+  "total_articles": 81,
+  "total_links": 222,
   "backlinks": {
     "attribute-based-access-control": [
       "abac-vs-rbac",
@@ -52,6 +52,13 @@
       "javascript-memory-management",
       "javascript-variables-and-scope"
     ],
+    "next-generation-access-control": [
+      "abac-architecture",
+      "abac-policy-models",
+      "ngac-architecture",
+      "ngac-database-design",
+      "ngac-practical-implementation"
+    ],
     "antigravity-kit": [
       "antigravity-skills-system",
       "cognitive-routing",
@@ -75,7 +82,7 @@
       "abac-attribute-management",
       "access-control-policy-enforcement",
       "attribute-based-access-control",
-      "next-generation-access-control"
+      "ngac-architecture"
     ],
     "java-concurrency-fundamentals": [
       "java-concurrent-collections",
@@ -89,6 +96,18 @@
       "javascript-under-the-hood",
       "ngrx-state-management"
     ],
+    "ngac-practical-implementation": [
+      "next-generation-access-control",
+      "ngac-database-design",
+      "ngac-permission-graph",
+      "ngac-transitive-closure"
+    ],
+    "ngac-database-design": [
+      "next-generation-access-control",
+      "ngac-permission-graph",
+      "ngac-practical-implementation",
+      "ngac-transitive-closure"
+    ],
     "typescript-functions": [
       "typescript-basic-types",
       "typescript-generics",
@@ -99,6 +118,11 @@
       "access-control-models-vs-policies",
       "authentication-vs-authorization",
       "access-control-entities"
+    ],
+    "hbs-jagged-frontier-ai-productivity": [
+      "ai-users-vs-non-users",
+      "jagged-technological-frontier",
+      "skill-leveling-effect"
     ],
     "flashback-data-archive": [
       "delete-vs-truncate",
@@ -135,6 +159,11 @@
       "spring-ioc-di",
       "jackson-databind"
     ],
+    "ngac-security-model": [
+      "next-generation-access-control",
+      "ngac-architecture",
+      "ngac-permission-graph"
+    ],
     "interface-vs-type-alias": [
       "typescript-generics",
       "typescript-type-narrowing",
@@ -143,6 +172,18 @@
     "abac-attribute-management": [
       "abac-vs-rbac",
       "attribute-based-access-control"
+    ],
+    "jagged-technological-frontier": [
+      "ai-users-vs-non-users",
+      "skill-leveling-effect"
+    ],
+    "skill-leveling-effect": [
+      "ai-users-vs-non-users",
+      "jagged-technological-frontier"
+    ],
+    "stanford-nber-ai-users-vs-non-users": [
+      "ai-users-vs-non-users",
+      "skill-leveling-effect"
     ],
     "access-control-entities": [
       "authentication-vs-authorization",
@@ -167,10 +208,6 @@
     "typescript-oop": [
       "interface-vs-type-alias",
       "typescript"
-    ],
-    "next-generation-access-control": [
-      "abac-architecture",
-      "abac-policy-models"
     ],
     "1.md": [
       "acid-properties",
@@ -204,6 +241,10 @@
       "flashback-data-archive",
       "soft-delete-anti-pattern"
     ],
+    "ai-users-vs-non-users": [
+      "jagged-technological-frontier",
+      "skill-leveling-effect"
+    ],
     "typescript-generics": [
       "java-generics",
       "typescript"
@@ -215,6 +256,18 @@
     "rxjs-reactive-programming": [
       "javascript-asynchronous-programming",
       "ngrx-state-management"
+    ],
+    "ngac-architecture": [
+      "next-generation-access-control",
+      "ngac-practical-implementation"
+    ],
+    "ngac-permission-graph": [
+      "next-generation-access-control",
+      "ngac-practical-implementation"
+    ],
+    "ngac-transitive-closure": [
+      "ngac-database-design",
+      "ngac-practical-implementation"
     ],
     "ngrx-state-management": [
       "rxjs-reactive-programming",
@@ -255,6 +308,9 @@
     ],
     "bài-viết-3": [
       "overview"
+    ],
+    "pew-brookings-ai-adoption-demographics": [
+      "ai-users-vs-non-users"
     ],
     "ts-module-06.md": [
       "interface-vs-type-alias"

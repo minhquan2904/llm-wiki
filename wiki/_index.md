@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 78  
+**Total articles:** 79  
 **Last updated:** 2026-05-04
 
 ---
 
-## Concepts (55 articles)
+## Concepts (56 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -34,6 +34,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[ngac-permission-graph]] | Đồ thị quyền NGAC, NGAC Graph, Permission Graph | Phân tích cấu trúc đồ thị quyền NGAC (Permission Graph) qua các cấp độ tổ chức như Workspace, Department, Channel, Drive và Approval. |
 | [[ngac-practical-implementation]] | Hybrid NGAC, NGAC Practical Implementation, NGAC trong thực tế | Phân tích kiến trúc triển khai NGAC thực tế (Case study: KyLan), giải quyết bài toán hiệu năng thông qua lược bỏ Object nodes và kết hợp NGAC Guard với Denormalized SQL. |
 | [[ngac-security-model]] | NGAC Security Model | Phân tích mô hình toán học, Basic Elements và Relations cốt lõi của NGAC (INCITS 565-2020). |
+| [[ngac-transitive-closure]] | Transitive Closure, Materialized Views trong NGAC, NGAC Materialization | Cơ chế toán học bao đóng bắc cầu trong đồ thị NGAC và các chiến lược tối ưu hóa hiệu năng thông qua vật chất hóa (materialization) và phi chuẩn hóa (denormalization). |
 | [[sequential-multi-domain-execution]] | Sequential Multi-Domain Execution | Kiến trúc điều phối giải quyết độ phức tạp bằng cách buộc các tác tử làm việc theo trật tự thời gian khắt khe. |
 | [[socratic-gate-protocol]] | Socratic Gate Protocol | Cơ chế kiểm duyệt ý định tiền thực thi nhằm triệt tiêu ảo giác kiến trúc trong hệ thống AI. |
 | [[javascript-variables-and-scope]] | var, let, const, scope, hoisting, closure, immutability | Phân tích sâu về cơ chế khai báo biến, phạm vi hoạt động, hoisting và closure trong JavaScript. |

@@ -64,6 +64,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **MAC (Mandatory Access Control):** Kiểm soát truy cập bắt buộc. Mô hình nghiêm ngặt nơi mọi quyền truy cập đều bị chi phối bởi các quy tắc trung tâm, bất kể ý chí của người dùng sở hữu.
 - **Macrotask / Microtask:** Hàng đợi tác vụ vĩ mô (setTimeout) và vi mô (Promise.then). Microtask luôn được ưu tiên thực thi trước Macrotask trong Event Loop.
 - **Mark-and-Sweep:** Thuật toán Đánh dấu và Quét. Cơ chế thu gom rác (Garbage Collection) mặc định của V8 Engine nhằm tìm và xóa các đối tượng không còn rễ (Roots) truy cập.
+- **Materialized Views:** Vật chất hóa bộ đệm. Kỹ thuật lưu trữ trước kết quả của một truy vấn tính toán phức tạp (như bao đóng bắc cầu) vào cơ sở dữ liệu để tối ưu hóa tốc độ đọc (truy vấn quyền), đánh đổi bằng chi phí bảo trì và độ trễ khi cập nhật. **Xem thêm:** [[ngac-transitive-closure]]
 - **Message Broker:** Trạm trung chuyển tin nhắn. Thành phần kiến trúc đứng giữa các ứng dụng để tiếp nhận, giữ an toàn và định tuyến thông điệp dựa trên các quy tắc xác định.
 - **MLS (Multilevel Security):** Bảo mật Đa mức. Một phương pháp triển khai MAC phổ biến, gán các cấp độ bảo mật theo thứ bậc, thường áp dụng quy tắc "không đọc lên" và "không ghi xuống".
 
@@ -122,6 +123,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 ## T
 - **TanStack Query:** (hay React Query). Thư viện quản lý trạng thái máy chủ chuyên nghiệp, giải quyết các vấn đề liên quan đến fetching, caching và đồng bộ dữ liệu. **Xem thêm:** [[tanstack-query]]
 - **ThreadPoolTaskExecutor:** Lớp bảo bọc (Wrapper) của Spring giúp cấu hình và giới hạn tài nguyên bể luồng nhằm thực thi các thao tác bất đồng bộ an toàn.
+- **Transitive Closure:** Bao đóng bắc cầu. Trong đồ thị NGAC, đây là khái niệm toán học để xác định xem có đường đi hợp lệ nào nối từ chủ thể đến đối tượng hay không. Đây là thuật toán cốt lõi ($O(V^3)$) để quyết định quyền truy cập. **Xem thêm:** [[ngac-transitive-closure]]
 - **Type Coercion:** Ép kiểu ngầm. Cơ chế tự động chuyển đổi định dạng dữ liệu của JavaScript khi tính toán giữa các giá trị không đồng nhất.
 - **Type Erasure:** Xóa kiểu. Việc trình biên dịch xóa bỏ định nghĩa tham số Generics (thành Object) trên Bytecode để tương thích ngược, làm mất thông tin tại Runtime.
 - **Type Narrowing:** Thu hẹp kiểu. Sử dụng cấu trúc logic (typeof, in) để xác định chính xác một kiểu dữ liệu cụ thể từ một tập hợp đa hình.

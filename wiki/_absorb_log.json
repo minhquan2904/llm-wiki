@@ -317,6 +317,14 @@
       "wiki_articles": [
         "ngac-permission-graph"
       ]
+    },
+    "raw/articles/ngac-materialized-denormalize.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "ngac-transitive-closure",
+        "ngac-database-design",
+        "ngac-practical-implementation"
+      ]
     }
   }
 }

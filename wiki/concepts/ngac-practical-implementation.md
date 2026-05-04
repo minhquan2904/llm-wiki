@@ -10,6 +10,7 @@ related:
   - "[[ngac-architecture]]"
   - "[[ngac-database-design]]"
   - "[[ngac-permission-graph]]"
+  - "[[ngac-transitive-closure]]"
 summary: "Phân tích kiến trúc triển khai NGAC thực tế (Case study: KyLan), giải quyết bài toán hiệu năng thông qua lược bỏ Object nodes và kết hợp NGAC Guard với Denormalized SQL."
 ---
 

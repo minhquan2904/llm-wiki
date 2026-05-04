@@ -75,3 +75,7 @@ summary: "Chronological log of all wiki operations"
 ## [2026-05-04] ingest | NGAC Practical Guide — Tài liệu thực chiến
 ## [2026-05-04] ask | NGAC có load toàn bộ Graph để duyệt BFS/DFS check quyền không?
 ## [2026-05-04] file-back | outputs/summaries/ngac-graph-traversal-reality-2026-05-04.md
+## [2026-05-04] ask | Bài toán NGAC cho doanh nghiệp nghìn user và trăm lệnh chờ duyệt
+## [2026-05-04] file-back | outputs/summaries/ngac-enterprise-approval-case-study-2026-05-04.md
+## [2026-05-04] autoresearch | Materialized và denormalize trong NGAC — 1 vòng, 1 nguồn nạp
+## [2026-05-04] compile | 1 bài mới, 2 cập nhật từ 1 tài liệu raw/articles (ngac-materialized-denormalize)

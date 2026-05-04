@@ -8,6 +8,7 @@ status: canonical
 related:
   - "[[ngac-practical-implementation]]"
   - "[[next-generation-access-control]]"
+  - "[[ngac-transitive-closure]]"
 summary: "Phân tích cách ánh xạ in-memory graph của NGAC thành 3 bảng cốt lõi trong cơ sở dữ liệu quan hệ, kết nối với dữ liệu nghiệp vụ và sử dụng Recursive CTE để debug."
 ---
 
