@@ -7,6 +7,7 @@ status: draft
 related:
   - "[[apache-kafka]]"
   - "[[rabbitmq]]"
+  - "[[docker]]"
 summary: "Máy chủ web mã nguồn mở nổi bật với cơ chế xử lý bất đồng bộ, thường được ứng dụng làm Reverse Proxy và Load Balancer."
 ---
 

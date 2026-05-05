@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 85,
-  "total_links": 230,
+  "total_articles": 87,
+  "total_links": 237,
   "backlinks": {
     "attribute-based-access-control": [
       "abac-vs-rbac",
@@ -166,6 +166,11 @@
       "spring-ioc-di",
       "jackson-databind"
     ],
+    "publish-subscribe": [
+      "message-broker",
+      "ngac-messaging-realtime",
+      "n8n"
+    ],
     "ngac-architecture": [
       "next-generation-access-control",
       "ngac-microservices-architecture",
@@ -274,13 +279,13 @@
       "javascript-asynchronous-programming",
       "ngrx-state-management"
     ],
-    "publish-subscribe": [
-      "message-broker",
-      "ngac-messaging-realtime"
-    ],
     "ngac-transitive-closure": [
       "ngac-database-design",
       "ngac-practical-implementation"
+    ],
+    "message-broker": [
+      "publish-subscribe",
+      "n8n"
     ],
     "ngrx-state-management": [
       "rxjs-reactive-programming",
@@ -305,6 +310,10 @@
     "kafka-vs-rabbitmq": [
       "apache-kafka",
       "rabbitmq"
+    ],
+    "docker": [
+      "n8n",
+      "nginx"
     ],
     "jotai": [
       "react-router-dom",
@@ -382,9 +391,6 @@
     "2.md": [
       "pl-sql"
     ],
-    "message-broker": [
-      "publish-subscribe"
-    ],
     "java-records": [
       "spring-validation"
     ],
@@ -418,6 +424,12 @@
     "antigravity-skills-system": [
       "antigravity-kit"
     ],
+    "nginx": [
+      "docker"
+    ],
+    "docker-architecture-core.md": [
+      "docker"
+    ],
     "java-generics": [
       "jackson-databind"
     ],
@@ -429,6 +441,9 @@
     ],
     "material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md": [
       "jotai"
+    ],
+    "n8n-overview-architecture": [
+      "n8n"
     ],
     "nginx-tong-quan-va-cau-hinh.md": [
       "nginx"

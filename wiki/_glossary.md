@@ -20,16 +20,19 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Call Stack:** Ngăn xếp gọi hàm. Cấu trúc dữ liệu LIFO ghi nhận các hàm đang được thực thi trong JavaScript.
 - **Capability List:** Danh sách khả năng. Biểu diễn lưu trữ theo định hướng Chủ thể, nơi hệ thống cấp cho mỗi người dùng một danh sách gồm các Đối tượng và quyền hạn tương ứng trên Đối tượng đó.
 - **CAS (Compare-And-Swap):** Thuật toán lõi trong các thư viện nguyên tử (Atomic), hoạt động theo cơ chế khóa lạc quan (lock-free) bằng cách liên tục kiểm tra và đối chiếu bộ nhớ.
+- **Cgroups (Control Groups):** Cơ chế lõi của nhân Linux giúp giới hạn và giám sát lượng tài nguyên vật lý (CPU, RAM, I/O) mà một tiến trình hoặc container được phép tiêu thụ.
 - **Closure:** Bao đóng. Hiện tượng một hàm ghi nhớ và có thể truy cập các biến nằm ở phạm vi bên ngoài của nó ngay cả khi hàm bên ngoài đã thực thi xong.
 - **Content OA / Members UA:** Cặp thực thể trên đồ thị quyền NGAC đại diện cho một kênh giao tiếp (Channel) trong hệ thống nhắn tin, giúp kiểm soát quyền đọc/ghi mà không cần ACL.
 - **Cognitive Routing:** Định tuyến nhận thức đa chiều. Cơ chế tự động nhận diện ý định ẩn từ mô tả tự nhiên để ánh xạ công việc tới chuyên gia AI phù hợp.
 - **Composition:** Lắp ráp. Kỹ thuật thiết kế phần mềm kết hợp các đối tượng hoặc kiểu dữ liệu để tạo ra cấu trúc dữ liệu phức tạp hơn, ưu tiên sử dụng thay thế cho Kế thừa.
 - **ConcurrentHashMap:** Cấu trúc dữ liệu từ điển hỗ trợ đa luồng tốc độ cao dựa trên cơ chế Bucket Locking và thuật toán CAS, không cho phép chứa khóa (key) hoặc giá trị (value) null.
+- **Container:** Môi trường đóng gói ứng dụng cô lập, bao gồm mã nguồn và mọi phụ thuộc, chia sẻ chung nhân hệ điều hành với máy chủ để đạt được tính linh hoạt và tối ưu tài nguyên hơn máy ảo. **Xem thêm:** [[docker]]
 
 ## D
 - **DAC (Discretionary Access Control):** Kiểm soát truy cập tùy ý. Mô hình kiểm soát linh hoạt cho phép người tạo/chủ sở hữu tài nguyên tự ý quản lý và chia sẻ lại quyền truy cập cho người khác.
 - **Dependency Injection (DI):** Tiêm phụ thuộc. Mô hình thực hành IoC trong đó các thành phần phụ thuộc của một đối tượng được tiêm vào từ bên ngoài (ưu tiên qua Constructor) thay vì đối tượng tự khởi tạo.
 - **Digital Divide:** Khoảng cách kỹ thuật số. Sự phân hóa về lợi thế và hiệu suất giữa người dùng thành thạo công nghệ (như AI) và người không sử dụng. **Xem thêm:** [[ai-users-vs-non-users]]
+- **Docker:** Nền tảng điều phối ảo hóa cấp hệ điều hành (OS-level virtualization) chuyên biệt sử dụng Namespaces và Cgroups để triển khai ứng dụng bằng container. **Xem thêm:** [[docker]]
 - **Dynamic Approval Workflow:** Luồng phê duyệt động. Kiến trúc lợi dụng cơ chế tìm kiếm phạm vi (Scope Finding) của đồ thị NGAC để tìm kiếm người duyệt theo thời gian thực thay vì phân công cứng. **Xem thêm:** [[ngac-approval-workflow]]
 
 ## E
@@ -73,6 +76,8 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **MLS (Multilevel Security):** Bảo mật Đa mức. Một phương pháp triển khai MAC phổ biến, gán các cấp độ bảo mật theo thứ bậc, thường áp dụng quy tắc "không đọc lên" và "không ghi xuống".
 
 ## N
+- **n8n:** Nền tảng tự động hóa quy trình làm việc (workflow automation) kết hợp giữa cấu hình no-code và lập trình chuyên sâu, được thiết kế mạnh mẽ dành cho doanh nghiệp. **Xem thêm:** [[n8n]]
+- **Namespaces:** Không gian tên. Cơ chế của Linux Kernel tạo ra lớp cô lập tài nguyên hệ thống (PID, Network, Mount), mang lại ảo giác rằng mỗi tiến trình đang chạy độc lập trên một máy chủ riêng biệt.
 - **NGAC (Next-Generation Access Control):** Kiểm soát truy cập thế hệ tiếp theo. Mô hình truy cập dựa trên biểu đồ, cho phép biểu diễn các chính sách phức tạp và đồng nhất.
 - **NGINX:** Máy chủ web và hệ thống proxy ngược mã nguồn mở nổi tiếng với kiến trúc xử lý bất đồng bộ và hướng sự kiện.
 - **NgRx:** Thư viện quản trị trạng thái (State Management) dành cho Angular, dựa trên mô hình Redux Pattern và RxJS.
@@ -97,6 +102,9 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Prototypal Inheritance:** Kế thừa nguyên mẫu. Cơ chế chia sẻ thuộc tính giữa các object trong JavaScript thông qua một chuỗi liên kết ngầm.
 - **Productivity Tax:** Thuế năng suất. Hệ lụy (The Expert Paradox) khi chuyên gia phải mất nhiều công sức để sửa đổi kết quả của AI cho khớp với tiêu chuẩn cá nhân thay vì tự làm từ đầu.
 - **Pub/Sub (Publish/Subscribe):** Mô hình giao tiếp bất đồng bộ, phân phối sự kiện thông qua các chủ đề (topics) mà không cần chỉ định đích đến.
+
+## Q
+- **Queue Mode:** Chế độ mở rộng quy mô (scaling) của n8n, phân tách thành Main Instance (đón yêu cầu), Message Broker (giữ hàng đợi qua Redis) và Workers (xử lý dữ liệu) để tăng tính ổn định của nền tảng. **Xem thêm:** [[n8n]]
 
 ## R
 - **RabbitMQ:** Message broker mã nguồn mở linh hoạt, hỗ trợ định tuyến thông điệp phong phú qua Exchanges và Queues.

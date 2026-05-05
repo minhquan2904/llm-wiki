@@ -82,3 +82,15 @@ summary: "Chronological log of all wiki operations"
 ## [2026-05-04] ask | Giải pháp performance cho danh sách lệnh chờ duyệt NGAC
 ## [2026-05-04] ingest | raw/ngac/ngac_system (NGAC System Docs)
 ## [2026-05-04] compile | 4 bài mới, 1 cập nhật từ 9 tài liệu raw/ngac/ngac_system (NGAC System Architecture, Organization Model, Messaging Realtime, Approval Workflow)
+## [2026-05-04] ask | sự khác biệt giữa người bắt đầu dùng AI và người không dùng
+## [2026-05-04] autoresearch | n8n là gì — 2 vòng, 1 nguồn nạp
+## [2026-05-04] ingest | Tổng quan về n8n và Kiến trúc mở rộng
+## [2026-05-04] compile | 1 bài mới, 0 cập nhật từ 1 tài liệu raw/articles (n8n-overview-architecture)
+## [2026-05-04] ask | Docker là gì
+## [2026-05-04] autoresearch | Docker kiến trúc cốt lõi — 1 vòng, 1 nguồn nạp
+## [2026-05-04] ingest | Docker Architecture: Namespaces and Cgroups
+## [2026-05-04] compile | 1 bài mới, 2 cập nhật từ 1 tài liệu raw/articles (docker-architecture-core)
+## [2026-05-04] ask | docker là gì
+## [2026-05-04] compile | 1 bài phục hồi từ 1 tài liệu raw/articles (docker-architecture-core)
+## [2026-05-04] cleanup | Cập nhật glossary với các thuật ngữ mới (Docker, n8n, Namespaces, Cgroups, Container, Queue Mode)
+## [2026-05-04] ask | Docker image là gì và cách đóng image

@@ -361,6 +361,18 @@
         "ngac-database-design",
         "ngac-practical-implementation"
       ]
+    },
+    "raw/articles/n8n-overview-architecture.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "n8n"
+      ]
+    },
+    "raw/articles/docker-architecture-core.md": {
+      "absorbed_at": "2026-05-04",
+      "wiki_articles": [
+        "docker"
+      ]
     }
   }
 }

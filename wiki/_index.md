@@ -9,7 +9,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 83  
+**Total articles:** 85  
 **Last updated:** 2026-05-04
 
 ---
@@ -81,7 +81,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[command-pattern]] | Mẫu thiết kế Command, Quản lý giao dịch, Command Object | Mẫu thiết kế hành vi giúp biến đổi một yêu cầu thành một đối tượng độc lập, hỗ trợ thực thi bất đồng bộ, lưu vết kiểm toán và hoàn tác (Undo). |
 | [[jagged-technological-frontier]] | Biên giới công nghệ lởm chởm, The Jagged Frontier | Khái niệm mô tả năng lực không đồng đều của AI: xuất sắc ở một số tác vụ nhưng lại thất bại ở các tác vụ có độ khó tương đương nằm ngoài 'biên giới' khả năng. |
 | [[skill-leveling-effect]] | Hiệu ứng san bằng kỹ năng, San bằng kỹ năng AI | Hiện tượng công cụ AI tạo sinh mang lại mức tăng hiệu suất lớn nhất cho những người có kỹ năng thấp, qua đó thu hẹp khoảng cách với các chuyên gia. |
-## Tools (10 articles)
+## Tools (12 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -95,6 +95,8 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[jackson-databind]] | jackson, jackson-databind | Bộ chuyển đổi dữ liệu JSON tiêu chuẩn của hệ sinh thái Java, nổi bật với hiệu suất cao và khả năng tích hợp sâu sắc với Spring Boot thông qua ObjectMapper. |
 | [[nginx]] | Nginx, engine x | Máy chủ web mã nguồn mở nổi bật với cơ chế xử lý bất đồng bộ, thường được ứng dụng làm Reverse Proxy và Load Balancer. |
 | [[tanstack-query]] | React Query, TanStack React Query | Thư viện quản lý trạng thái máy chủ (Server State) độc lập cho ứng dụng web, nổi bật với cơ chế caching tự động và kiến trúc Observer. |
+| [[n8n]] | n8n, n-eight-n, nodemation | Nền tảng workflow automation hybrid hỗ trợ Queue Mode với Redis và PostgreSQL để scale ở môi trường doanh nghiệp. |
+| [[docker]] | docker-architecture, dockerd, containerd | Nền tảng ảo hóa cấp hệ điều hành dựa trên Linux Namespaces và cgroups để triển khai ứng dụng bằng container. |
 
 ## People (0 articles)
 
@@ -118,7 +120,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[ai-users-vs-non-users]] | Sự khác biệt người dùng AI và không dùng AI, AI divide | Phân tích sự phân hóa về năng suất, hiệu suất làm việc, nhân khẩu học và thái độ tiếp nhận giữa nhóm người sử dụng công cụ AI và nhóm từ chối hoặc chưa tiếp cận AI. |
 ---
 
-## Raw Sources (61 documents)
+## Raw Sources (62 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -198,6 +200,8 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/ngac/ngac_in_real_project/permission-check-queries.md` | Article | 2026-05-04 |
 | `raw/ngac/ngac_in_real_project/permission-db-mapping.md` | Article | 2026-05-04 |
 | `raw/ngac/ngac_in_real_project/permission-graph.md` | Article | 2026-05-04 |
+| `raw/articles/n8n-overview-architecture.md` | Article | 2026-05-04 |
+| `raw/articles/docker-architecture-core.md` | Article | 2026-05-04 |
 
 ---
 
