@@ -9,7 +9,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 96  
+**Total articles:** 97  
 **Last updated:** 2026-05-05
 
 ---
@@ -83,7 +83,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[skill-leveling-effect]] | Hiệu ứng san bằng kỹ năng, San bằng kỹ năng AI | Hiện tượng công cụ AI tạo sinh mang lại mức tăng hiệu suất lớn nhất cho những người có kỹ năng thấp, qua đó thu hẹp khoảng cách với các chuyên gia. |
 | [[retrieval-augmented-generation]] | RAG, Local RAG Wiki | Kiến trúc sinh văn bản tăng cường truy xuất, kết nối mô hình ngôn ngữ với cơ sở dữ liệu riêng để cung cấp ngữ cảnh chính xác. |
 | [[graph-rag]] | Graph RAG, Knowledge Graph RAG | Phương pháp RAG cải tiến kết hợp tìm kiếm vector với đồ thị tri thức để khai thác cấu trúc và mối quan hệ phức tạp giữa các tài liệu. |
-## Tools (19 articles)
+## Tools (20 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -106,6 +106,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[anythingllm]] | | Ứng dụng desktop All-in-One giúp dễ dàng xây dựng hệ thống RAG bằng cách tự động quản lý tài liệu và kết nối với LLM cục bộ. |
 | [[smart-connections]] | Smart Connections Obsidian | Plugin của Obsidian hỗ trợ tìm kiếm ngữ nghĩa và tính năng chat AI dựa trên kiến trúc Vector RAG thông qua Ollama. |
 | [[llama-3.2-3b-instruct]] | Llama 3.2 3B, Llama 3.2 | Mô hình ngôn ngữ nhỏ gọn (SLM) 3 tỷ tham số của Meta, hỗ trợ 128k ngữ cảnh và tối ưu cho thiết bị cá nhân. |
+| [[phi-3.5-mini-instruct]] | Phi-3.5 Mini, Phi 3.5 | Mô hình ngôn ngữ nhỏ gọn 3.8B tham số của Microsoft, định vị là chuyên gia lập luận toán học và lập trình nhờ dữ liệu huấn luyện dạng 'textbook-quality'. |
 
 ## People (0 articles)
 
@@ -131,7 +132,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[small-llms-llama-phi-gemma]] | Llama 3.2 vs Phi 3.5 vs Gemma 2 | Phân tích và đối chiếu hiệu năng của ba mô hình ngôn ngữ nhỏ gọn hàng đầu: Llama 3.2 3B, Phi-3.5 Mini và Gemma 2 2B. |
 ---
 
-## Raw Sources (72 documents)
+## Raw Sources (73 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -223,6 +224,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/articles/obsidian-ollama-plugins.md` | Article | 2026-05-05 |
 | `raw/articles/llama-3-2-3b-instruct-specs.md` | Article | 2026-05-05 |
 | `raw/articles/small-llm-comparison-llama-phi-gemma.md` | Article | 2026-05-05 |
+| `raw/articles/phi-3-5-mini-instruct-overview.md` | Article | 2026-05-05 |
 ---
 
 ## Meta Files

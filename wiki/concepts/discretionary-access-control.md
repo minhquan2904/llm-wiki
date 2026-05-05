@@ -17,7 +17,7 @@ Kiểm soát truy cập tùy ý (Discretionary Access Control - DAC) là một m
 
 ## Cơ Sở Lý Thuyết
 
-Ma trận truy cập là nền tảng của DAC. Để phân tích độ phức tạp của việc tính toán các đặc tính an toàn trong mô hình này, giới nghiên cứu đã đề xuất mô hình **HRU** (Harrison, Ruzzo, Ullman). Một phát hiện quan trọng của mô hình HRU là tính chất an toàn trong các hệ thống DAC truyền thống là không thể quyết định bằng thuật toán (undecidable). Điều thú vị là cấu trúc HRU duy trì tính trung lập về mặt chính sách và có thể ứng dụng cả ngoài phạm vi của DAC.
+Ma trận truy cập là nền tảng của DAC. Để phân tích độ phức tạp của việc tính toán các đặc tính an toàn trong mô hình này, giới nghiên cứu đã đề xuất mô hình **HRU** (Harrison, Ruzzo, Ullman). Một phát hiện quan trọng của mô hình HRU là tính chất an toàn trong các hệ thống DAC truyền thống là không thể quyết định bằng thuật toán (undecidable). Cấu trúc HRU duy trì tính trung lập về mặt chính sách và có thể ứng dụng cả ngoài phạm vi của DAC.
 
 ## DAC Trong Thực Tế
 

@@ -138,6 +138,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## T
 - **TanStack Query:** (hay React Query). Thư viện quản lý trạng thái máy chủ chuyên nghiệp, giải quyết các vấn đề liên quan đến fetching, caching và đồng bộ dữ liệu. **Xem thêm:** [[tanstack-query]]
+- **Textbook-quality synthetic data:** Dữ liệu tổng hợp chất lượng cao. Tập dữ liệu huấn luyện do AI tạo ra mô phỏng cấu trúc sách giáo khoa dày đặc logic (reasoning-dense), giúp đào tạo các mô hình ngôn ngữ nhỏ gọn đạt hiệu năng vượt trội so với kích thước thực tế. **Xem thêm:** [[phi-3.5-mini-instruct]]
 - **ThreadPoolTaskExecutor:** Lớp bảo bọc (Wrapper) của Spring giúp cấu hình và giới hạn tài nguyên bể luồng nhằm thực thi các thao tác bất đồng bộ an toàn.
 - **Time-of-Action Re-check:** Kiểm tra tại thời điểm hành động. Thuật toán bảo mật yêu cầu hệ thống luôn gọi NGAC kiểm tra lại quyền ngay khoảnh khắc user thực thi (như duyệt lệnh) để chống lỗ hổng do thay đổi phòng ban/vai trò.
 - **Transitive Closure:** Bao đóng bắc cầu. Trong đồ thị NGAC, đây là khái niệm toán học để xác định xem có đường đi hợp lệ nào nối từ chủ thể đến đối tượng hay không. Đây là thuật toán cốt lõi ($O(V^3)$) để quyết định quyền truy cập. **Xem thêm:** [[ngac-transitive-closure]]

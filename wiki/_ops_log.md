@@ -102,3 +102,6 @@ summary: "Chronological log of all wiki operations"
 ## [2026-05-05] compile | 4 bài mới, 1 cập nhật từ 2 tài liệu raw/articles (Ollama RAG Wiki Integration, Obsidian Ollama Plugins)
 ## [2026-05-05] autoresearch | Llama-3.2-3B-Instruct — 2 vòng, 2 nguồn nạp
 ## [2026-05-05] compile | 2 bài mới từ 2 tài liệu raw/articles (Llama-3.2-3B-Instruct Specs, Small LLMs Comparison)
+## [2026-05-05] autoresearch | Phi-3.5-Mini-Instruct — 2 vòng, 1 nguồn nạp
+## [2026-05-05] compile | 1 bài mới, 1 cập nhật từ 1 tài liệu raw/articles (Phi-3.5-Mini-Instruct)
+## [2026-05-05] cleanup | Focused cleanup: 3 bài sửa (tone vi phạm)

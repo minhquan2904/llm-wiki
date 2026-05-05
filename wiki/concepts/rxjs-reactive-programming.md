@@ -13,7 +13,7 @@ summary: "Phân tích mô hình Reactive Programming qua RxJS: từ khái niệm
 
 # RxJS & Reactive Programming
 
-[[javascript-asynchronous-programming|Promise và Async/Await]] là giải pháp tuyệt vời cho các tác vụ bất đồng bộ mang tính chất "một lần" (ví dụ: gửi một request, nhận một phản hồi). Tuy nhiên, Promise lộ rõ giới hạn khi ứng dụng cần xử lý một luồng dữ liệu (Data Stream) theo thời gian thực như: tọa độ chuột, thanh tìm kiếm người dùng đang gõ, hay bảng giá cổ phiếu cập nhật liên tục. Đáng chú ý, Promise không thể bị hủy ngang (cancel) một khi đã kích hoạt.
+[[javascript-asynchronous-programming|Promise và Async/Await]] là giải pháp tuyệt vời cho các tác vụ bất đồng bộ mang tính chất "một lần" (ví dụ: gửi một request, nhận một phản hồi). Tuy nhiên, Promise lộ rõ giới hạn khi ứng dụng cần xử lý một luồng dữ liệu (Data Stream) theo thời gian thực như: tọa độ chuột, thanh tìm kiếm người dùng đang gõ, hay bảng giá cổ phiếu cập nhật liên tục. Hơn nữa, Promise không thể bị hủy ngang (cancel) một khi đã kích hoạt.
 
 Để giải quyết bài toán luồng dữ liệu đa giá trị và có thể kiểm soát, mô hình **Reactive Programming (Lập trình phản ứng)** ra đời, với đại diện xuất sắc nhất trong hệ sinh thái JavaScript là thư viện **RxJS** (Reactive Extensions for JavaScript).
 

@@ -1,8 +1,8 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 98,
-  "total_links": 283,
+  "total_articles": 99,
+  "total_links": 288,
   "backlinks": {
     "ollama": [
       "ollama-vs-vllm-vs-lmstudio",
@@ -11,6 +11,7 @@
       "continue-dev",
       "llama-3.2-3b-instruct",
       "lm-studio",
+      "phi-3.5-mini-instruct",
       "smart-connections",
       "vllm"
     ],
@@ -163,6 +164,11 @@
       "lm-studio",
       "vllm"
     ],
+    "llama-3.2-3b-instruct": [
+      "small-llms-llama-phi-gemma",
+      "ollama",
+      "phi-3.5-mini-instruct"
+    ],
     "cost-based-optimizer": [
       "analytic-functions",
       "soft-delete-anti-pattern",
@@ -276,10 +282,6 @@
       "ollama-vs-vllm-vs-lmstudio",
       "ollama"
     ],
-    "llama-3.2-3b-instruct": [
-      "small-llms-llama-phi-gemma",
-      "ollama"
-    ],
     "small-llm-comparison-llama-phi-gemma.md": [
       "small-llms-llama-phi-gemma",
       "llama-3.2-3b-instruct"
@@ -372,6 +374,10 @@
       "apache-kafka",
       "rabbitmq"
     ],
+    "small-llms-llama-phi-gemma": [
+      "llama-3.2-3b-instruct",
+      "phi-3.5-mini-instruct"
+    ],
     "jotai": [
       "react-router-dom",
       "tanstack-query"
@@ -393,6 +399,9 @@
     ],
     "ts-module-06.md": [
       "interface-vs-type-alias"
+    ],
+    "phi-3.5-mini-instruct": [
+      "small-llms-llama-phi-gemma"
     ],
     "dom-performance-optimization": [
       "virtual-dom-vs-real-dom"
@@ -511,9 +520,6 @@
     "material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md": [
       "jotai"
     ],
-    "small-llms-llama-phi-gemma": [
-      "llama-3.2-3b-instruct"
-    ],
     "llama-3-2-3b-instruct-specs.md": [
       "llama-3.2-3b-instruct"
     ],
@@ -543,6 +549,9 @@
     ],
     "summary.md": [
       "oracle-database"
+    ],
+    "phi-3-5-mini-instruct-overview.md": [
+      "phi-3.5-mini-instruct"
     ],
     "virtual-dom-vs-real-dom": [
       "react-router-dom"

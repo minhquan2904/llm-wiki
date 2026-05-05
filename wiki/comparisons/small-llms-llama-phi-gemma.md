@@ -7,6 +7,7 @@ aliases: [Llama 3.2 vs Phi 3.5 vs Gemma 2]
 status: draft
 related:
   - "[[llama-3.2-3b-instruct]]"
+  - "[[phi-3.5-mini-instruct]]"
   - "[[ollama-vs-vllm-vs-lmstudio]]"
 summary: "Phân tích và đối chiếu hiệu năng của ba mô hình ngôn ngữ nhỏ gọn hàng đầu: Llama 3.2 3B, Phi-3.5 Mini và Gemma 2 2B."
 ---

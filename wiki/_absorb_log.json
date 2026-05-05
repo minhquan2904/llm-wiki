@@ -439,6 +439,12 @@
         "llama-3.2-3b-instruct",
         "small-llms-llama-phi-gemma"
       ]
+    },
+    "raw/articles/phi-3-5-mini-instruct-overview.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "phi-3.5-mini-instruct"
+      ]
     }
   }
 }

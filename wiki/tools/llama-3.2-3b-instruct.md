@@ -26,7 +26,7 @@ Trái tim của Llama 3.2 3B Instruct là kiến trúc Transformer tự hồi qu
 
 Để đạt được hiệu suất cao trên một kiến trúc nhỏ gọn, Meta đã áp dụng một quy trình huấn luyện tinh vi:
 
-1. **Pre-training:** Mô hình được huấn luyện trước trên một tập dữ liệu khổng lồ lên tới 9 nghìn tỷ tokens. Đáng chú ý, Meta đã sử dụng phương pháp chưng cất tri thức (Knowledge Distillation) từ các "người đàn anh" lớn hơn là Llama 3.1 8B và 70B. Kỹ thuật này giúp mô hình 3B phục hồi hiệu năng và học được các biểu diễn phức tạp sau quá trình thu gọn kích thước (pruning).
+1. **Pre-training:** Mô hình được huấn luyện trước trên một tập dữ liệu khổng lồ lên tới 9 nghìn tỷ tokens. Meta đã sử dụng phương pháp chưng cất tri thức (Knowledge Distillation) từ các mô hình lớn hơn là Llama 3.1 8B và 70B. Kỹ thuật này giúp mô hình 3B phục hồi hiệu năng và học được các biểu diễn phức tạp sau quá trình thu gọn kích thước (pruning).
 2. **Alignment:** Mô hình được tinh chỉnh theo chỉ dẫn (Instruction-tuned) thông qua Supervised Fine-Tuning (SFT) và Reinforcement Learning with Human Feedback (RLHF) để đảm bảo đầu ra an toàn, hữu ích và bám sát ý định của người dùng.
 
 ## Lợi Thế / Hạn Chế
