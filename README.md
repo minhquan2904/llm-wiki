@@ -61,6 +61,59 @@ Hệ thống của tôi được trang bị các workflow tự động sau:
 - **Giới hạn kích thước:** Các bài viết được giữ ở độ dài 15-120 dòng. Chủ đề nào quá lớn sẽ được tách ra bài riêng.
 - **Giọng văn Bách khoa toàn thư:** Viết khách quan, trung lập, luôn có dẫn chứng nguồn, không dùng ngôn ngữ "blog" hay bình luận cá nhân.
 
+
+## 🗺️ Bản Đồ Kiến Thức
+
+<!-- WIKI-MAP:START -->
+```mermaid
+mindmap
+  root((📚 LLM Wiki))
+    🔐 Bảo mật — 23 bài
+      ABAC
+      Next-Generation Access Control
+      Hybrid NGAC
+      ABAC Architecture
+      NGAC Schema Mapping
+    🤖 AI/LLM — 21 bài
+      ollama-architecture
+      Vudovn Antigravity Kit
+      RAG
+      Local LLM Tools
+    ⚡ JS/TS — 17 bài
+      TS
+      Call Stack
+      var
+      TypeScript Functions
+      Union Types
+    🏗️ Kiến trúc — 13 bài
+      Kafka
+      Rabbitmq
+    ☕ Java/Spring — 10 bài
+      spring-ioc-di
+      java-concurrency
+    🗄️ Database — 9 bài
+      Oracle
+    🖥️ Frontend — 3 bài
+      Jotai
+      React Router
+    📦 📦 Khác — 1 bài
+      Interface vs Type Alias
+```
+
+> **97** bài wiki · **288** liên kết chéo · Cập nhật: 2026-05-05
+
+| Cluster | Bài | Hub Articles |
+|---------|-----|-------------|
+| 🔐 Bảo mật & Kiểm soát Truy cập | 23 | **ABAC** (7↩), **Next-Generation Access Control** (5↩), **Hybrid NGAC** (5↩) |
+| 🤖 AI & LLM | 21 | **ollama-architecture** (9↩), **Vudovn Antigravity Kit** (5↩), **RAG** (4↩) |
+| ⚡ JavaScript & TypeScript | 17 | **TS** (7↩), **Call Stack** (5↩), **var** (4↩) |
+| 🏗️ Kiến trúc & Hệ thống | 13 | **Kafka** (5↩), **Rabbitmq** (4↩) |
+| ☕ Java & Spring | 10 | **spring-ioc-di** (6↩), **java-concurrency** (4↩) |
+| 🗄️ Cơ sở dữ liệu | 9 | **Oracle** (6↩) |
+| 🖥️ Frontend | 3 | — |
+| 📦 Khác | 1 | — |
+<!-- WIKI-MAP:END -->
+
 ## 🛠️ Công Nghệ Sử Dụng
 
 - **[Obsidian](https://obsidian.md/)**: Giao diện chính để tôi xem, tìm kiếm và điều hướng qua các file Markdown.
