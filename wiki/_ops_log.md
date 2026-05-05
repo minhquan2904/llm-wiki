@@ -94,3 +94,11 @@ summary: "Chronological log of all wiki operations"
 ## [2026-05-04] compile | 1 bài phục hồi từ 1 tài liệu raw/articles (docker-architecture-core)
 ## [2026-05-04] cleanup | Cập nhật glossary với các thuật ngữ mới (Docker, n8n, Namespaces, Cgroups, Container, Queue Mode)
 ## [2026-05-04] ask | Docker image là gì và cách đóng image
+## [2026-05-05] autoresearch | Ollama — 1 vòng, 3 nguồn nạp
+## [2026-05-05] compile | 4 bài mới, 0 cập nhật từ 3 tài liệu raw/articles (Ollama, vLLM, LM Studio)
+## [2026-05-05] autoresearch | cách ollama run 1 model llm và cách sử dụng ở cli hoặc tool ide khác gọi vào — 1 vòng, 3 nguồn nạp
+## [2026-05-05] compile | 1 bài mới, 1 cập nhật từ 3 tài liệu raw/articles (Ollama API, CLI, IDE)
+## [2026-05-05] autoresearch | cách kết hợp llm wiki mà ollama — 2 vòng, 2 nguồn nạp
+## [2026-05-05] compile | 4 bài mới, 1 cập nhật từ 2 tài liệu raw/articles (Ollama RAG Wiki Integration, Obsidian Ollama Plugins)
+## [2026-05-05] autoresearch | Llama-3.2-3B-Instruct — 2 vòng, 2 nguồn nạp
+## [2026-05-05] compile | 2 bài mới từ 2 tài liệu raw/articles (Llama-3.2-3B-Instruct Specs, Small LLMs Comparison)

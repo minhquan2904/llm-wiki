@@ -45,6 +45,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 ## G
 - **Generic Repository Pattern:** Mẫu thiết kế trừu tượng hóa các thao tác cơ sở dữ liệu chung (CRUD) vào một lớp duy nhất sử dụng tham số kiểu (Generics) để giảm thiểu mã lặp lại.
 - **Generics:** Hệ gen nhân tạo. Khái niệm sử dụng tham số kiểu (Type Parameter) để xây dựng cấu trúc dữ liệu và hàm linh hoạt, đảm bảo an toàn tĩnh (Compile-time) nhưng bị Xóa kiểu (Type Erasure) lúc chạy.
+- **Grouped-Query Attention (GQA):** Biến thể của cơ chế tự chú ý (self-attention) giúp tăng tốc độ suy luận và tiết kiệm bộ nhớ, đặc biệt quan trọng cho các mô hình ngôn ngữ nhỏ gọn chạy trên thiết bị cá nhân. **Xem thêm:** [[llama-3.2-3b-instruct]]
 
 ## H
 - **Hoisting:** Cơ chế kéo phần khai báo biến (var) hoặc hàm lên đầu phạm vi (scope) trong giai đoạn biên dịch trước khi thực thi.
@@ -62,6 +63,7 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 
 ## K
 - **Kafka:** Nền tảng xử lý luồng sự kiện phân tán, lưu trữ dữ liệu theo thời gian thực với thông lượng cực cao.
+- **Knowledge Distillation:** Chưng cất tri thức. Quá trình chuyển giao kiến thức từ một mô hình lớn (teacher) sang một mô hình nhỏ gọn hơn (student) để duy trì chất lượng đầu ra trong khi giảm đáng kể dung lượng. **Xem thêm:** [[llama-3.2-3b-instruct]]
 
 ## L
 - **Leaky Abstraction:** Trừu tượng bị rò rỉ. Hiện tượng xảy ra khi một lớp trừu tượng không thể che giấu hoàn toàn sự phức tạp của hệ thống bên dưới, buộc người sử dụng phải can thiệp trực tiếp vào chi tiết thực thi.

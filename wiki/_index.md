@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 85  
-**Last updated:** 2026-05-04
+**Total articles:** 96  
+**Last updated:** 2026-05-05
 
 ---
 
-## Concepts (60 articles)
+## Concepts (62 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -81,7 +81,9 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[command-pattern]] | Mẫu thiết kế Command, Quản lý giao dịch, Command Object | Mẫu thiết kế hành vi giúp biến đổi một yêu cầu thành một đối tượng độc lập, hỗ trợ thực thi bất đồng bộ, lưu vết kiểm toán và hoàn tác (Undo). |
 | [[jagged-technological-frontier]] | Biên giới công nghệ lởm chởm, The Jagged Frontier | Khái niệm mô tả năng lực không đồng đều của AI: xuất sắc ở một số tác vụ nhưng lại thất bại ở các tác vụ có độ khó tương đương nằm ngoài 'biên giới' khả năng. |
 | [[skill-leveling-effect]] | Hiệu ứng san bằng kỹ năng, San bằng kỹ năng AI | Hiện tượng công cụ AI tạo sinh mang lại mức tăng hiệu suất lớn nhất cho những người có kỹ năng thấp, qua đó thu hẹp khoảng cách với các chuyên gia. |
-## Tools (12 articles)
+| [[retrieval-augmented-generation]] | RAG, Local RAG Wiki | Kiến trúc sinh văn bản tăng cường truy xuất, kết nối mô hình ngôn ngữ với cơ sở dữ liệu riêng để cung cấp ngữ cảnh chính xác. |
+| [[graph-rag]] | Graph RAG, Knowledge Graph RAG | Phương pháp RAG cải tiến kết hợp tìm kiếm vector với đồ thị tri thức để khai thác cấu trúc và mối quan hệ phức tạp giữa các tài liệu. |
+## Tools (19 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -97,6 +99,13 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[tanstack-query]] | React Query, TanStack React Query | Thư viện quản lý trạng thái máy chủ (Server State) độc lập cho ứng dụng web, nổi bật với cơ chế caching tự động và kiến trúc Observer. |
 | [[n8n]] | n8n, n-eight-n, nodemation | Nền tảng workflow automation hybrid hỗ trợ Queue Mode với Redis và PostgreSQL để scale ở môi trường doanh nghiệp. |
 | [[docker]] | docker-architecture, dockerd, containerd | Nền tảng ảo hóa cấp hệ điều hành dựa trên Linux Namespaces và cgroups để triển khai ứng dụng bằng container. |
+| [[ollama]] | ollama-architecture | Framework mã nguồn mở quản lý và chạy mô hình ngôn ngữ lớn (LLM) cục bộ với kiến trúc client-server tối ưu. |
+| [[vllm]] | vLLM inference | Thư viện phục vụ suy luận LLM hiệu năng cao chuyên dùng cho môi trường production. |
+| [[lm-studio]] | LM Studio GUI | Ứng dụng Desktop có giao diện trực quan giúp khám phá và chạy thử nghiệm LLM cục bộ. |
+| [[continue-dev]] | Continue | Tiện ích mở rộng mã nguồn mở dành cho IDE, mang lại trải nghiệm hỗ trợ lập trình AI hoàn toàn cục bộ. |
+| [[anythingllm]] | | Ứng dụng desktop All-in-One giúp dễ dàng xây dựng hệ thống RAG bằng cách tự động quản lý tài liệu và kết nối với LLM cục bộ. |
+| [[smart-connections]] | Smart Connections Obsidian | Plugin của Obsidian hỗ trợ tìm kiếm ngữ nghĩa và tính năng chat AI dựa trên kiến trúc Vector RAG thông qua Ollama. |
+| [[llama-3.2-3b-instruct]] | Llama 3.2 3B, Llama 3.2 | Mô hình ngôn ngữ nhỏ gọn (SLM) 3 tỷ tham số của Meta, hỗ trợ 128k ngữ cảnh và tối ưu cho thiết bị cá nhân. |
 
 ## People (0 articles)
 
@@ -104,7 +113,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 |---------|---------|---------|
 | _Empty_ | | |
 
-## Comparisons (10 articles)
+## Comparisons (12 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -118,9 +127,11 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[virtual-dom-vs-real-dom]] | Virtual DOM vs Real DOM | Phân tích sự khác biệt về bản chất và hiệu năng giữa kiến trúc Real DOM truyền thống và giải pháp trung gian Virtual DOM của React. |
 | [[composition-vs-inheritance]] | Composition over Inheritance | Phân tích sự khác biệt giữa thiết kế theo mô hình Kế thừa cứng nhắc và Lắp ráp linh hoạt trong OOP. |
 | [[ai-users-vs-non-users]] | Sự khác biệt người dùng AI và không dùng AI, AI divide | Phân tích sự phân hóa về năng suất, hiệu suất làm việc, nhân khẩu học và thái độ tiếp nhận giữa nhóm người sử dụng công cụ AI và nhóm từ chối hoặc chưa tiếp cận AI. |
+| [[ollama-vs-vllm-vs-lmstudio]] | Local LLM Tools, So sánh Ollama và vLLM | Phân tích và đối chiếu 3 công cụ chạy Local LLM dựa trên đối tượng sử dụng: UI (LM Studio), Developer (Ollama), Production (vLLM). |
+| [[small-llms-llama-phi-gemma]] | Llama 3.2 vs Phi 3.5 vs Gemma 2 | Phân tích và đối chiếu hiệu năng của ba mô hình ngôn ngữ nhỏ gọn hàng đầu: Llama 3.2 3B, Phi-3.5 Mini và Gemma 2 2B. |
 ---
 
-## Raw Sources (62 documents)
+## Raw Sources (72 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -202,7 +213,16 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/ngac/ngac_in_real_project/permission-graph.md` | Article | 2026-05-04 |
 | `raw/articles/n8n-overview-architecture.md` | Article | 2026-05-04 |
 | `raw/articles/docker-architecture-core.md` | Article | 2026-05-04 |
-
+| `raw/articles/ollama-overview-architecture.md` | Article | 2026-05-05 |
+| `raw/articles/ollama-use-cases-features.md` | Article | 2026-05-05 |
+| `raw/articles/ollama-vs-lmstudio-vs-vllm.md` | Article | 2026-05-05 |
+| `raw/articles/ollama-cli-usage.md` | Article | 2026-05-05 |
+| `raw/articles/ollama-api-usage.md` | Article | 2026-05-05 |
+| `raw/articles/ollama-ide-integration.md` | Article | 2026-05-05 |
+| `raw/articles/ollama-rag-wiki-integration.md` | Article | 2026-05-05 |
+| `raw/articles/obsidian-ollama-plugins.md` | Article | 2026-05-05 |
+| `raw/articles/llama-3-2-3b-instruct-specs.md` | Article | 2026-05-05 |
+| `raw/articles/small-llm-comparison-llama-phi-gemma.md` | Article | 2026-05-05 |
 ---
 
 ## Meta Files

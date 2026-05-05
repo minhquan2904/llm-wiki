@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04",
+  "last_updated": "2026-05-05",
   "sources": {
     "raw/ngac/ngac_system/approval-flow.md": {
       "absorbed_at": "2026-05-04",
@@ -372,6 +372,72 @@
       "absorbed_at": "2026-05-04",
       "wiki_articles": [
         "docker"
+      ]
+    },
+    "raw/articles/ollama-overview-architecture.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "ollama"
+      ]
+    },
+    "raw/articles/ollama-use-cases-features.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "ollama"
+      ]
+    },
+    "raw/articles/ollama-vs-lmstudio-vs-vllm.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "vllm",
+        "lm-studio",
+        "ollama-vs-vllm-vs-lmstudio"
+      ]
+    },
+    "raw/articles/ollama-cli-usage.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "ollama"
+      ]
+    },
+    "raw/articles/ollama-api-usage.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "ollama"
+      ]
+    },
+    "raw/articles/ollama-ide-integration.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "continue-dev",
+        "ollama"
+      ]
+    },
+    "raw/articles/ollama-rag-wiki-integration.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "retrieval-augmented-generation",
+        "anythingllm"
+      ]
+    },
+    "raw/articles/obsidian-ollama-plugins.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "graph-rag",
+        "smart-connections"
+      ]
+    },
+    "raw/articles/llama-3-2-3b-instruct-specs.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "llama-3.2-3b-instruct"
+      ]
+    },
+    "raw/articles/small-llm-comparison-llama-phi-gemma.md": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "llama-3.2-3b-instruct",
+        "small-llms-llama-phi-gemma"
       ]
     }
   }

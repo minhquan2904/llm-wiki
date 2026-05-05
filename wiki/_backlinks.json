@@ -1,9 +1,19 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 87,
-  "total_links": 237,
+  "total_articles": 98,
+  "total_links": 283,
   "backlinks": {
+    "ollama": [
+      "ollama-vs-vllm-vs-lmstudio",
+      "retrieval-augmented-generation",
+      "anythingllm",
+      "continue-dev",
+      "llama-3.2-3b-instruct",
+      "lm-studio",
+      "smart-connections",
+      "vllm"
+    ],
     "attribute-based-access-control": [
       "abac-vs-rbac",
       "authentication-vs-authorization",
@@ -85,11 +95,23 @@
       "apache-kafka",
       "nginx"
     ],
+    "ollama-vs-vllm-vs-lmstudio": [
+      "small-llms-llama-phi-gemma",
+      "lm-studio",
+      "ollama",
+      "vllm"
+    ],
     "abac-architecture": [
       "abac-attribute-management",
       "access-control-policy-enforcement",
       "attribute-based-access-control",
       "ngac-architecture"
+    ],
+    "retrieval-augmented-generation": [
+      "graph-rag",
+      "anythingllm",
+      "ollama",
+      "smart-connections"
     ],
     "java-concurrency-fundamentals": [
       "java-concurrent-collections",
@@ -136,6 +158,11 @@
       "soft-delete-anti-pattern",
       "oracle-database"
     ],
+    "ollama-vs-lmstudio-vs-vllm.md": [
+      "ollama-vs-vllm-vs-lmstudio",
+      "lm-studio",
+      "vllm"
+    ],
     "cost-based-optimizer": [
       "analytic-functions",
       "soft-delete-anti-pattern",
@@ -155,6 +182,11 @@
       "clean-code-javascript-patterns",
       "dom-performance-optimization",
       "javascript-under-the-hood"
+    ],
+    "obsidian-ollama-plugins.md": [
+      "graph-rag",
+      "retrieval-augmented-generation",
+      "smart-connections"
     ],
     "spring-async-execution": [
       "java-concurrency-fundamentals",
@@ -190,6 +222,11 @@
       "typescript-generics",
       "typescript-type-narrowing",
       "typescript"
+    ],
+    "docker": [
+      "n8n",
+      "nginx",
+      "ollama"
     ],
     "abac-attribute-management": [
       "abac-vs-rbac",
@@ -230,6 +267,22 @@
     "typescript-oop": [
       "interface-vs-type-alias",
       "typescript"
+    ],
+    "vllm": [
+      "ollama-vs-vllm-vs-lmstudio",
+      "ollama"
+    ],
+    "lm-studio": [
+      "ollama-vs-vllm-vs-lmstudio",
+      "ollama"
+    ],
+    "llama-3.2-3b-instruct": [
+      "small-llms-llama-phi-gemma",
+      "ollama"
+    ],
+    "small-llm-comparison-llama-phi-gemma.md": [
+      "small-llms-llama-phi-gemma",
+      "llama-3.2-3b-instruct"
     ],
     "1.md": [
       "acid-properties",
@@ -287,6 +340,14 @@
       "publish-subscribe",
       "n8n"
     ],
+    "graph-rag": [
+      "retrieval-augmented-generation",
+      "smart-connections"
+    ],
+    "ollama-rag-wiki-integration.md": [
+      "retrieval-augmented-generation",
+      "anythingllm"
+    ],
     "ngrx-state-management": [
       "rxjs-reactive-programming",
       "jotai"
@@ -310,10 +371,6 @@
     "kafka-vs-rabbitmq": [
       "apache-kafka",
       "rabbitmq"
-    ],
-    "docker": [
-      "n8n",
-      "nginx"
     ],
     "jotai": [
       "react-router-dom",
@@ -367,6 +424,9 @@
     "generic-repository-pattern.md": [
       "generic-repository-pattern"
     ],
+    "wikilinks": [
+      "graph-rag"
+    ],
     "java-concurrent-collections": [
       "java-concurrency-fundamentals"
     ],
@@ -390,6 +450,12 @@
     ],
     "2.md": [
       "pl-sql"
+    ],
+    "anythingllm": [
+      "retrieval-augmented-generation"
+    ],
+    "smart-connections": [
+      "retrieval-augmented-generation"
     ],
     "java-records": [
       "spring-validation"
@@ -424,6 +490,9 @@
     "antigravity-skills-system": [
       "antigravity-kit"
     ],
+    "ollama-ide-integration.md": [
+      "continue-dev"
+    ],
     "nginx": [
       "docker"
     ],
@@ -442,11 +511,32 @@
     "material-atom-jotai-quản-lý-state-theo-kiểu-nguyên-tử.md": [
       "jotai"
     ],
+    "small-llms-llama-phi-gemma": [
+      "llama-3.2-3b-instruct"
+    ],
+    "llama-3-2-3b-instruct-specs.md": [
+      "llama-3.2-3b-instruct"
+    ],
     "n8n-overview-architecture": [
       "n8n"
     ],
     "nginx-tong-quan-va-cau-hinh.md": [
       "nginx"
+    ],
+    "ollama-api": [
+      "ollama"
+    ],
+    "ollama-overview-architecture.md": [
+      "ollama"
+    ],
+    "ollama-use-cases-features.md": [
+      "ollama"
+    ],
+    "ollama-cli-usage.md": [
+      "ollama"
+    ],
+    "ollama-api-usage.md": [
+      "ollama"
     ],
     "pl-sql": [
       "oracle-database"
