@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05",
+  "last_updated": "2026-05-08",
   "sources": {
     "raw/ngac/ngac_system/approval-flow.md": {
       "absorbed_at": "2026-05-04",
@@ -445,6 +445,58 @@
       "wiki_articles": [
         "phi-3.5-mini-instruct"
       ]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch05-internals.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["kafka-replication", "apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch06-reliable-delivery.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["kafka-replication", "apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch07-data-pipelines.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["kafka-connect", "apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch11-stream-processing.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["kafka-streams", "apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch01-kafka-primer.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch02-installing-kafka.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch03-producers.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["kafka-producer", "apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch04-consumers.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["kafka-consumer", "apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch08-cross-cluster.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["kafka-mirrormaker", "apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch09-administering.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["kafka-administration", "apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-ch10-monitoring.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["kafka-monitoring", "apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-preface-and-ch00.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["apache-kafka"]
+    },
+    "raw/papers/kafka-definitive-guide/kafka-appendix.md": {
+      "absorbed_at": "2026-05-08",
+      "wiki_articles": ["apache-kafka"]
     }
   }
 }

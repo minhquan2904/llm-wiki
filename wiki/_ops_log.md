@@ -105,3 +105,9 @@ summary: "Chronological log of all wiki operations"
 ## [2026-05-05] autoresearch | Phi-3.5-Mini-Instruct — 2 vòng, 1 nguồn nạp
 ## [2026-05-05] compile | 1 bài mới, 1 cập nhật từ 1 tài liệu raw/articles (Phi-3.5-Mini-Instruct)
 ## [2026-05-05] cleanup | Focused cleanup: 3 bài sửa (tone vi phạm)
+## [2026-05-04] ask | Tổng quan kiến thức trong wiki
+## [2026-05-04] ask | Kafka 5 consumers 3 partitions — idle workers
+## [2026-05-04] ask | Kafka tăng partitions có phải càng tốt không
+## [2026-05-08] ingest | raw/papers/kafka-definitive-guide (Kafka: The Definitive Guide — O'Reilly 2017, 13 chapter files, ~109K từ)
+## [2026-05-08] compile | kafka-definitive-guide → kafka-replication, kafka-connect, kafka-streams (3 bài mới) + cập nhật apache-kafka
+## [2026-05-08] compile | kafka-definitive-guide ch01-04,08-10 → kafka-producer, kafka-consumer, kafka-mirrormaker, kafka-administration, kafka-monitoring (5 bài mới) + cập nhật apache-kafka (thêm cài đặt/hạ tầng, origin story)

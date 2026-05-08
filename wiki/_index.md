@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 97  
-**Last updated:** 2026-05-05
+**Total articles:** 105  
+**Last updated:** 2026-05-08
 
 ---
 
-## Concepts (62 articles)
+## Concepts (69 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -83,13 +83,21 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[skill-leveling-effect]] | Hiệu ứng san bằng kỹ năng, San bằng kỹ năng AI | Hiện tượng công cụ AI tạo sinh mang lại mức tăng hiệu suất lớn nhất cho những người có kỹ năng thấp, qua đó thu hẹp khoảng cách với các chuyên gia. |
 | [[retrieval-augmented-generation]] | RAG, Local RAG Wiki | Kiến trúc sinh văn bản tăng cường truy xuất, kết nối mô hình ngôn ngữ với cơ sở dữ liệu riêng để cung cấp ngữ cảnh chính xác. |
 | [[graph-rag]] | Graph RAG, Knowledge Graph RAG | Phương pháp RAG cải tiến kết hợp tìm kiếm vector với đồ thị tri thức để khai thác cấu trúc và mối quan hệ phức tạp giữa các tài liệu. |
-## Tools (20 articles)
+| [[kafka-replication]] | Kafka Replication, ISR, In-Sync Replicas | Cơ chế sao chép dữ liệu trong Apache Kafka — nền tảng đảm bảo tính sẵn sàng và bền vững thông qua Leader/Follower, ISR và các cấu hình tin cậy. |
+| [[kafka-streams]] | Kafka Streams, Kafka Streams API | Thư viện xử lý luồng sự kiện tích hợp trong Apache Kafka — hỗ trợ topology, windowing, state management và stream-table duality. |
+| [[kafka-producer]] | Kafka Producer, KafkaProducer, Producer API | Kiến trúc và API gửi thông điệp của Apache Kafka — bao gồm mô hình ProducerRecord, ba chế độ gửi, cấu hình acks và chiến lược phân vùng. |
+| [[kafka-consumer]] | Kafka Consumer, KafkaConsumer, Consumer Group | Kiến trúc đọc thông điệp của Apache Kafka — bao gồm Consumer Group, cơ chế rebalance, quản lý offset và các chiến lược commit. |
+| [[kafka-mirrormaker]] | MirrorMaker, Cross-Cluster Mirroring | Cơ chế sao chép dữ liệu giữa các cụm Kafka — bao gồm kiến trúc MirrorMaker, các mẫu triển khai đa cụm và chiến lược failover. |
+| [[kafka-administration]] | Quản trị Kafka, Kafka Admin Tools | Tổng hợp công cụ và quy trình quản trị cụm Apache Kafka — bao gồm quản lý topic, partition reassignment, consumer group và các thao tác khẩn cấp. |
+| [[kafka-monitoring]] | Giám sát Kafka, Kafka Metrics | Hệ thống giám sát Apache Kafka — bao gồm các chỉ số JMX quan trọng của broker, giám sát consumer lag và chiến lược end-to-end monitoring. |
+## Tools (21 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
 | [[antigravity-kit]] | Vudovn Antigravity Kit, AG Kit | Bộ khuôn khổ mã nguồn mở tổ chức và điều phối hệ thống đa tác tử cho môi trường phát triển Agent-First. |
 | [[google-antigravity]] | | Nền tảng phát triển tích hợp (IDE) tiên phong trong kỷ nguyên Agent-First của Google. |
 | [[apache-kafka]] | Kafka | Nền tảng xử lý luồng sự kiện phân tán, nổi bật với thông lượng cao và khả năng lưu trữ dữ liệu thời gian thực. |
+| [[kafka-connect]] | Kafka Connect, Connect API | Framework tích hợp dữ liệu của Apache Kafka, cung cấp kiến trúc Connector-Task-Worker để di chuyển dữ liệu giữa Kafka và các hệ thống bên ngoài. |
 | [[rabbitmq]] | | Message broker mã nguồn mở linh hoạt, hỗ trợ nhiều giao thức và định tuyến tin nhắn phức tạp. |
 | [[oracle-database]] | Oracle, Oracle DB | Hệ quản trị CSDL quan hệ tiêu chuẩn vàng cho các hệ thống Core Banking và tài chính. |
 | [[react-router-dom]] | React Router | Thư viện quản lý định tuyến tiêu chuẩn dành cho các ứng dụng Single Page Application (SPA) xây dựng bằng React. |
@@ -225,6 +233,19 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/articles/llama-3-2-3b-instruct-specs.md` | Article | 2026-05-05 |
 | `raw/articles/small-llm-comparison-llama-phi-gemma.md` | Article | 2026-05-05 |
 | `raw/articles/phi-3-5-mini-instruct-overview.md` | Article | 2026-05-05 |
+| `raw/papers/kafka-definitive-guide/kafka-ch01-kafka-primer.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch02-installing-kafka.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch03-producers.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch04-consumers.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch05-internals.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch06-reliable-delivery.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch07-data-pipelines.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch08-cross-cluster.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch09-administering.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch10-monitoring.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-ch11-stream-processing.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-preface-and-ch00.md` | Paper | 2026-05-08 |
+| `raw/papers/kafka-definitive-guide/kafka-appendix.md` | Paper | 2026-05-08 |
 ---
 
 ## Meta Files
