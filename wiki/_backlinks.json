@@ -1,9 +1,24 @@
 {
   "description": "Reverse link index. Maps article -> list of articles linking TO it.",
   "last_updated": "1776927579.1545918",
-  "total_articles": 99,
-  "total_links": 288,
+  "total_articles": 107,
+  "total_links": 330,
   "backlinks": {
+    "apache-kafka": [
+      "kafka-vs-rabbitmq",
+      "kafka-administration",
+      "kafka-consumer",
+      "kafka-mirrormaker",
+      "kafka-monitoring",
+      "kafka-producer",
+      "kafka-replication",
+      "kafka-streams",
+      "message-broker",
+      "publish-subscribe",
+      "kafka-connect",
+      "nginx",
+      "rabbitmq"
+    ],
     "ollama": [
       "ollama-vs-vllm-vs-lmstudio",
       "retrieval-augmented-generation",
@@ -14,6 +29,16 @@
       "phi-3.5-mini-instruct",
       "smart-connections",
       "vllm"
+    ],
+    "kafka-replication": [
+      "kafka-administration",
+      "kafka-consumer",
+      "kafka-mirrormaker",
+      "kafka-monitoring",
+      "kafka-producer",
+      "kafka-streams",
+      "apache-kafka",
+      "kafka-connect"
     ],
     "attribute-based-access-control": [
       "abac-vs-rbac",
@@ -49,13 +74,6 @@
       "flashback-data-archive",
       "pl-sql"
     ],
-    "apache-kafka": [
-      "kafka-vs-rabbitmq",
-      "message-broker",
-      "publish-subscribe",
-      "nginx",
-      "rabbitmq"
-    ],
     "javascript-under-the-hood": [
       "virtual-dom-vs-real-dom",
       "javascript-advanced-mechanisms",
@@ -76,6 +94,20 @@
       "sequential-multi-domain-execution",
       "socratic-gate-protocol",
       "google-antigravity"
+    ],
+    "kafka-connect": [
+      "kafka-mirrormaker",
+      "kafka-producer",
+      "kafka-replication",
+      "kafka-streams",
+      "apache-kafka"
+    ],
+    "publish-subscribe": [
+      "kafka-replication",
+      "kafka-streams",
+      "message-broker",
+      "ngac-messaging-realtime",
+      "n8n"
     ],
     "ngac-practical-implementation": [
       "next-generation-access-control",
@@ -98,8 +130,8 @@
     ],
     "ollama-vs-vllm-vs-lmstudio": [
       "small-llms-llama-phi-gemma",
-      "lm-studio",
       "ollama",
+      "lm-studio",
       "vllm"
     ],
     "abac-architecture": [
@@ -110,8 +142,8 @@
     ],
     "retrieval-augmented-generation": [
       "graph-rag",
-      "anythingllm",
       "ollama",
+      "anythingllm",
       "smart-connections"
     ],
     "java-concurrency-fundamentals": [
@@ -125,6 +157,12 @@
       "javascript-memory-management",
       "javascript-under-the-hood",
       "ngrx-state-management"
+    ],
+    "kafka-streams": [
+      "kafka-consumer",
+      "kafka-replication",
+      "apache-kafka",
+      "kafka-connect"
     ],
     "ngac-database-design": [
       "next-generation-access-control",
@@ -204,10 +242,25 @@
       "spring-ioc-di",
       "jackson-databind"
     ],
-    "publish-subscribe": [
-      "message-broker",
-      "ngac-messaging-realtime",
-      "n8n"
+    "kafka-monitoring": [
+      "kafka-administration",
+      "kafka-mirrormaker",
+      "apache-kafka"
+    ],
+    "kafka-producer": [
+      "kafka-administration",
+      "kafka-consumer",
+      "apache-kafka"
+    ],
+    "kafka-administration": [
+      "kafka-mirrormaker",
+      "kafka-monitoring",
+      "apache-kafka"
+    ],
+    "kafka-consumer": [
+      "kafka-monitoring",
+      "kafka-producer",
+      "apache-kafka"
     ],
     "ngac-architecture": [
       "next-generation-access-control",
@@ -224,15 +277,20 @@
       "ngac-messaging-realtime",
       "ngac-organization-model"
     ],
+    "docker": [
+      "ollama",
+      "n8n",
+      "nginx"
+    ],
+    "message-broker": [
+      "publish-subscribe",
+      "kafka-connect",
+      "n8n"
+    ],
     "interface-vs-type-alias": [
       "typescript-generics",
       "typescript-type-narrowing",
       "typescript"
-    ],
-    "docker": [
-      "n8n",
-      "nginx",
-      "ollama"
     ],
     "abac-attribute-management": [
       "abac-vs-rbac",
@@ -334,13 +392,13 @@
       "javascript-asynchronous-programming",
       "ngrx-state-management"
     ],
+    "kafka-mirrormaker": [
+      "kafka-administration",
+      "apache-kafka"
+    ],
     "ngac-transitive-closure": [
       "ngac-database-design",
       "ngac-practical-implementation"
-    ],
-    "message-broker": [
-      "publish-subscribe",
-      "n8n"
     ],
     "graph-rag": [
       "retrieval-augmented-generation",
@@ -457,6 +515,21 @@
     "javascript-variables-and-scope#bản-chất-tính-bất-biến-của-const": [
       "ngrx-state-management"
     ],
+    "ollama-api": [
+      "ollama"
+    ],
+    "ollama-overview-architecture.md": [
+      "ollama"
+    ],
+    "ollama-use-cases-features.md": [
+      "ollama"
+    ],
+    "ollama-cli-usage.md": [
+      "ollama"
+    ],
+    "ollama-api-usage.md": [
+      "ollama"
+    ],
     "2.md": [
       "pl-sql"
     ],
@@ -528,21 +601,6 @@
     ],
     "nginx-tong-quan-va-cau-hinh.md": [
       "nginx"
-    ],
-    "ollama-api": [
-      "ollama"
-    ],
-    "ollama-overview-architecture.md": [
-      "ollama"
-    ],
-    "ollama-use-cases-features.md": [
-      "ollama"
-    ],
-    "ollama-cli-usage.md": [
-      "ollama"
-    ],
-    "ollama-api-usage.md": [
-      "ollama"
     ],
     "pl-sql": [
       "oracle-database"
