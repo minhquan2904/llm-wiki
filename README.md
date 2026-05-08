@@ -79,15 +79,18 @@ mindmap
       Vudovn Antigravity Kit
       RAG
       Local LLM Tools
+    🏗️ Kiến trúc — 21 bài
+      Kafka
+      Kafka Replication
+      Pub/Sub
+      Kafka Connect
+      Kafka Streams
     ⚡ JS/TS — 17 bài
       TS
       Call Stack
       var
       TypeScript Functions
       Union Types
-    🏗️ Kiến trúc — 13 bài
-      Kafka
-      Rabbitmq
     ☕ Java/Spring — 10 bài
       spring-ioc-di
       java-concurrency
@@ -100,14 +103,14 @@ mindmap
       Interface vs Type Alias
 ```
 
-> **97** bài wiki · **288** liên kết chéo · Cập nhật: 2026-05-05
+> **105** bài wiki · **330** liên kết chéo · Cập nhật: 2026-05-08
 
 | Cluster | Bài | Hub Articles |
 |---------|-----|-------------|
 | 🔐 Bảo mật & Kiểm soát Truy cập | 23 | **ABAC** (7↩), **Next-Generation Access Control** (5↩), **Hybrid NGAC** (5↩) |
 | 🤖 AI & LLM | 21 | **ollama-architecture** (9↩), **Vudovn Antigravity Kit** (5↩), **RAG** (4↩) |
+| 🏗️ Kiến trúc & Hệ thống | 21 | **Kafka** (13↩), **Kafka Replication** (8↩), **Pub/Sub** (5↩) |
 | ⚡ JavaScript & TypeScript | 17 | **TS** (7↩), **Call Stack** (5↩), **var** (4↩) |
-| 🏗️ Kiến trúc & Hệ thống | 13 | **Kafka** (5↩), **Rabbitmq** (4↩) |
 | ☕ Java & Spring | 10 | **spring-ioc-di** (6↩), **java-concurrency** (4↩) |
 | 🗄️ Cơ sở dữ liệu | 9 | **Oracle** (6↩) |
 | 🖥️ Frontend | 3 | — |

@@ -206,5 +206,6 @@ summary: "Chronological log of all wiki operations"
 ## [2026-05-08] ingest | raw/papers/kafka-definitive-guide (Kafka: The Definitive Guide — O'Reilly 2017, 13 chapter files, ~109K từ)
 
 ## [2026-05-08] compile | kafka-definitive-guide → kafka-replication, kafka-connect, kafka-streams (3 bài mới) + cập nhật apache-kafka
-
 ## [2026-05-08] compile | kafka-definitive-guide ch01-04,08-10 → kafka-producer, kafka-consumer, kafka-mirrormaker, kafka-administration, kafka-monitoring (5 bài mới) + cập nhật apache-kafka (thêm cài đặt/hạ tầng, origin story)
+
+## [2026-05-08] overview | Cập nhật topic map README — 105 bài, 330 liên kết
