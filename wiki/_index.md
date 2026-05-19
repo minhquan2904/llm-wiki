@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 105  
-**Last updated:** 2026-05-08
+**Total articles:** 108  
+**Last updated:** 2026-05-19
 
 ---
 
-## Concepts (69 articles)
+## Concepts (71 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -52,6 +52,8 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[javascript-advanced-mechanisms]] | Type Coercion, Prototypal Inheritance, call, apply, bind | Khám phá các cơ chế cấp cao dễ gây nhầm lẫn: Ép kiểu ngầm, Kế thừa chuỗi nguyên mẫu và kiểm soát ngữ cảnh this. |
 | [[message-broker]] | Trạm trung chuyển tin nhắn, Trạm môi giới tin nhắn | Một thành phần trung gian hỗ trợ ứng dụng giao tiếp, nhận và định tuyến dữ liệu dựa trên các quy tắc xác định trước. |
 | [[publish-subscribe]] | Pub/Sub, Mô hình Pub-Sub, Publish-Subscribe | Mô hình giao tiếp bất đồng bộ trong đó người gửi phát thông điệp vào các chủ đề mà không cần chỉ định người nhận cụ thể. |
+| [[design-tokens]] | Design Token, DTCG, Primitive Token, Semantic Token, Component Token | Hệ thống lưu trữ các quyết định thiết kế dưới dạng dữ liệu có cấu trúc, đóng vai trò nguồn sự thật duy nhất cho mọi nền tảng trong một design system. |
+| [[tailwind-design-token-theming]] | Tailwind theming, @theme directive, shadcn theming, next-themes | Pattern triển khai design tokens trong stack Tailwind CSS + shadcn/ui, kết hợp CSS custom properties và cơ chế chuyển theme runtime không cần rebuild. |
 | [[database-normalization]] | Chuẩn hóa cơ sở dữ liệu, 1NF, 2NF, 3NF, Chuẩn hóa dữ liệu | Tiến trình tổ chức cấu trúc cơ sở dữ liệu để giảm thiểu dị thường và loại bỏ dữ liệu dư thừa. |
 | [[acid-properties]] | ACID, Tính chất ACID, Nguyên lý ACID | Bộ bốn thuộc tính cơ bản đảm bảo tính toàn vẹn và độ tin cậy của giao dịch cơ sở dữ liệu. |
 | [[pl-sql]] | Procedural Language/SQL | Ngôn ngữ mở rộng quy trình độc quyền của Oracle, đóng vai trò điều phối logic nghiệp vụ ở tầng dữ liệu. |
@@ -90,7 +92,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[kafka-mirrormaker]] | MirrorMaker, Cross-Cluster Mirroring | Cơ chế sao chép dữ liệu giữa các cụm Kafka — bao gồm kiến trúc MirrorMaker, các mẫu triển khai đa cụm và chiến lược failover. |
 | [[kafka-administration]] | Quản trị Kafka, Kafka Admin Tools | Tổng hợp công cụ và quy trình quản trị cụm Apache Kafka — bao gồm quản lý topic, partition reassignment, consumer group và các thao tác khẩn cấp. |
 | [[kafka-monitoring]] | Giám sát Kafka, Kafka Metrics | Hệ thống giám sát Apache Kafka — bao gồm các chỉ số JMX quan trọng của broker, giám sát consumer lag và chiến lược end-to-end monitoring. |
-## Tools (21 articles)
+## Tools (22 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -112,6 +114,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[lm-studio]] | LM Studio GUI | Ứng dụng Desktop có giao diện trực quan giúp khám phá và chạy thử nghiệm LLM cục bộ. |
 | [[continue-dev]] | Continue | Tiện ích mở rộng mã nguồn mở dành cho IDE, mang lại trải nghiệm hỗ trợ lập trình AI hoàn toàn cục bộ. |
 | [[anythingllm]] | | Ứng dụng desktop All-in-One giúp dễ dàng xây dựng hệ thống RAG bằng cách tự động quản lý tài liệu và kết nối với LLM cục bộ. |
+| [[style-dictionary]] | Style Dictionary, Token Transformer, sd-transforms | Build system mã nguồn mở của Amazon để transform design tokens từ JSON sang mọi định dạng platform-specific — CSS, Swift, XML, JS. |
 | [[smart-connections]] | Smart Connections Obsidian | Plugin của Obsidian hỗ trợ tìm kiếm ngữ nghĩa và tính năng chat AI dựa trên kiến trúc Vector RAG thông qua Ollama. |
 | [[llama-3.2-3b-instruct]] | Llama 3.2 3B, Llama 3.2 | Mô hình ngôn ngữ nhỏ gọn (SLM) 3 tỷ tham số của Meta, hỗ trợ 128k ngữ cảnh và tối ưu cho thiết bị cá nhân. |
 | [[phi-3.5-mini-instruct]] | Phi-3.5 Mini, Phi 3.5 | Mô hình ngôn ngữ nhỏ gọn 3.8B tham số của Microsoft, định vị là chuyên gia lập luận toán học và lập trình nhờ dữ liệu huấn luyện dạng 'textbook-quality'. |
@@ -246,6 +249,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/papers/kafka-definitive-guide/kafka-ch11-stream-processing.md` | Paper | 2026-05-08 |
 | `raw/papers/kafka-definitive-guide/kafka-preface-and-ch00.md` | Paper | 2026-05-08 |
 | `raw/papers/kafka-definitive-guide/kafka-appendix.md` | Paper | 2026-05-08 |
+| `raw/articles/design-token-system-contentful.md` | Article | 2026-05-19 |
+| `raw/articles/design-token-dtcg-spec-2025.md` | Article | 2026-05-19 |
+| `raw/articles/design-token-toolchain-figma-2025.md` | Article | 2026-05-19 |
+| `raw/articles/design-token-tailwind-theming-lloyd-richards.md` | Article | 2026-05-19 |
+| `raw/articles/tailwind-v4-theme-directive-docs.md` | Article | 2026-05-19 |
+| `raw/articles/shadcn-ui-theming-official.md` | Article | 2026-05-19 |
 ---
 
 ## Meta Files

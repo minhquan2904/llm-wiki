@@ -7,6 +7,7 @@ aliases: [docker-architecture, dockerd, containerd]
 status: canonical
 related:
   - "[[nginx]]"
+  - "[[style-dictionary]]"
 summary: "Nền tảng ảo hóa cấp hệ điều hành dựa trên Linux Namespaces và cgroups để triển khai ứng dụng bằng container."
 ---
 

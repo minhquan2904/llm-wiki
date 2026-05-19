@@ -13,6 +13,11 @@ summary: "Chronological log of all wiki operations"
 
 ---
 
+## [2026-05-19] compile | 1 bài mới (tailwind-design-token-theming), 2 cập nhật (design-tokens, style-dictionary) từ 3 nguồn raw Tailwind theming
+## [2026-05-19] autoresearch | tailwind-design-token-theming (Lab #037 follow-up) — 2 vòng, 3 nguồn nạp
+## [2026-05-19] autoresearch | design-token-system — 2 vòng, 3 nguồn nạp
+## [2026-05-19] compile | 2 bài mới, 0 cập nhật từ 3 nguồn raw design-token
+
 <!-- Operations will be appended below this line -->
 
 ## [2026-04-23] ingest | raw/articles (ABAC Articles)

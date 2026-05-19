@@ -33,6 +33,8 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Dependency Injection (DI):** Tiêm phụ thuộc. Mô hình thực hành IoC trong đó các thành phần phụ thuộc của một đối tượng được tiêm vào từ bên ngoài (ưu tiên qua Constructor) thay vì đối tượng tự khởi tạo.
 - **Digital Divide:** Khoảng cách kỹ thuật số. Sự phân hóa về lợi thế và hiệu suất giữa người dùng thành thạo công nghệ (như AI) và người không sử dụng. **Xem thêm:** [[ai-users-vs-non-users]]
 - **Docker:** Nền tảng điều phối ảo hóa cấp hệ điều hành (OS-level virtualization) chuyên biệt sử dụng Namespaces và Cgroups để triển khai ứng dụng bằng container. **Xem thêm:** [[docker]]
+- **Design Token:** Đơn vị dữ liệu nhỏ nhất của design system — cặp key-value lưu trữ một quyết định thiết kế (màu sắc, spacing, typography) theo định dạng vendor-neutral (JSON), có thể transform sang mọi platform. **Xem thêm:** [[design-tokens]]
+- **DTCG (Design Tokens Community Group):** Nhóm cộng đồng W3C soạn thảo chuẩn JSON chính thức cho design tokens. Phiên bản ổn định đầu tiên (2025.10) được công bố tháng 10/2025. **Xem thêm:** [[design-tokens]]
 - **Dynamic Approval Workflow:** Luồng phê duyệt động. Kiến trúc lợi dụng cơ chế tìm kiếm phạm vi (Scope Finding) của đồ thị NGAC để tìm kiếm người duyệt theo thời gian thực thay vì phân công cứng. **Xem thêm:** [[ngac-approval-workflow]]
 
 ## E
@@ -121,7 +123,9 @@ Danh sách các thuật ngữ và khái niệm cốt lõi được sử dụng t
 - **Reverse Proxy:** Proxy ngược. Cổng trung gian đứng trước các máy chủ backend (như web server), làm nhiệm vụ nhận yêu cầu từ Internet và phân phối đến các máy chủ nội bộ một cách an toàn.
 
 ## S
+- **Semantic Token:** Token ngữ nghĩa. Tầng thứ 2 trong kiến trúc design token — tham chiếu đến Primitive Token và bổ sung ngữ nghĩa sử dụng (`text-default`, `bg-primary`), nhúng quyết định thiết kế vào system thay vì để designer tự chọn. **Xem thêm:** [[design-tokens]]
 - **Sequential Multi-Domain Execution:** Thực thi đa miền tuần tự. Kiến trúc điều phối ép AI làm việc theo các giai đoạn phân tầng có trật tự thời gian khắt khe.
+- **Style Dictionary:** Build system mã nguồn mở của Amazon để transform design tokens từ JSON sang CSS, Swift, XML, JS. **Xem thêm:** [[style-dictionary]]
 - **Server State:** Trạng thái máy chủ. Dữ liệu lưu trữ ở máy chủ, có tính bất đồng bộ, không thuộc sở hữu độc quyền của frontend và có thể bị lỗi thời. **Xem thêm:** [[tanstack-query]]
 - **Skills System:** Hệ thống Kỹ năng. Lớp hạ tầng phân tán cơ sở tri thức cho tác tử AI thành các mô-đun biệt lập.
 - **Socratic Gate Protocol:** Giao thức Cổng Socrates. Cơ chế kiểm duyệt ý định tiền thực thi buộc AI đặt câu hỏi ngược lại người dùng để chống ảo giác.

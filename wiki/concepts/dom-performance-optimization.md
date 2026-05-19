@@ -7,6 +7,7 @@ aliases: [Reflow, Repaint, Event Delegation, DocumentFragment, Layout Thrashing]
 status: draft
 related:
   - "[[javascript-memory-management]]"
+  - "[[design-tokens]]"
 summary: "Phân tích nguyên lý hoạt động của DOM, tác động của Reflow/Repaint đến hiệu suất giao diện, và các chiến thuật tối ưu hóa mã JavaScript để giảm tải trình duyệt."
 ---
 

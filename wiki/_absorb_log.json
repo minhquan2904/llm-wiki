@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-19",
   "sources": {
     "raw/ngac/ngac_system/approval-flow.md": {
       "absorbed_at": "2026-05-04",
@@ -497,6 +497,30 @@
     "raw/papers/kafka-definitive-guide/kafka-appendix.md": {
       "absorbed_at": "2026-05-08",
       "wiki_articles": ["apache-kafka"]
+    },
+    "raw/articles/design-token-system-contentful.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": ["design-tokens", "style-dictionary"]
+    },
+    "raw/articles/design-token-dtcg-spec-2025.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": ["design-tokens"]
+    },
+    "raw/articles/design-token-toolchain-figma-2025.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": ["style-dictionary"]
+    },
+    "raw/articles/design-token-tailwind-theming-lloyd-richards.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": ["tailwind-design-token-theming"]
+    },
+    "raw/articles/tailwind-v4-theme-directive-docs.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": ["tailwind-design-token-theming", "design-tokens", "style-dictionary"]
+    },
+    "raw/articles/shadcn-ui-theming-official.md": {
+      "absorbed_at": "2026-05-19",
+      "wiki_articles": ["tailwind-design-token-theming"]
     }
   }
 }

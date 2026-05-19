@@ -9,6 +9,7 @@ related:
   - "[[react-router-dom]]"
   - "[[ngrx-state-management]]"
   - "[[tanstack-query]]"
+  - "[[design-tokens]]"
 summary: "Thư viện quản lý trạng thái (state management) cho React theo mô hình cấu trúc nguyên tử (Atomic), tối ưu vấn đề re-render của Context API."
 ---
 
